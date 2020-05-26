@@ -1,11 +1,9 @@
 # DawnStorm
 ## A 3D6 Pen & Paper RPG
 
-Character creation
-==================
+# Character creation
 
-Attributes
-----------
+## Attributes
 
 ##### Stats
 
@@ -21,36 +19,35 @@ Exceeding its size by more than that allows instead to utilize the
 *Mighty* maneuver and adds 8 to the roll for every size by which it is
 exceeded.
 
-  ---------- ------------------------------------
-   Scrawny   Think flies, insects and pixies
-     Tiny    Smaller than 30m in all dimensions
-    Small    Smaller than 1m in all dimensions
-    Normal   Humans
-     Huge    Bigger than about 2.5m
-    Giant    Small dragons
-   Colossal  
-   Immense   Towering over land itself
-    Primal   Deities & Titans
-  ---------- ------------------------------------
+| Size     | Description                        |
+| -------- | ---------------------------------- |
+| Scrawny  | Think flies, insects and pixies    |
+| Tiny     | Smaller than 30m in all dimensions |
+| Small    | Smaller than 1m in all dimensions  |
+| Normal   | Humans                             |
+| Huge     | Bigger than about 2.5m             |
+| Giant    | Small dragons                      |
+| Colossal |                                    |
+| Immense  | Towering over land itself          |
+| Primal   | Deities & Titans                   |
 
-Basic Skills
-------------
+## Basic Skills
 
-Unspecified = *Medium*\
+Unspecified = *Medium*
 The GM gives you a *Skill Rank Up* when you use a skill to some new
 extent. The amount of *Rank Ups* you need to improve any skill is based
 on it's difficulty:
 
-   Cost  Name
-  ------ -----------
-    1    *Trivial*
-    2    *Easy*
-    3    *Medium*
-    5    *Hard*
-    6    *Master*
-    8    *Base*
+|   Cost | Name|
+|:------: |-----------|
+|   1    |*Trivial*|
+|  2    |*Easy*|
+| 3   | *Medium*|
+|    5  |  *Hard*|
+|   6 |   *Master*|
+|  8|    *Base*|
 
-\
+
 When you Rank Up in a non-Base skill you may spend the amount of *Rank
 Ups* it took and spend a third of them (at least one, rounded down) them
 in any Skill that is a descendant of the Ranked Up skill, however it may
@@ -75,178 +72,120 @@ powerful campaigns, a beginning level of 15 is recommended.
 
 ### List of Basic Skills
 
--   Body
-
-    -   Strength (*Medium*) pg.
-
-    -   Dexterity (*Medium*) pg.
-
-        -   Speed (*Medium*) pg.
-
-        -   Manual Dexterity (*Medium*) pg.
-
-        -   Stealth (*Medium*) pg.
-
-    -   Constitution (*Medium*) pg.
-
+- Body
+    -   Strength (*Medium*)
+    -   Dexterity (*Medium*)
+        -   Speed (*Medium*)
+        -   Manual Dexterity (*Medium*)
+        -   Stealth (*Medium*)
+    -   Constitution (*Medium*)
 -   Soul
-
-    -   Knowledge (*Medium*) pg.
-
-        -   Magical Knowledge (*Hard*) pg.
-
-        -   History (*Medium*) pg.
-
-        -   Modern Inventions (*Hard*) pg.
-
-        -   Societies (*Medium*) pg.
-
-        -   Tracking (*Hard*) pg.
-
-        -   Survival (*Hard*) pg.
-
-        -   Medical (*Master*) pg.
-
-    -   Intelligence (*Medium*) pg.
-
-        -   Magical Research (*Master*) pg.
-
-        -   Profiling (*Medium*) pg.
-
-        -   Investigation (*Medium*) pg.
-
-        -   Deceit (*Medium*) pg.
-
-            -   Infiltration (*Hard*) pg.
-
-        -   Animal Handling (*Easy*) pg.
-
-        -   Vision (*Easy*) pg.
-
+    -   Knowledge (*Medium*)
+        -   Magical Knowledge (*Hard*)
+        -   History (*Medium*)
+        -   Modern Inventions (*Hard*)
+        -   Societies (*Medium*)
+        -   Tracking (*Hard*)
+        -   Survival (*Hard*)
+        -   Medical (*Master*)
+    -   Intelligence (*Medium*)
+        -   Magical Research (*Master*)
+        -   Profiling (*Medium*)
+        -   Investigation (*Medium*)
+        -   Deceit (*Medium*)
+            -   Infiltration (*Hard*)
+        -   Animal Handling (*Easy*)
+        -   Vision (*Easy*)
 -   Influence
-
-    -   Intimidation (*Easy*) pg.
-
-        -   Interrogation (*Medium*) pg.
-
-    -   Persuasion (*Medium*) pg.
-
-        -   Interrogation (*Medium*) pg.
-
-    -   Performance (*Hard*) pg.
+    -   Intimidation (*Easy*)
+        -   Interrogation (*Medium*)
+    -   Persuasion (*Medium*)
+        -   Interrogation (*Medium*)
+    -   Performance (*Hard*)
 
 ### Details of Basic Skills
 
-2
+#### (*Body*) Body
 
-------------------------------------------------------------------------
-
-------------------------------------------------------------------------
-
-\
-Difficulty: *Base*\
-Parent: *N/A*\
+Difficulty: *Base*
+Parent: *N/A*
 **E - Epic Regeneration** You regain a Body resource at the start of
 your turn.
 
 **M - Hard Skin** For whatever reason your skin becomes hard to
 penetrate, reducing the price to pay when hit by 2.
 
-------------------------------------------------------------------------
+#### (*Str*) Strength
 
-------------------------------------------------------------------------
+Difficulty: *Trivial*
+Parent: *Body*
 
-\
-Difficulty: *Trivial*\
-Parent: *Body*\
+#### (*Dex*) Dexterity
 
-------------------------------------------------------------------------
+Difficulty: *Trivial*
+Parent: *Body*
 
-------------------------------------------------------------------------
+#### (*Know*) Knowledge
 
-\
-Difficulty: *Trivial*\
-Parent: *Body*\
-
-------------------------------------------------------------------------
-
-------------------------------------------------------------------------
-
-\
-Difficulty: *Trivial*\
-Parent: *Soul*\
+Difficulty: *Trivial*
+Parent: *Soul*
 **Dictionary Knowledge** Designate a class of items, whenever you
 directly hold or see an item of that type, you immediately have
 Dictionary-like knowledge about it.
 
-------------------------------------------------------------------------
+#### (*Int*) Intelligence
 
-------------------------------------------------------------------------
+Difficulty: *Trivial*
+Parent: *Soul*
 
-\
-Difficulty: *Trivial*\
-Parent: *Soul*\
+#### (*MagK*) Magical Knowledge
 
-------------------------------------------------------------------------
+Difficulty: *Hard*
+Parent: *Knowledge*
+Shows Knowledge of existing magic.
 
-------------------------------------------------------------------------
+#### (*MagR*) Magical Research
 
-\
-Difficulty: *Hard*\
-Parent: *Knowledge*\
-Shows Knowledge of existing magic.\
-
-------------------------------------------------------------------------
-
-------------------------------------------------------------------------
-
-\
-Difficulty: *Master*\
-Parent: *Intelligence*\
+Difficulty: *Master*
+Parent: *Intelligence*
 Shows the ability to change known spells and perhaps even create new
 ones. Or to determine the function and purpose of a magic item or
 effect.
 
-------------------------------------------------------------------------
+#### (*Spd*) Speed
 
-------------------------------------------------------------------------
-
-\
-Difficulty: *Medium*\
-Parent: *Dexterity*\
+Difficulty: *Medium*
+Parent: *Dexterity*
 **A - Wall runner** You may move across walls, however you may not end
 your turn there. If you do, you fall as normal.
 
-------------------------------------------------------------------------
+#### (*Inter*) Interrogation
 
-------------------------------------------------------------------------
-
-\
-Difficulty: *Medium*\
-Parent: *Intimidation/Persuasion*\
+Difficulty: *Medium*
+Parent: *Intimidation/Persuasion*
 **Happy to see me?** You may use *Powerful* when interrogating.
 
 ------------------------------------------------------------------------
 
-Inventory and Items
--------------------
+# Inventory and Items
 
 ##### Makeshift
 
 ### Weapon Classes
 
 ##### Weapons
+|        Melee||
+|:-------------------:| :-----:|
+|  Slashing       | ---|
+|     Blunt       |  ---|
+|    Piercing        |---|
 
-         Melee        
-  ------------------- -----
-       Slashing        ---
-         Blunt         ---
-       Piercing        ---
-        Ranged        
-        Thrown         ---
-         Shot          ---
-   Shot (Mechanical)   ---
-        Defence        ---
+|      Ranged        ||
+|:---:|:---:|
+|  Thrown         |---|
+|  Shot          |---|
+| Shot (Mechanical)  | ---|
+|     Defence      |  ---|
 
 ##### Load
 
@@ -255,24 +194,21 @@ their *Body* worth of major items. Major items being, staffs, swords,
 guns, tents and the like. Every item carried above this amount gives you
 a -2 on *Body* skills checks.
 
-Spellcasting
-============
+# Spellcasting
 
-Spell Effects
--------------
+## Spell Effects
 
-   Mana Cost  Effect
-  ----------- ---------------------------------------------------------------------
-       0      Tiny Prestidigitory effects, small flashes and such
-       1      Telekinesis of Unattended objects, with concentration. Change taste
-       2      Animate an object to act without your direct control
-       3      Lighting a well kindled remote place
-       6      Slightly skew someone's view of you for an hour
-       6      Illusion of size Small
-       7      Heat any metal you lock eyesight with to be painful to touch
-      10      Fireball
-              If you can't place your spell, ask your GM
-              perhaps write down what you learned and make a spellbook
+| Mana Cost | Effect                                                       |
+| :-------: | ------------------------------------------------------------ |
+|     0     | Tiny Prestidigitory effects, small flashes and such          |
+|     1     | Telekinesis of Unattended objects, with concentration. Change taste |
+|     2     | Animate an object to act without your direct control         |
+|     3     | Lighting a well kindled remote place                         |
+|     6     | Slightly skew someone's view of you for an hour              |
+|     6     | Illusion of size Small                                       |
+|     7     | Heat any metal you lock eyesight with to be painful to touch |
+|    10     | Fireball                                                     |
+|           | If you can't place your spell, ask your GM, perhaps write down what you learned and make a spellbook |
 
 ##### Mana
 
@@ -282,22 +218,21 @@ increase your current mana by your *Soul Rank*. Magic works through
 magical symbols. Spell-casters can create these circles in the air
 instantaneously, however these persist only for a single round.
 
-Combat
-======
+# Combat
 
-Danger based on successes\
-Initiative based on successes, initiative pushback\
-Roll at end of encounter to quickly start\
-Base resource of 2\
-If a party is surprised they become stumbled\
-Obvious advantage gives you two maneuvers instead of one\
-If an attack roll exceeds your remaining resources, you have to spend an
-additional resource. Two, if over double your remaining resources of
-said type.\
-10 Second round
+	Thoughts:
+	Danger based on successes\
+	Initiative based on successes, initiative pushback\
+	Roll at end of encounter to quickly start\
+	Base resource of 2\
+	If a party is surprised they become stumbled\
+	Obvious advantage gives you two maneuvers instead of one\
+	If an attack roll exceeds your remaining resources, you have to spend an
+	additional resource. Two, if over double your remaining resources of
+	said type.\
+	10 Second round
 
-Attacks
--------
+## Attacks
 
 Two Characters actively involved in combat and interacting with their
 weapons roll-off. The Attack and Defence action's are the same as any
@@ -322,33 +257,32 @@ fact that it is one big injury.
 
 ###### Body
 
-  -------- -------------------
-   Rank 1  Hurting Bruise
-   Rank 2  Deep bleeding cut
-   Rank 4  Missing limb
-  -------- -------------------
+|Rank | Description |
+|:--------:| -------------------|
+|   Rank 1  |Hurting Bruise|
+|  Rank 2 | Deep bleeding cut|
+| Rank 4|  Missing limb|
 
 ###### Soul
 
-  -------- ---------------------
-   Rank 1  Slight Quirk
-   Rank 5  Borderline Insanity
-  -------- ---------------------
+|Rank | Description |
+|:--------:| -------------------|
+|  Rank 1 | Slight Quirk|
+|   Rank 5  |Borderline Insanity|
 
 ###### Influence
 
-  -------- -----------------------------------
-   Rank 2  Funny memory people tease you for
-   Rank 5  Deeply rooted shame
-  -------- -----------------------------------
+|Rank | Description |
+|:--------:| -------------------|
+|Rank 2 | Funny memory people tease you for|
+| Rank 5  |Deeply rooted shame|
 
-\
+
 A scar disappears once its cause has been resolved and you don't
 regenerate those points until that happens. Receiving a wound out of
 Battle also results in such a Scar.
 
-Turn Actions
-------------
+## Turn Actions
 
 ### Maneuvers
 
@@ -379,10 +313,7 @@ make him stumbled[^1]
 
 #### Advantage Subversion
 
-Keywords
---------
-
-3
+## Keywords
 
 ##### Regeneration
 
@@ -435,39 +366,24 @@ source.
 Double the number of resources expended due to an effect caused by this
 source.
 
-Conditions
-----------
+## Conditions
 
-Out of Turn Actions
--------------------
+##### Stumbled
 
-Monsters
-========
+creatures go at the end of initiative (in the order they were stumbled)
 
-Statblocks
-----------
+## Out of Turn Actions
+
+# Building Enemies
+
+## Statblocks
 
 A statblock will contain pre-calculated stats for the most common level
 and will often contain a Range of stats a certain creature may be found
 at.
 
-------------------------------------------------------------------------
 
-**Giant Rat**
-
-------------------------------------------------------------------------
-
-------------------------------------------------------------------------
-
-Dex - Wall runner()
-
-------------------------------------------------------------------------
-
-##### Attacks
-
-Claws - Short Slashing & Bite - Medium Stabbing
-
-------------------------------------------------------------------------
-
-[^1]: Stumbled creatures go at the end of initiative (in the order they
-    were stumbled)
+##### Giant Rat
+Body:+6 & Soul:0 & Influence:0 & Fate:4
+**Skills:** Dex - Wall runner(8)
+**Attacks:** Claws - Short Slashing & Bite - Medium Stabbing
