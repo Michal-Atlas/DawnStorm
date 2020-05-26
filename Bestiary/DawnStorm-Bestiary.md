@@ -1,7 +1,5 @@
 # The DawnStorm Bestiary
 
-* TOC {:toc}
-
 # Demons
 
 
