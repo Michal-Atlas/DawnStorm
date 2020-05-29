@@ -1,6 +1,10 @@
 # DawnStorm
 ## A 3D6 Pen & Paper RPG
 
+{::options auto_ids="true" /}
+1. TOC_TEST
+{:toc}
+
 # Character creation
 
 ## Attributes

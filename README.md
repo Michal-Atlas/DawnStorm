@@ -1,7 +1,7 @@
 # DawnStorm
 
-- [System](System/DawnStorm.md)
-- [Bestiary](Bestiary/DawnStorm-Bestiary.md)
+- [System](System)
+- [Bestiary](Bestiary)
 - Atlas
 - Grimoire
 - Item Compendium
