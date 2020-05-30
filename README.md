@@ -2,6 +2,6 @@
 
 - [System](System)
 - [Bestiary](Bestiary)
-- Atlas
-- Grimoire
-- Item Compendium
+- [Atlas](Atlas)
+- [Grimoire](Grimoire)
+- [Item Compendium](Item%20Compendium)
