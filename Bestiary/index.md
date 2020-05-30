@@ -12,10 +12,14 @@ Outer shell, not regular skeleton, cranal crease
 
 ## Nightcrawler
 
-##### Blinking
+These dog-like creatures are mostly used by other demons for spying, hunting and disposing of targets. 
+Their visage is quite simple, the front half is that of a wolf up until their back legs and hips, which are just black smoke and non-visible. 
+Their eyes reflect light in anything but the darkest of places, the light changes color based on the demon it is currently serving. 
+If a mortal ever manages to calm and tame a nightcrawler, the smoke coming from its back changes to bright blue and it becomes apparent that their non-feral nature is quite playful.
 
+**Blinking**
 They can teleport between two points connected by
-near pitch darkness while neither is being observed. Demon dog
+near pitch darkness while neither is being observed.
 
 
 # Ghosts
@@ -28,19 +32,24 @@ These plains of land where they exist may range from a single ruin to most of a 
 They communicate telepathically with any sentient creatures within their domain, however to do this they must concentrate and so they loose sight of their surroundings for the time being.
 A very powerful Genius Loci was once recorded to speak audibly directly through a human, both of whom shortly lost consciousness afterwards, however this is only hearsay.
 
-### Lost Souls
+### Lost Soul
+Lost Souls is a general term for souls that have been prevented from leaving the world, usually through trapping them inside a container, very commonly glass spheres or stones. 
+When touching the container one may telepathically communicate with the soul trapped within. 
+It is said that the feeling of being a lost soul is like being restrained and gagged, however you see everything that goes on around you. 
+If left alone for long enough the soul usually goes crazy within a few weeks, thus they always wish to be released and will trade next to any help they can provide for you letting them go. 
+Cracking or opening a container of the soul, releases it. 
 
-Glass ball, crazy, can see anything around them, can communi-
-cate telepathically on touch, they agree to anything as long as
-you agree to break its casing afterwards, many haven’t done so
-but they try with anyone
+**Magic**
+Lost souls are often used by spellcasters, because the mana of the original creature still resides within their soul. 
+The soul however, cannot regenerate mana without the body and so is one use only. 
+*Note* Please break your soul stones after use.
 
 ### Mirra
-
-mirror, with magic signs embedded in the wood, the glass re-
-flects a perfect copy of a person present at casting, it is a copy of
-their memories, it cannot form new ones or lose old ones through
-non-magical means.
+Mirras are perfect copies of a creature's conciousness from a certain point. 
+They are created via a spell etched into the wooden part of a mirror, binding a present creature to the object, which then shows in its reflection the bound creature's reflection. 
+The reflection moves around the room and can talk and recall all the memories of the original creature, its maneurism and personality are also the same. 
+The Mirra cannot create new memories or create new impressions on people, it is always just a perfect copy, however it may utilize very short term memory or connect concepts to changes in the room which it may ask you to make. 
+The Mirra recalls existing memories perfectly and instantaneously. 
 
 # Humanoids
 ## Keinfolk
