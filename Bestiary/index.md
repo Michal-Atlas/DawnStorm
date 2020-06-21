@@ -7,8 +7,6 @@
 
 ## Beasts
 
-### Pan
-
 ## Demons
 
 ### Bone Demons
@@ -64,18 +62,17 @@ The Mirra recalls existing memories perfectly and instantaneously.
 
 ### Isk
 
-Giants
+The Isk descend from a large tribe of giants that once descended from the mountains to live among a Keinfolk city. Over time, their stature had greatly diminished from their original, today being only about one and a half to double the size of humans.
 
 ### Keinfolk
 
 Incredibly proud, stubborn and loyal creatures, described mostly as humanoid lions.
 Pride upon pride, their mane is what defines their class, long and wavy manes always giving an advantage when arriving in any Keinfolk society.
 
-### Parfolk
+### Pan / Pixie
 
-They are significantly smaller than humans, about half their size on average, up to three quarters with higher individuals.
-They usually seem extremely subservient, but this is due to cowardice and the willingness to adapt.
-As you may have guessed, their culture doesn't know honour or anything of the sort, a goal is achieved by any means necessary and survival is the only thing that may be more important than the mission.
+Incorrectly called forest nymphs by many, Pans and their female counterparts called Pixies inhabit kingdoms in many forests of the world.
+Their philosophy of life is inherently pacifistic, created by the spirit of nature to protect the forest that is the only way to aggravate them.
 
 ### Talach
 
@@ -90,7 +87,7 @@ Quite sly, sneaky and adept at close range combat they make excellent spies and 
 
 ### Tylluan
 
-The Tylluan  are to owls what the keinfolk are to lions.
+The Tylluan are to owls what the keinfolk are to lions.
 
 ## Leviathans
 
