@@ -1,30 +1,37 @@
 # The DawnStorm Bestiary
 
 {::options auto_ids="true" /}
+
 1. TOC_TEST
 {:toc}
 
-# Demons
+## Beasts
 
-## Bone Demons
+### Pan
+
+## Demons
+
+### Bone Demons
 
 Outer shell, not regular skeleton, cranal crease
 
-## Nightcrawler
+### Nightcrawler
 
-These dog-like creatures are mostly used by other demons for spying, hunting and disposing of targets. 
-Their visage is quite simple, the front half is that of a wolf up until their back legs and hips, which are just black smoke and non-visible. 
-Their eyes reflect light in anything but the darkest of places, the light changes color based on the demon it is currently serving. 
+These dog-like creatures are mostly used by other demons for spying, hunting and disposing of targets.
+Their visage is quite simple, the front half is that of a wolf up until their back legs and hips, which are just black smoke and non-visible.
+Their eyes reflect light in anything but the darkest of places, the light changes color based on the demon it is currently serving.
 If a mortal ever manages to calm and tame a nightcrawler, the smoke coming from its back changes to bright blue and it becomes apparent that their non-feral nature is quite playful.
 
 **Blinking**
 They can teleport between two points connected by
 near pitch darkness while neither is being observed.
 
+## Ghosts
 
-# Ghosts
-## Demi-Ghosts
-### Genius Loci
+### Demi-Ghosts
+
+#### Genius Loci
+
 These peculiar demi-ghosts usually manifest in places of great historical or natural significance that have nonetheless been left to their own devices.
 These creatures are usually very shy and rarely ever speak unless somehow directly invoked.
 They have been shown to have knowledge on all matters occurring in their place of existence.
@@ -32,51 +39,65 @@ These plains of land where they exist may range from a single ruin to most of a 
 They communicate telepathically with any sentient creatures within their domain, however to do this they must concentrate and so they loose sight of their surroundings for the time being.
 A very powerful Genius Loci was once recorded to speak audibly directly through a human, both of whom shortly lost consciousness afterwards, however this is only hearsay.
 
-### Lost Soul
-Lost Souls is a general term for souls that have been prevented from leaving the world, usually through trapping them inside a container, very commonly glass spheres or stones. 
-When touching the container one may telepathically communicate with the soul trapped within. 
-It is said that the feeling of being a lost soul is like being restrained and gagged, however you see everything that goes on around you. 
-If left alone for long enough the soul usually goes crazy within a few weeks, thus they always wish to be released and will trade next to any help they can provide for you letting them go. 
-Cracking or opening a container of the soul, releases it. 
+#### Lost Soul
+
+Lost Souls is a general term for souls that have been prevented from leaving the world, usually through trapping them inside a container, very commonly glass spheres or stones.
+When touching the container one may telepathically communicate with the soul trapped within.
+It is said that the feeling of being a lost soul is like being restrained and gagged, however you see everything that goes on around you.
+If left alone for long enough the soul usually goes crazy within a few weeks, thus they always wish to be released and will trade next to any help they can provide for you letting them go.
+Cracking or opening a container of the soul, releases it.
 
 **Magic**
-Lost souls are often used by spellcasters, because the mana of the original creature still resides within their soul. 
-The soul however, cannot regenerate mana without the body and so is one use only. 
+Lost souls are often used by spellcasters, because the mana of the original creature still resides within their soul.
+The soul however, cannot regenerate mana without the body and so is one use only.
 *Note* Please break your soul stones after use.
 
-### Mirra
-Mirras are perfect copies of a creature's conciousness from a certain point. 
-They are created via a spell etched into the wooden part of a mirror, binding a present creature to the object, which then shows in its reflection the bound creature's reflection. 
-The reflection moves around the room and can talk and recall all the memories of the original creature, its maneurism and personality are also the same. 
-The Mirra cannot create new memories or create new impressions on people, it is always just a perfect copy, however it may utilize very short term memory or connect concepts to changes in the room which it may ask you to make. 
-The Mirra recalls existing memories perfectly and instantaneously. 
+#### Mirra
 
-# Humanoids
-## Keinfolk
+Mirras are perfect copies of a creature's conciousness from a certain point.
+They are created via a spell etched into the wooden part of a mirror, binding a present creature to the object, which then shows in its reflection the bound creature's reflection.
+The reflection moves around the room and can talk and recall all the memories of the original creature, its maneurism and personality are also the same.
+The Mirra cannot create new memories or create new impressions on people, it is always just a perfect copy, however it may utilize very short term memory or connect concepts to changes in the room which it may ask you to make.
+The Mirra recalls existing memories perfectly and instantaneously.
+
+## Humanoids
+
+### Isk
+
+Giants
+
+### Keinfolk
+
 Incredibly proud, stubborn and loyal creatures, described mostly as humanoid lions.
 Pride upon pride, their mane is what defines their class, long and wavy manes always giving an advantage when arriving in any Keinfolk society.
 
-## Parfolk
+### Parfolk
+
 They are significantly smaller than humans, about half their size on average, up to three quarters with higher individuals.
 They usually seem extremely subservient, but this is due to cowardice and the willingness to adapt.
 As you may have guessed, their culture doesn't know honour or anything of the sort, a goal is achieved by any means necessary and survival is the only thing that may be more important than the mission.
 
-## Talach
+### Talach
+
 Tall, with pointed ears, humble and noble, truly a beloved race by most anyone who meets them.
 Their curiosity and fantasy had made them into popular artists and poets, out of their cities often kept in castles and manors by nobility due to this affinity.
 Their intelligence hasn't been perceived to be high nor their strength or speed, manual dexterity is the one thing they have and which no other race may rival them in.
-		
-## Talkin
+
+### Talkin
+
 They are very similar to the Talach, however their ears are significantly flatter, lower, sometimes almost horizontal.
 Quite sly, sneaky and adept at close range combat they make excellent spies and thieves and are often employed as such.
 
-## Tylluan
+### Tylluan
+
 The Tylluan  are to owls what the keinfolk are to lions.
 
-# Leviathans
+## Leviathans
 
-# Reptiles
-## Basilisk
+## Reptiles
+
+### Basilisk
+
 A Basilisk is a solitary eight legged reptile-like creature.
 At first it walks on all eight, later in live however, when its body is strong enough to support this development, it's head and front limbs move upwards and elongate, eventually creating an upright upper body.
 
@@ -96,10 +117,10 @@ Any effects beyond this are empty claims.
 **Gaze**
 ...
 
+### Dragons
 
-## Dragons
+### Wyverns
 
-## Wyverns
 Wyverns are very feral animals, true beasts fully devoted to that state of behaviour.
 None have ever been recorded to reason or speak unlike dragons, this is very important to know for any adventurer that may by any chance encounter this menace.
 The distinguishing feature is that it has only four limbs, two legs and two wings, and is inherently non-magical.
@@ -115,4 +136,3 @@ For this reason the surface is much softer than one would at first assume, and i
 You may be tempted to slash the underside of the head, however unlike dragons, Wyverns have solid armour covering the entire head.
 The two weakest points are their thigh joints and the point where their patagia connect to the body as it has been discovered to easily tear in the first section.
 When the wings are folded however the patagia is relaxed, elastic and quite difficult to pierce without an exceptionally sharp weapon.
-			

@@ -1,19 +1,26 @@
 # Saltwharf
 
 {::options auto_ids="true" /}
+
 1. TOC_TEST
 {:toc}
 
-# Characters
+## Characters
 
-# Places
+## Places
 
-## Quarters
+### Quarters
 
-### Cleardocks
-### Far Bank
-### Garden
-### Great Water
-### Hook
-### Middledocks
-### West District
+#### Cleardocks
+
+#### Far Bank
+
+#### Garden
+
+#### Great Water
+
+#### Hook
+
+#### Middledocks
+
+#### West District
