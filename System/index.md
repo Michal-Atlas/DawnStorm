@@ -13,36 +13,32 @@
 
 #### Stats
 
-You have 3 basic stats, they are connected to the 3 Base skills (Body,
-Soul, Influence). You have an amount of so called resources equal to 3 +
-You Rank in that skill.e
+You have 3 basic stats, they are connected to the 3 Base skills (Body, Soul, Influence).
+You have an amount of so called resources equal to 3 + Your Rank in that skill.
 
 #### Size
 
-If a creature exceeds another's size by one, it can freely use the
-*Powerful* maneuver with Body based encounters against that creature.
-Exceeding its size by more than that allows instead to utilize the
-*Mighty* maneuver and adds 8 to the roll for every size by which it is
-exceeded.
+If a creature exceeds another's size by one, it can freely use the *Powerful* maneuver with Body based encounters against that creature.
+Exceeding its size by more than that allows instead to utilize the *Mighty* maneuver and adds 8 to the roll for every size by which it is exceeded.
 
 | Size     | Description                        |
 | -------- | ---------------------------------- |
-| Scrawny  | Think flies, insects and pixies    |
-| Tiny     | Smaller than 30m in all dimensions |
+| Scrawny  | Think flies or insects             |
+| Tiny     | Smaller than 0.3m in all dimensions|
 | Small    | Smaller than 1m in all dimensions  |
 | Normal   | Humans                             |
-| Huge     | Bigger than about 2.5m             |
-| Giant    | Small dragons                      |
-| Colossal |                                    |
+|Large|From 2m|
+| Huge     | Bigger than about 3m             |
+| Giant    | Dragons                            |
+| Colossal | Leviathans, Ancient Dragons        |
 | Immense  | Towering over land itself          |
 | Primal   | Deities & Titans                   |
 
 #### Basic Skills
 
 Unspecified = *Medium*
-The GM gives you a *Skill Rank Up* when you use a skill to some new
-extent. The amount of *Rank Ups* you need to improve any skill is based
-on it's difficulty:
+The GM gives you a *Skill Rank Up* when you use a skill to some new extent.
+The amount of *Rank Ups* you need to improve any skill is based on it's difficulty:
 
 |   Cost | Name|
 |:------: |-----------|
@@ -53,12 +49,8 @@ on it's difficulty:
 |   6 |   *Master*|
 |  8|    *Base*|
 
-When you Rank Up in a non-Base skill you may spend the amount of *Rank
-Ups* it took and spend a third of them (at least one, rounded down) them
-in any Skill that is a descendant of the Ranked Up skill, however it may
-not exceed the level of it's parent by more than 1. To find your Die
-Bonus to a certain action, find a skill that most closely resembles that
-action, and then add to it its Base Skill.
+When you Rank Up in a non-Base skill you may spend the amount of *Rank Ups* it took and spend a third of them (at least one, rounded down) them in any Skill that is a descendant of the Ranked Up skill, however it may not exceed the level of it's parent by more than 1.
+To find your *Die Bonus* to a certain action, find a skill that most closely resembles that action, and then add to it its Base Skill.
 
 **Base Skills** - Everything starts with these skills, they are all *Base*difficulty.
 These are Body, Soul and Influence.
@@ -263,7 +255,7 @@ force, resulting in your Dexterity or Body Bonuses to be added
 respectively, if you think of any more specific skills for you to use
 and gain extra Bonuses, go for it, get creative.
 
-############ Spending Resources and Scarring
+### Spending Resources and Scarring
 
 When you are hit you must spend an amount of points from the appropriate
 Stat, no exceptions, if you have no more points to spend regularly you
@@ -273,26 +265,20 @@ Double their worth, however you suffer a permanent wound. This is called
 many forms and the point of one big scar is to put into mechanics the
 fact that it is one big injury.
 
-########## Examples of Scars
+#### Examples of Scars
 
-############ Body
-
-|Rank | Description |
+|Body Scar | Description |
 |:--------:| -------------------|
 |   Rank 1  |Hurting Bruise|
 |  Rank 2 | Deep bleeding cut|
 | Rank 4|  Missing limb|
 
-############ Soul
-
-|Rank | Description |
+|Soul Scar | Description |
 |:--------:| -------------------|
 |  Rank 1 | Slight Quirk|
 |   Rank 5  |Borderline Insanity|
 
-############ Influence
-
-|Rank | Description |
+|Influence Scar | Description |
 |:--------:| -------------------|
 |Rank 2 | Funny memory people tease you for|
 | Rank 5  |Deeply rooted shame|
@@ -309,8 +295,7 @@ Battle also results in such a Scar.
 **Accurate** - Roll 4D6 take top 3
 **Mighty** - Causes target to use up 3 resources instead of one
 **Powerful** - Causes target to use up 2 resources instead of one
-**Feint** - You give an ally a free Maneuver or Kick the creature back attempting to
-make him stumbled
+**Feint** - You give an ally a free Maneuver or Kick the creature back attempting to make him stumbled
 **Defence/Parry**
 **Area**
 
