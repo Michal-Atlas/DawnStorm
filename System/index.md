@@ -104,69 +104,90 @@ powerful campaigns, a beginning level of 15 is recommended.
     - Interrogation (*Medium*)
   - Performance (*Hard*)
 
-###### Details of Basic Skills
+---
 
-######## (*Body*) Body
+**(*Body*) Body**
 
 Difficulty: *Base*
-Parent: *N/A*
-**E - Epic Regeneration** You regain a Body resource at the start of
-your turn.
 
-**M - Hard Skin** For whatever reason your skin becomes hard to
+Parent: *N/A*
+
+**E - Epic Regeneration** - You regain a Body resource at the start of your turn.
+
+**M - Hard Skin** - For whatever reason your skin becomes hard to
 penetrate, reducing the price to pay when hit by 2.
 
-######## (*Str*) Strength
+---
+**(*Str*) Strength**
 
 Difficulty: *Trivial*
+
 Parent: *Body*
 
-######## (*Dex*) Dexterity
+---
+**(*Dex*) Dexterity**
 
 Difficulty: *Trivial*
+
 Parent: *Body*
 
-######## (*Know*) Knowledge
+---
+**(*Know*) Knowledge**
 
 Difficulty: *Trivial*
+
 Parent: *Soul*
-**Dictionary Knowledge** Designate a class of items, whenever you
+
+**Dictionary Knowledge** - Designate a class of items, whenever you
 directly hold or see an item of that type, you immediately have
 Dictionary-like knowledge about it.
 
-######## (*Int*) Intelligence
+---
+**(*Int*) Intelligence**
 
 Difficulty: *Trivial*
+
 Parent: *Soul*
 
-######## (*MagK*) Magical Knowledge
+---
+**(*MagK*) Magical Knowledge**
 
 Difficulty: *Hard*
+
 Parent: *Knowledge*
+
 Shows Knowledge of existing magic.
 
-######## (*MagR*) Magical Research
+---
+**(*MagR*) Magical Research**
 
 Difficulty: *Master*
+
 Parent: *Intelligence*
+
 Shows the ability to change known spells and perhaps even create new
 ones. Or to determine the function and purpose of a magic item or
 effect.
 
-######## (*Spd*) Speed
+---
+**(*Spd*) Speed**
 
 Difficulty: *Medium*
+
 Parent: *Dexterity*
-**A - Wall runner** You may move across walls, however you may not end
-your turn there. If you do, you fall as normal.
 
-######## (*Inter*) Interrogation
+**A - Wall runner** You may move across walls, however you may not end your turn there. If you do, you fall as normal.
+
+---
+**(*Inter*) Interrogation**
 
 Difficulty: *Medium*
+
 Parent: *Intimidation/Persuasion*
+
 **Happy to see me?** You may use *Powerful* when interrogating.
 
-------------------------------------------------------------------------
+---
 
 ## Inventory and Items
 
