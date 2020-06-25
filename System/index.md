@@ -49,6 +49,8 @@ The amount of *Rank Ups* you need to improve any skill is based on it's difficul
 |   6 |   *Master*|
 |  8|    *Base*|
 
+\*If nothing is listed assume *Medium*
+
 When you Rank Up in a non-Base skill you may spend the amount of *Rank Ups* it took and spend a third of them (at least one, rounded down) them in any Skill that is a descendant of the Ranked Up skill, however it may not exceed the level of it's parent by more than 1.
 To find your *Die Bonus* to a certain action, find a skill that most closely resembles that action, and then add to it its Base Skill.
 
@@ -61,9 +63,11 @@ Rank up in that skill, beyond the third. If the skill has an A
 least 5 levels in said skill. If it has an M (Master), choose it after
 at least 10 levels. Abilities with an E are called Epic abilities and
 should mostly be used by the GM or allowed at the GMs discretion in very
-powerful campaigns, a beginning level of 15 is recommended.
+powerful campaigns, a beginning level of 15 is recommended. D is deity and DMs use it very carefully after thorough consideration.
 
 ##### List of Basic Skills
+
+- Skill (*Difficulty*)
 
 - Body
   - Strength (*Medium*)
@@ -203,7 +207,7 @@ Parent: *Intimidation/Persuasion*
 **Load** - A character may only carry a reasonable number of minor items and up to
 their *Body* worth of major items. Major items being, staffs, swords,
 guns, tents and the like. Every item carried above this amount gives you
-a -2 on *Body* skills checks.
+a *-2 Body* on skill checks.
 
 ## Spellcasting
 
@@ -291,27 +295,35 @@ Battle also results in such a Scar.
 
 ##### Maneuvers
 
-**Precise** - Roll 5D6 take top 3.
+**A - Precise** - Roll 5D6 take top 3
+
 **Accurate** - Roll 4D6 take top 3
-**Mighty** - Causes target to use up 3 resources instead of one
+
+**A - Mighty** - Causes target to use up 3 resources instead of one
+
 **Powerful** - Causes target to use up 2 resources instead of one
+
+**Weak** - Causes target to use up 1 less resource
+
 **Feint** - You give an ally a free Maneuver or Kick the creature back attempting to make him stumbled
-**Defence/Parry**
-**Area**
+
+**Defence/Parry** -
+
+\* A - shows indicates that said skill is *Advanced* which may be referenced by other rules.
 
 #### Advantage Subversion
 
 #### Keywords
 
+**Area** - This shows that an action performed affects a certain area such as an explosion or cannonball. Normally this is specified as a simple length that specifies the diameter of a sphere or length of a line based on context. By default a sphere centered on you.
+
+**Range** - Range may specify an I before the distance to indicate an incorporeal effect that passes unhindered through solid objects.
+
 **Regeneration** - The creature regains X Body resources at the start of its turn.
 
-**Armor** - Expending the Body resource is always reduced by said amount. May specify a source that nullifies this armor.
+**Armor/Mindlock/Beloved** - Expending the Body/Soul/Influence resource is always reduced by said amount. May specify a source that nullifies this protection.
 
-**Mindlock** - Expending the Soul resource is always reduced by said amount. May specify a source that nullifies this protection.
-
-**Beloved** - Expending the Influence resource is always reduced by said amount. May specify a source that nullifies this status.
-
-**Fly** - Describe Fly Speed
+**Fly** - Describes Fly Speed
 
 **Sense** - Always knows about all movement within a certain radius. It can feel generally what kind of creature it is.
 
@@ -330,6 +342,10 @@ Lower X by one each turn.
 
 **Stumbled** - creatures go at the end of initiative (in the order they were stumbled)
 
+**Short of Breath** - While you are short of breath, you can't use any *Maneuvers* with your actions that use the *Body* skill and no *Advanced Maneuvers* with actions using the *Soul* skill. If you fail an action you become *Exhausted* for the rest of the duration + *1 Round* or just *1 Round* if the *Out of Breath*'s duration is longer than a minute or 1 minute if over 1 hour.
+
+**Exhausted** - You suffer a -2 on all rolls per level of Exhaustion as well as all the hindrances given by *Short of Breath*.
+
 #### Out of Turn Actions
 
 ## Building Enemies
@@ -343,5 +359,7 @@ at.
 #### Giant Rat
 
 Body:+6 & Soul:0 & Influence:0 & Fate:4
+
 **Skills:** Dex - Wall runner(8)
+
 **Attacks:** Claws - Short Slashing & Bite - Medium Stabbing
