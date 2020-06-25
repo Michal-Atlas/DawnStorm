@@ -9,17 +9,10 @@
 
 ## Character creation
 
-### Attributes
+### Size
 
-#### Stats
-
-You have 3 basic stats, they are connected to the 3 Base skills (Body, Soul, Influence).
-You have an amount of so called resources equal to 3 + Your Rank in that skill.
-
-#### Size
-
-If a creature exceeds another's size by one, it can freely use the *Powerful* maneuver with Body based encounters against that creature.
-Exceeding its size by more than that allows instead to utilize the *Mighty* maneuver and adds 8 to the roll for every size by which it is exceeded.
+If a creature exceeds another's size by one, it can freely use the `Powerful` maneuver with Body based encounters against that creature.
+Exceeding its size by more than that allows instead to utilize the `Mighty` maneuver and adds 8 to the roll for every size by which it is exceeded.
 
 | Size     | Description                        |
 | -------- | ---------------------------------- |
@@ -28,17 +21,19 @@ Exceeding its size by more than that allows instead to utilize the *Mighty* mane
 | Small    | Smaller than 1m in all dimensions  |
 | Normal   | Humans                             |
 |Large|From 2m|
-| Huge     | Bigger than about 3m             |
+| Huge     | Bigger than about 5m             |
 | Giant    | Dragons                            |
 | Colossal | Leviathans, Ancient Dragons        |
 | Immense  | Towering over land itself          |
 | Primal   | Deities & Titans                   |
 
-#### Basic Skills
+### Skills
 
-Unspecified = *Medium*
-The GM gives you a *Skill Rank Up* when you use a skill to some new extent.
-The amount of *Rank Ups* you need to improve any skill is based on it's difficulty:
+The GM gives you a `Skill Rank Up` when you use a skill to some new extent.
+
+You have an amount of so called `Resources` equal to 3 + Your Rank in that skill.
+
+The amount of `Rank Ups` you need to improve any skill is based on it's difficulty:
 
 |   Cost | Name|
 |:------: |-----------|
@@ -49,25 +44,29 @@ The amount of *Rank Ups* you need to improve any skill is based on it's difficul
 |   6 |   *Master*|
 |  8|    *Base*|
 
-\*If nothing is listed assume *Medium*
+> If nothing is listed assume *Medium*
 
-When you Rank Up in a non-Base skill you may spend the amount of *Rank Ups* it took and spend a third of them (at least one, rounded down) them in any Skill that is a descendant of the Ranked Up skill, however it may not exceed the level of it's parent by more than 1.
-To find your *Die Bonus* to a certain action, find a skill that most closely resembles that action, and then add to it its Base Skill.
+When you Rank Up in a non-Base skill you may spend the amount of `Rank Ups` it took and spend a third of them (at least one, rounded down) them in any Skill that is a descendant of the Ranked Up skill, however it may not exceed the level of it's parent by more than 1.
+To find your `Die Bonus` to a certain action, find a skill that most closely resembles that action, and then add to it its Base Skill.
 
-**Base Skills** - Everything starts with these skills, they are all *Base*difficulty.
-These are Body, Soul and Influence.
+Bonuses and Hindrances to a skill will be specified in the format `-3 Soul`, which would mean that anytime you want to use the `Soul` skill for a check, consider it to be 3 lower than it actually is. If this would drop your level so that you couldnt've taken a skill, you lose access to that skill.
+
+> If I have a skill of level 6 with 2 selected Basic abilities, I would lose no abilities at `-1 Skill`, 1 ability at `-2 Skill`, because there is not enough levels in the skill to reach my current set of abilities.
+
+**Base Skills** - Everything starts with these skills, they are all `Base` difficulty.
+These are `Body`, `Soul` and `Influence`.
 
 **Abilities** - Some skills may contain Abilities. You gain one of these abilities every
-Rank up in that skill, beyond the third. If the skill has an A
-(Advanced) next to it, you may only choose it after having invested at
-least 5 levels in said skill. If it has an M (Master), choose it after
-at least 10 levels. Abilities with an E are called Epic abilities and
+Rank up in that skill, beyond the third. If the skill has an `A
+(Advanced)` next to it, you may only choose it after having invested at
+least 5 levels in said skill. If it has an `M (Master)`, choose it after
+at least 10 levels. Abilities with an `E - Epic` tag
 should mostly be used by the GM or allowed at the GMs discretion in very
-powerful campaigns, a beginning level of 15 is recommended. D is deity and DMs use it very carefully after thorough consideration.
+powerful campaigns, a beginning level of 15 is recommended. `D - Deity`, only DMs should use it very carefully and after thorough consideration.
 
-##### List of Basic Skills
+#### List of Basic Skills
 
-- Skill (*Difficulty*)
+- **Skill (*Difficulty*)**
 
 - Body
   - Strength (*Medium*)
@@ -114,6 +113,7 @@ Parent: *N/A*
 penetrate, reducing the price to pay when hit by 2.
 
 ---
+
 **(*Str*) Strength**
 
 Difficulty: *Trivial*
@@ -121,6 +121,7 @@ Difficulty: *Trivial*
 Parent: *Body*
 
 ---
+
 **(*Dex*) Dexterity**
 
 Difficulty: *Trivial*
@@ -128,6 +129,7 @@ Difficulty: *Trivial*
 Parent: *Body*
 
 ---
+
 **(*Know*) Knowledge**
 
 Difficulty: *Trivial*
@@ -139,6 +141,7 @@ directly hold or see an item of that type, you immediately have
 Dictionary-like knowledge about it.
 
 ---
+
 **(*Int*) Intelligence**
 
 Difficulty: *Trivial*
@@ -146,6 +149,7 @@ Difficulty: *Trivial*
 Parent: *Soul*
 
 ---
+
 **(*MagK*) Magical Knowledge**
 
 Difficulty: *Hard*
@@ -155,6 +159,7 @@ Parent: *Knowledge*
 Shows Knowledge of existing magic.
 
 ---
+
 **(*MagR*) Magical Research**
 
 Difficulty: *Master*
@@ -166,6 +171,7 @@ ones. Or to determine the function and purpose of a magic item or
 effect.
 
 ---
+
 **(*Spd*) Speed**
 
 Difficulty: *Medium*
@@ -175,15 +181,27 @@ Parent: *Dexterity*
 **A - Wall runner** You may move across walls, however you may not end your turn there. If you do, you fall as normal.
 
 ---
+
 **(*Inter*) Interrogation**
 
 Difficulty: *Medium*
 
 Parent: *Intimidation/Persuasion*
 
-**Happy to see me?** You may use *Powerful* when interrogating.
+**Happy to see me?** You may use `Powerful` when interrogating.
 
 ---
+
+## Skill Checks
+
+### Spending Resources and Scarring
+
+When you are hit you must spend an amount of points from the appropriate Skill, no exceptions, if you have no more `resources` to spend you must scar yourself.
+
+**Scarring** - You may spend already spent points in bulk for 2 +
+Double their worth, however you suffer a permanent wound.
+A Scar's `Rank` is how many points it spent.
+Scars may have many forms and the point of one big scar is to put into mechanics the fact that it is one big injury.
 
 ## Inventory and Items
 
@@ -191,23 +209,19 @@ Parent: *Intimidation/Persuasion*
 
 ### Weapon Classes
 
+Weapons apart from stated bonuses give you a free maneuver to use while wielding them.
+
 |        Melee||
 |:-------------------:| :-----:|
-|  Slashing       | ---|
-|     Blunt       |  ---|
-|    Piercing        |---|
+|  Slashing       | Accurate|
+|Short Slashing|Feint|
+|     Blunt       |  Powerful|
+|    Piercing        |Powerful|
+|Shield|Defence|
 
-|      Ranged        ||
-|:---:|:---:|
-|  Thrown         |---|
-|  Shot          |---|
-| Shot (Mechanical)  | ---|
-|     Defence      |  ---|
-
-**Load** - A character may only carry a reasonable number of minor items and up to
-their *Body* worth of major items. Major items being, staffs, swords,
-guns, tents and the like. Every item carried above this amount gives you
-a *-2 Body* on skill checks.
+**Load** - A character may only carry a reasonable number of minor items and up to their `Body` worth of major items.
+Major items being, staffs, swords,
+guns, tents and the like. Every item carried above this amount gives you a `-2 Body` on skill checks.
 
 ## Spellcasting
 
@@ -224,28 +238,27 @@ a *-2 Body* on skill checks.
 |     7     | Heat any metal you lock eyesight with to be painful to touch |
 |    10     | Fireball                                                  |
 
-If you can't place your spell, ask your GM, perhaps write down what you learned and make a spellbook
-
-For other spell suggestions and costs, check the [Grimoire](../Grimoire).
+> If you can't place your spell, ask your GM, perhaps write down what you learned and make a spellbook.
+> For other spell suggestions and costs, check the [Grimoire](../Grimoire).
 
 **Mana** - Most effects will ask you to spend mana, you have a basic pool equal to
-your *Soul Resources*. At any time you may spend a Soul resource to
-increase your current mana by your *Soul Rank*. Magic works through
+your `Soul Resources`. At any time you may spend a Soul resource to
+increase your current mana by your `Soul Rank`. Magic works through
 magical symbols. Spell-casters can create these circles in the air
 instantaneously, however these persist only for a single round.
 
 ## Combat
 
     Thoughts:
-    Danger based on successes\
-    Initiative based on successes, initiative pushback\
-    Roll at end of encounter to quickly start\
-    Base resource of 2\
-    If a party is surprised they become stumbled\
-    Obvious advantage gives you two maneuvers instead of one\
+    Danger based on successes
+    Initiative based on successes, initiative pushback
+    Roll at end of encounter to quickly start
+    Base resource of 2
+    If a party is surprised they become stumbled
+    Obvious advantage gives you two maneuvers instead of one
     If an attack roll exceeds your remaining resources, you have to spend an
     additional resource. Two, if over double your remaining resources of
-    said type.\
+    said type.
     10 Second round
 
 ### Attacks
@@ -253,21 +266,10 @@ instantaneously, however these persist only for a single round.
 Two Characters actively involved in combat and interacting with their
 weapons roll-off. The Attack and Defence action's are the same as any
 other action, consider them skill checks adding appropriate Die Bonuses.
-I.E. Dodging an attack would require a Dexterity check, Blocking it with
-a shield would depend on whether you are deflecting or absorbing the
-force, resulting in your Dexterity or Body Bonuses to be added
-respectively, if you think of any more specific skills for you to use
-and gain extra Bonuses, go for it, get creative.
+I.E. Dodging an attack would require a `Dexterity` check, Blocking it with a shield would depend on whether you are deflecting or absorbing the force, resulting in your `Dexterity` or `Body` Bonuses to be added respectively,
+if you think of any more specific skills for you to use and gain extra Bonuses, go for it, get creative.
 
-### Spending Resources and Scarring
-
-When you are hit you must spend an amount of points from the appropriate
-Stat, no exceptions, if you have no more points to spend regularly you
-must scar yourself. You may spend already spent points in bulk for 2 +
-Double their worth, however you suffer a permanent wound. This is called
-*Scarring*. A Scar's *Rank* is how many points it spent. Scars may have
-many forms and the point of one big scar is to put into mechanics the
-fact that it is one big injury.
+When you are hit you lose Resources, 1 by default, however many effects alter this.
 
 #### Examples of Scars
 
@@ -309,7 +311,7 @@ Battle also results in such a Scar.
 
 **Defence/Parry** -
 
-\* A - shows indicates that said skill is *Advanced* which may be referenced by other rules.
+> A - indicates that said skill is `Advanced` which may be referenced by other rules.
 
 #### Advantage Subversion
 
@@ -321,7 +323,7 @@ Battle also results in such a Scar.
 
 **Regeneration** - The creature regains X Body resources at the start of its turn.
 
-**Armor/Mindlock/Beloved** - Expending the Body/Soul/Influence resource is always reduced by said amount. May specify a source that nullifies this protection.
+**Armor/Mindlock/Beloved** - Expending the `Body/Soul/Influence` resource is always reduced by said amount. May specify a source that nullifies this protection.
 
 **Fly** - Describes Fly Speed
 
@@ -342,24 +344,10 @@ Lower X by one each turn.
 
 **Stumbled** - creatures go at the end of initiative (in the order they were stumbled)
 
-**Short of Breath** - While you are short of breath, you can't use any *Maneuvers* with your actions that use the *Body* skill and no *Advanced Maneuvers* with actions using the *Soul* skill. If you fail an action you become *Exhausted* for the rest of the duration + *1 Round* or just *1 Round* if the *Out of Breath*'s duration is longer than a minute or 1 minute if over 1 hour.
+**Short of Breath** - While you are short of breath, you can't use any `Maneuvers` with your actions that use the `Body` skill and no *Advanced Maneuvers* with actions using the `Soul` skill. If you fail an action you become *Exhausted* for the rest of the duration + *1 Round* or just *1 Round* if the `Out of Breath`'s duration is longer than a minute or 1 minute if over 1 hour.
 
-**Exhausted** - You suffer a -2 on all rolls per level of Exhaustion as well as all the hindrances given by *Short of Breath*.
+**Exhausted** - You suffer a `-2` on all rolls per level of Exhaustion as well as all the hindrances given by `Short of Breath`.
 
 #### Out of Turn Actions
 
-## Building Enemies
-
-### Statblocks
-
-A statblock will contain pre-calculated stats for the most common level
-and will often contain a Range of stats a certain creature may be found
-at.
-
-#### Giant Rat
-
-Body:+6 & Soul:0 & Influence:0 & Fate:4
-
-**Skills:** Dex - Wall runner(8)
-
-**Attacks:** Claws - Short Slashing & Bite - Medium Stabbing
+## Enemy Statblocks
