@@ -1,17 +1,59 @@
 # The DawnStorm Atlas
 
-# Cities
+{::options auto_ids="true" /}
 
-- [Highspire](Cities/Highspire)
-- [Saltwharf](Cities/Saltwharf)
-- [Seychia](Cities/Seychia)
+- TOC_TEST
+{:toc}
 
-# Factions
+## The Kingdom of Solia
 
-- [The Crimson Forsaken](Factions/Forsaken)
-- [The Feyladen](Factions/Feyladen)
-- [Hashtar Guild](Factions/Hashtar)
-- [Kingdom of Solia](Factions/Solia)
-- [Moongold Guild](Factions/Moongold)
-- [Mornrise Kinship](Factions/Mornrise)
-- [Wolves of the East](Factions/Wolves)
+### Highspire
+
+#### The Spire
+
+##### Galatea the beloved (Court Artist)
+
+##### Ithonij (Court Geograph)
+
+### Saltwharf
+
+#### Cleardocks
+
+#### Far Bank
+
+#### Garden
+
+#### Great Water
+
+#### Hook
+
+#### Middledocks
+
+#### West District
+
+### Seychia
+
+#### The Ranch
+
+##### Richard (Ranchmaster)
+
+##### Daniel (Ranchmaster's son)
+
+### The Solis Uprising
+
+## The Hashtar Guild
+
+## Landless Factions
+
+### Crimson Forsaken
+
+### Feyladen
+
+### Moongold Guild
+
+### Mornrise Kinship
+
+Many call them druids, but those are merely disciples and students of their teachings.
+The Mornrise are a group that have directly bound themselves to the titan gaya.
+
+### Wolves of the East
