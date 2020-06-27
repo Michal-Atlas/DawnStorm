@@ -1,7 +1,7 @@
 # DawnStorm
 
-- [System](System)
-- [Bestiary](Bestiary)
-- [Atlas](Atlas)
-- [Grimoire](Grimoire)
-- [Item Compendium](Item%20Compendium)
+- [System](system)
+- [Bestiary](bestiary)
+- [Atlas](atlas)
+- [Grimoire](grimoire)
+- [Item Compendium](item-compendium)

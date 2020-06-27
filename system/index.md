@@ -66,7 +66,7 @@ at least 10 levels. Abilities with an `E - Epic` tag
 should mostly be used by the GM or allowed at the GMs discretion in very
 powerful campaigns, a beginning level of 15 is recommended. `D - Deity`, only DMs should use it very carefully and after thorough consideration.
 
-#### [List of Basic Skills](Skill-List)
+#### [List of Basic Skills](skill-list)
 
 ## Skill Checks
 
