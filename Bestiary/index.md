@@ -2,16 +2,24 @@
 
 {::options auto_ids="true" /}
 
-1. TOC_TEST
+- TOC_TEST
 {:toc}
 
 ## Beasts
+
+### Warthorg
 
 ## Demons
 
 ### Bone Demons
 
-Outer shell, not regular skeleton, cranal crease
+The bone demons are the knights of the nine hells, they are sent to retrieve souls that are expected to pose ressistance.
+They stand about 2 metres tall, carry a great-shield and a slightly curved broadsword or lance, as well as two daggers lodged into a cavity in their hips.
+Their outer appearance is that of a knight, whose plate armour has a surface similair to a bones.
+It's head has a fleshy mouth, and then a split into two flat protrusions to each side.
+If the bone demon's plates should come apart you may see that the inside is actually mostly empty, and held together by occassional oozing strands, the only physical part being the mouth.
+
+### Dreadlords
 
 ### Nightcrawler
 
@@ -24,7 +32,41 @@ If a mortal ever manages to calm and tame a nightcrawler, the smoke coming from 
 They can teleport between two points connected by
 near pitch darkness while neither is being observed.
 
+### Oni
+
+## Fey
+
+## Changelings
+
+Changelings are the infiltrators of the Fey, they can change their body to the visage of any humanoid they see at least indirectly.
+They are born by imbuing an unborn child with Fey magic.
+The family usually doesn't know about this, until the Fey visit the child at 18 years old, informing it of its destiny.
+This arduous process is mostly so that the Changeling blends in as well as possible with other creatures.
+When a changeling dies, it reverts to its original form.
+
+## Fairy
+
+### Fey Lord
+
+### Fey Queen
+
+### Pan / Pixie
+
+The most common of the Fey, often incorrectly called forest nymphs, Pans and their female counterparts called Pixies inhabit kingdoms in many forests of the world.
+Their philosophy of life is inherently pacifistic, created by the titan gaya to protect the forests, the damage of which is the only way to aggravate them.
+
+They carry human chests and heads, usually with antlers and animal eyes and ears.
+Their legs bend backwards above the knee bending backwards before heading to the ground once more and ending in hooves.
+Most of their bodies are covered and seem to be made of leaves, branches and vines, same as their tools and homes.
+Being gaya's chosen all wildlife listens and bends to the needs of the pan.
+
+#### Shadow Pan
+
 ## Ghosts
+
+### Animated Armour
+
+### Spectra
 
 ### Demi-Ghosts
 
@@ -60,19 +102,30 @@ The Mirra recalls existing memories perfectly and instantaneously.
 
 ## Humanoids
 
-### Isk
+### Goblin
 
-The Isk descend from a large tribe of giants that once descended from the mountains to live among a Keinfolk city. Over time, their stature had greatly diminished from their original, today being only about one and a half to double the size of humans.
+---
+
+Size: `Small`
+
+---
+
+### Giants
+
+#### Isk
+
+---
+
+Size: `Large`
+
+---
+
+The Isk descend from a large tribe of giants that once descended from the mountains to live among a Keinfolk city. Over time, their stature had greatly diminished from their original, today being only about one and a half to double the size of humans and living commonly in some larger cities often as workers.
 
 ### Keinfolk
 
 Incredibly proud, stubborn and loyal creatures, described mostly as humanoid lions.
 Pride upon pride, their mane is what defines their class, long and wavy manes always giving an advantage when arriving in any Keinfolk society.
-
-### Pan / Pixie
-
-Incorrectly called forest nymphs by many, Pans and their female counterparts called Pixies inhabit kingdoms in many forests of the world.
-Their philosophy of life is inherently pacifistic, created by the spirit of nature to protect the forest that is the only way to aggravate them.
 
 ### Talach
 
@@ -89,14 +142,24 @@ Quite sly, sneaky and adept at close range combat they make excellent spies and 
 
 The Tylluan are to owls what the keinfolk are to lions.
 
-## Leviathans
+## Titans
+
+### Aegir
+
+### Gaya
+
+### Sekhmet
+
+### Leviathans
+
+## Plants
 
 ## Reptiles
 
 ### Basilisk
 
 A Basilisk is a solitary eight legged reptile-like creature.
-At first it walks on all eight, later in live however, when its body is strong enough to support this development, it's head and front limbs move upwards and elongate, eventually creating an upright upper body.
+At first it walks on all eight, later in life however, when its body is strong enough to support this development, it's head and front limbs move upwards and elongate, eventually creating an upright upper body.
 
 **Growth Cycle**
 The most magnificent property of the Basilisk is its growth cycle.
@@ -115,6 +178,8 @@ Any effects beyond this are empty claims.
 ...
 
 ### Dragons
+
+Every dragons has the ability to transform into a humanoid.
 
 ### Wyverns
 
