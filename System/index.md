@@ -1,10 +1,8 @@
-# DawnStorm
-
-## A 3D6 Pen & Paper RPG
+# DawnStorm - A 3D6 Pen & Paper RPG
 
 {::options auto_ids="true" /}
 
-1. TOC_TEST
+- TOC_TEST
 {:toc}
 
 ## Character creation
@@ -29,7 +27,9 @@ Exceeding its size by more than that allows instead to utilize the `Mighty` mane
 
 ### Skills
 
-The GM gives you a `Skill Rank Up` when you use a skill to some new extent.
+The GM gives you a `Skill Point` when you use a skill in a non-trivial way, they should target about 3 `SP` an hour.
+
+> `Skill Point` worthy case example:
 
 You have an amount of so called `Resources` equal to 3 + Your Rank in that skill.
 
@@ -46,7 +46,7 @@ The amount of `Rank Ups` you need to improve any skill is based on it's difficul
 
 > If nothing is listed assume *Medium*
 
-When you Rank Up in a non-Base skill you may spend the amount of `Rank Ups` it took and spend a third of them (at least one, rounded down) them in any Skill that is a descendant of the Ranked Up skill, however it may not exceed the level of it's parent by more than 1.
+When you `Rank Up` in a non-Base skill you may spend the amount of `Skill Points` it took and spend half of them (at least one, rounded down) them in any Skill that is a descendant of the Ranked Up skill, however it may not exceed the level of it's parent by more than 1.
 To find your `Die Bonus` to a certain action, find a skill that most closely resembles that action, and then add to it its Base Skill.
 
 Bonuses and Hindrances to a skill will be specified in the format `-3 Soul`, which would mean that anytime you want to use the `Soul` skill for a check, consider it to be 3 lower than it actually is. If this would drop your level so that you couldnt've taken a skill, you lose access to that skill.
@@ -69,34 +69,34 @@ powerful campaigns, a beginning level of 15 is recommended. `D - Deity`, only DM
 - **Skill (*Difficulty*)**
 
 - Body
-  - Strength (*Medium*)
-  - Dexterity (*Medium*)
-    - Speed (*Medium*)
-    - Manual Dexterity (*Medium*)
-    - Stealth (*Medium*)
-  - Constitution (*Medium*)
+  - Strength
+  - Dexterity
+    - Speed
+    - Manual Dexterity
+    - Stealth
+  - Constitution
 - Soul
-  - Knowledge (*Medium*)
+  - Knowledge
     - Magical Knowledge (*Hard*)
-    - History (*Medium*)
+    - History
     - Modern Inventions (*Hard*)
-    - Societies (*Medium*)
+    - Societies
     - Tracking (*Hard*)
     - Survival (*Hard*)
       - Medical (*Master*)
-  - Intelligence (*Medium*)
+  - Intelligence
     - Magical Research (*Master*)
-    - Profiling (*Medium*)
-    - Investigation (*Medium*)
-    - Deceit (*Medium*)
+    - Profiling
+    - Investigation
+    - Deceit
       - Infiltration (*Hard*)
     - Animal Handling (*Easy*)
     - Vision (*Easy*)
 - Influence
   - Intimidation (*Easy*)
-    - Interrogation (*Medium*)
-  - Persuasion (*Medium*)
-    - Interrogation (*Medium*)
+    - Interrogation
+  - Persuasion
+    - Interrogation
   - Performance (*Hard*)
 
 ---
