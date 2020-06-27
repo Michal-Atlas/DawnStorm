@@ -1,5 +1,7 @@
 # The DawnStorm Bestiary
 
+[<< Back](../)
+
 {::options auto_ids="true" /}
 
 - TOC_TEST
@@ -36,7 +38,7 @@ near pitch darkness while neither is being observed.
 
 ## Fey
 
-## Changelings
+### Changelings
 
 Changelings are the infiltrators of the Fey, they can change their body to the visage of any humanoid they see at least indirectly.
 They are born by imbuing an unborn child with Fey magic.
@@ -44,13 +46,13 @@ The family usually doesn't know about this, until the Fey visit the child at 18 
 This arduous process is mostly so that the Changeling blends in as well as possible with other creatures.
 When a changeling dies, it reverts to its original form.
 
-## Fairy
+### Fairy
 
-### Fey Lord
+#### Fey Lord
 
-### Fey Queen
+#### Fey Queen
 
-### Pan / Pixie
+#### Pan / Pixie
 
 The most common of the Fey, often incorrectly called forest nymphs, Pans and their female counterparts called Pixies inhabit kingdoms in many forests of the world.
 Their philosophy of life is inherently pacifistic, created by the titan gaya to protect the forests, the damage of which is the only way to aggravate them.
@@ -60,7 +62,7 @@ Their legs bend backwards above the knee bending backwards before heading to the
 Most of their bodies are covered and seem to be made of leaves, branches and vines, same as their tools and homes.
 Being gaya's chosen all wildlife listens and bends to the needs of the pan.
 
-#### Shadow Pan
+##### Shadow Pan
 
 ## Ghosts
 
@@ -146,7 +148,13 @@ The Tylluan are to owls what the keinfolk are to lions.
 
 ### Aegir
 
+### Atlas
+
+### Cronus
+
 ### Gaya
+
+### Prometheus
 
 ### Sekhmet
 

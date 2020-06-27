@@ -1,5 +1,7 @@
 # The DawnStorm Atlas
 
+[<< Back](../)
+
 {::options auto_ids="true" /}
 
 - TOC_TEST
@@ -14,6 +16,8 @@
 ##### Galatea the beloved (Court Artist)
 
 ##### Ithonij (Court Geograph)
+
+##### Antheus (Captain of the Guard)
 
 ### Saltwharf
 
@@ -57,3 +61,5 @@ Many call them druids, but those are merely disciples and students of their teac
 The Mornrise are a group that have directly bound themselves to the titan gaya.
 
 ### Wolves of the East
+
+## Other Planes

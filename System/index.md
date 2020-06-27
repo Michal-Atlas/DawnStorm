@@ -1,5 +1,7 @@
 # DawnStorm - A 3D6 Pen & Paper RPG
 
+[<< Back](../)
+
 {::options auto_ids="true" /}
 
 - TOC_TEST
