@@ -9,7 +9,7 @@
 
 ---
 
-## (Body) Body
+## Body
 
 Difficulty: *Base*
 
@@ -22,7 +22,7 @@ penetrate, reducing the price to pay when hit by 2.
 
 ---
 
-### (Str) Strength
+### Strength
 
 Difficulty: *Trivial*
 
@@ -30,7 +30,7 @@ Parent: *Body*
 
 ---
 
-### (Dex) Dexterity
+### Dexterity
 
 Difficulty: *Trivial*
 
@@ -38,7 +38,7 @@ Parent: *Body*
 
 ---
 
-#### (Spd) Speed
+#### Speed
 
 Difficulty: *Medium*
 
@@ -48,23 +48,23 @@ Parent: *Dexterity*
 
 ---
 
-#### (ManDex) Manual Dexterity
+#### Manual Dexterity
 
 ---
 
-#### (Ste) Stealth
+#### Stealth
 
 ---
 
-### (Con) Constitution
+### Constitution
 
 ---
 
-## (Soul) Soul
+## Soul
 
 ---
 
-### (Know) Knowledge
+### Knowledge
 
 Difficulty: *Trivial*
 
@@ -76,7 +76,17 @@ Dictionary-like knowledge about it.
 
 ---
 
-#### (MagK) Magical Knowledge
+#### Battle Tactics
+
+Difficulty: *Hard*
+
+**Trained Reflexes** - May freely use a melee attack as an `Area` effect on two enemies currently attacking you.
+
+**A -** - You may use the `Defence` maneuver against a second melee attack in a turn if you've already used this maneuver on the first one.
+
+---
+
+#### Magical Knowledge
 
 Difficulty: *Hard*
 
@@ -86,31 +96,31 @@ Shows Knowledge of existing magic.
 
 ---
 
-#### (His) History
+#### History
 
 ---
 
-#### (ModInv) Modern Inventions
+#### Modern Inventions
 
 ---
 
-#### (Soc) Societies
+#### Societies
 
 ---
 
-#### (Track) Tracking
+#### Tracking
 
 ---
 
-#### (Surv) Survival
+#### Survival
 
 ---
 
-##### (Medi) Medical
+##### Medical
 
 ---
 
-### (Int) Intelligence
+### Intelligence
 
 Difficulty: *Trivial*
 
@@ -118,7 +128,7 @@ Parent: *Soul*
 
 ---
 
-#### (MagR) Magical Research
+#### Magical Research
 
 Difficulty: *Master*
 
@@ -130,43 +140,43 @@ effect.
 
 ---
 
-#### (Prof) Profiling
+#### Profiling
 
 ---
 
-#### (Inv) Investigation
+#### Investigation
 
 ---
 
-#### (Dec) Deceit
+#### Deceit
 
 ---
 
-##### (Infi) Infiltration
+##### Infiltration
 
 ---
 
-#### (Vis) Vision
+#### Vision
 
 ---
 
-## (Infl) Influence
+## Influence
 
 ---
 
-### (AnimHand) Animal Handling
+### Animal Handling
 
 ---
 
-### (Cha) Charisma
+### Charisma
 
 ---
 
-### (Inti) Intimidation
+### Intimidation
 
 ---
 
-#### (Inter) Interrogation
+#### Interrogation
 
 Difficulty: *Medium*
 
@@ -176,16 +186,16 @@ Parent: *Intimidation/Persuasion*
 
 ---
 
-### (Per) Persuasion
+### Persuasion
 
 ---
 
-### (PhyBe) Physical Beauty
+### Physical Beauty
 
 ---
 
-#### (Interg) Interrogation
+#### Interrogation
 
 ---
 
-### (Perf) Performance
+### Performance

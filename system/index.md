@@ -29,27 +29,27 @@ Exceeding its size by more than that allows instead to utilize the `Mighty` mane
 
 ### Skills
 
-The GM gives you a `Skill Point` when you use a skill in a non-trivial way, they should target about 3 `SP` an hour.
+The GM gives you a `Skill Point` when you use a skill in a non-trivial way, they should target about 3 `SP` an hour more or less based on .
 
 > `Skill Point` worthy case example:
 
 You have an amount of so called `Resources` equal to 3 + Your Rank in that skill.
 
-The amount of `Rank Ups` you need to improve any skill is based on it's difficulty:
+The amount of `Skill Points` you need to improve any skill is based on it's difficulty and then add +1 per Rank:
 
-|   Cost | Name|
-|:------: |-----------|
-|   1    |*Trivial*|
-|  2    |*Easy*|
-| 3   | *Medium*|
-|    5  |  *Hard*|
-|   6 |   *Master*|
-|  8|    *Base*|
+|Cost|Name|
+|:---:|---|
+|2|*Trivial*|
+|3|*Easy*|
+|4|*Medium*|
+|5|*Hard*|
+|6|*Master*|
+|8|*Base*|
 
 > If nothing is listed assume *Medium*
 
-When you `Rank Up` in a non-Base skill you may spend the amount of `Skill Points` it took and spend half of them (at least one, rounded down) them in any Skill that is a descendant of the Ranked Up skill, however it may not exceed the level of it's parent by more than 1.
-To find your `Die Bonus` to a certain action, find a skill that most closely resembles that action, and then add to it its Base Skill.
+When you `Rank Up` in a non-Base skill you may spend the amount of `Skill Points` it took and spend a third of them (at least one, rounded down) them in any Skill that is a descendant of the Ranked Up skill, however it may not exceed the level of it's parent by more than 1.
+To find your `Die Bonus` to a certain action, find a skill that most closely resembles that action, and then add to it its Base Skill, then divide the total by 2 rounded down.
 
 Bonuses and Hindrances to a skill will be specified in the format `-3 Soul`, which would mean that anytime you want to use the `Soul` skill for a check, consider it to be 3 lower than it actually is. If this would drop your level so that you couldnt've taken a skill, you lose access to that skill.
 
@@ -66,9 +66,13 @@ at least 10 levels. Abilities with an `E - Epic` tag
 should mostly be used by the GM or allowed at the GMs discretion in very
 powerful campaigns, a beginning level of 15 is recommended. `D - Deity`, only DMs should use it very carefully and after thorough consideration.
 
-#### [List of Basic Skills](skill-list)
+#### [List of Basic Skills](skills)
 
 ## Skill Checks
+
+|CR||
+|:---:|---|
+|10|Normal|
 
 ### Spending Resources and Scarring
 

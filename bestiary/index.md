@@ -11,6 +11,10 @@
 
 ### Warthorg
 
+## Celestials
+
+### Angel
+
 ## Demons
 
 ### Bone Demons
@@ -46,7 +50,7 @@ The family usually doesn't know about this, until the Fey visit the child at 18 
 This arduous process is mostly so that the Changeling blends in as well as possible with other creatures.
 When a changeling dies, it reverts to its original form.
 
-### Fairy
+### Dryad
 
 #### Fey Lord
 
@@ -68,11 +72,7 @@ Being gaya's chosen all wildlife listens and bends to the needs of the pan.
 
 ### Animated Armour
 
-### Spectra
-
-### Demi-Ghosts
-
-#### Genius Loci
+### Genius Loci
 
 These peculiar demi-ghosts usually manifest in places of great historical or natural significance that have nonetheless been left to their own devices.
 These creatures are usually very shy and rarely ever speak unless somehow directly invoked.
@@ -80,6 +80,14 @@ They have been shown to have knowledge on all matters occurring in their place o
 These plains of land where they exist may range from a single ruin to most of a forest.
 They communicate telepathically with any sentient creatures within their domain, however to do this they must concentrate and so they loose sight of their surroundings for the time being.
 A very powerful Genius Loci was once recorded to speak audibly directly through a human, both of whom shortly lost consciousness afterwards, however this is only hearsay.
+
+### Spectra
+
+### Wendigo
+
+### Will-o'-Wisp
+
+### Demi-Ghosts
 
 #### Lost Soul
 
@@ -144,6 +152,18 @@ Quite sly, sneaky and adept at close range combat they make excellent spies and 
 
 The Tylluan are to owls what the keinfolk are to lions.
 
+## Magical Beasts
+
+### Chimera
+
+### Griffin
+
+### Lycanthropes
+
+### Night-mare
+
+### Unicorn
+
 ## Titans
 
 ### Aegir
@@ -185,11 +205,11 @@ Any effects beyond this are empty claims.
 **Gaze**
 ...
 
-### Dragons
+### Dragon
 
 Every dragons has the ability to transform into a humanoid.
 
-### Wyverns
+### Wyvern
 
 Wyverns are very feral animals, true beasts fully devoted to that state of behaviour.
 None have ever been recorded to reason or speak unlike dragons, this is very important to know for any adventurer that may by any chance encounter this menace.
@@ -206,3 +226,15 @@ For this reason the surface is much softer than one would at first assume, and i
 You may be tempted to slash the underside of the head, however unlike dragons, Wyverns have solid armour covering the entire head.
 The two weakest points are their thigh joints and the point where their patagia connect to the body as it has been discovered to easily tear in the first section.
 When the wings are folded however the patagia is relaxed, elastic and quite difficult to pierce without an exceptionally sharp weapon.
+
+## Undead
+
+### Ghoul
+
+### Mummies
+
+#### Haugbui
+
+### Vampire
+
+### Zombie
