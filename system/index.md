@@ -51,6 +51,8 @@ The amount of `Skill Points` you need to improve any skill is based on it's diff
 When you `Rank Up` in a non-Base skill you may spend the amount of `Skill Points` it took and spend a third of them (at least one, rounded down) them in any Skill that is a descendant of the Ranked Up skill, however it may not exceed the level of it's parent by more than 1.
 To find your `Die Bonus` to a certain action, find a skill that most closely resembles that action, and then add to it its Base Skill, then divide the total by 2 rounded down.
 
+    Let only some skills be used?
+
 Bonuses and Hindrances to a skill will be specified in the format `-3 Soul`, which would mean that anytime you want to use the `Soul` skill for a check, consider it to be 3 lower than it actually is. If this would drop your level so that you couldnt've taken a skill, you lose access to that skill.
 
 > If I have a skill of level 6 with 2 selected Basic abilities, I would lose no abilities at `-1 Skill`, 1 ability at `-2 Skill`, because there is not enough levels in the skill to reach my current set of abilities.
@@ -65,6 +67,10 @@ least 5 levels in said skill. If it has an `M (Master)`, choose it after
 at least 10 levels. Abilities with an `E - Epic` tag
 should mostly be used by the GM or allowed at the GMs discretion in very
 powerful campaigns, a beginning level of 15 is recommended. `D - Deity`, only DMs should use it very carefully and after thorough consideration.
+
+**Class** - You start with a set of skills according to your class
+
+#### [Classes](classes)
 
 #### [List of Basic Skills](skills)
 
@@ -102,6 +108,7 @@ Weapons apart from stated bonuses give you a free maneuver to use while wielding
 **Load** - A character may only carry a reasonable number of minor items and up to their `Body` worth of major items.
 Major items being, staffs, swords,
 guns, tents and the like. Every item carried above this amount gives you a `-2 Body` on skill checks.
+If the item is made for a different size than you, it takes up +2 for every size between you and the item.
 
 ## Spellcasting
 

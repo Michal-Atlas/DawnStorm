@@ -1,7 +1,8 @@
 # DawnStorm
 
 - [System](system)
-  - [Skill](system/skills)
+  - [Skills](system/skills)
+  - [Classes](system/classes)
 - [Bestiary](bestiary)
 - [Atlas](atlas)
 - [Grimoire](grimoire)

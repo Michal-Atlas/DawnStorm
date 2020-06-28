@@ -13,8 +13,6 @@
 
 Difficulty: *Base*
 
-Parent: *N/A*
-
 **E - Epic Regeneration** - You regain a Body resource at the start of your turn.
 
 **M - Hard Skin** - For whatever reason your skin becomes hard to
@@ -26,23 +24,17 @@ penetrate, reducing the price to pay when hit by 2.
 
 Difficulty: *Trivial*
 
-Parent: *Body*
-
 ---
 
 ### Dexterity
 
 Difficulty: *Trivial*
 
-Parent: *Body*
-
 ---
 
 #### Speed
 
 Difficulty: *Medium*
-
-Parent: *Dexterity*
 
 **A - Wall runner** You may move across walls, however you may not end your turn there. If you do, you fall as normal.
 
@@ -68,8 +60,6 @@ Parent: *Dexterity*
 
 Difficulty: *Trivial*
 
-Parent: *Soul*
-
 **Dictionary Knowledge** - Designate a class of items, whenever you
 directly hold or see an item of that type, you immediately have
 Dictionary-like knowledge about it.
@@ -89,8 +79,6 @@ Difficulty: *Hard*
 #### Magical Knowledge
 
 Difficulty: *Hard*
-
-Parent: *Knowledge*
 
 Shows Knowledge of existing magic.
 
@@ -124,15 +112,11 @@ Shows Knowledge of existing magic.
 
 Difficulty: *Trivial*
 
-Parent: *Soul*
-
 ---
 
 #### Magical Research
 
 Difficulty: *Master*
-
-Parent: *Intelligence*
 
 Shows the ability to change known spells and perhaps even create new
 ones. Or to determine the function and purpose of a magic item or
@@ -141,6 +125,8 @@ effect.
 ---
 
 #### Profiling
+
+**A - Battle Reading** - Every second round battling against a single enemy, you add +1 to your roll.
 
 ---
 
@@ -191,10 +177,6 @@ Parent: *Intimidation/Persuasion*
 ---
 
 ### Physical Beauty
-
----
-
-#### Interrogation
 
 ---
 
