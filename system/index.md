@@ -12,20 +12,21 @@
 ### Size
 
 If a creature exceeds another's size by one, it can freely use the `Powerful` maneuver with Body based encounters against that creature.
-Exceeding its size by more than that allows instead to utilize the `Mighty` maneuver and adds 8 to the roll for every size by which it is exceeded.
+Exceeding its size by more than that allows instead to utilize the `Mighty` maneuver and subtract 8 from the roll for every size by which it is exceeded.
+For every size beyond the first, add 4 to Body based rolls.
 
-| Size     | Description                        |
-| -------- | ---------------------------------- |
-| Scrawny  | Think flies or insects             |
-| Tiny     | Smaller than 0.3m in all dimensions|
-| Small    | Smaller than 1m in all dimensions  |
-| Normal   | Humans                             |
+|Size|Description|
+|---|---|
+|Scrawny|Think flies or insects|
+|Tiny     | Smaller than 0.3m in all dimensions|
+|Small    | Smaller than 1m in all dimensions  |
+|Normal   | Humans                             |
 |Large|From 2m|
-| Huge     | Bigger than about 5m             |
-| Giant    | Dragons                            |
-| Colossal | Leviathans, Ancient Dragons        |
-| Immense  | Towering over land itself          |
-| Primal   | Deities & Titans                   |
+|Huge     | Bigger than about 5m             |
+|Giant    | Dragons                            |
+|Colossal | Leviathans, Ancient Dragons        |
+|Immense  | Towering over land itself          |
+|Primal   | Deities & Titans                   |
 
 > **Weight** - If for any reason you need an estimate of weight for your humanoid players. Use \[Weight = 20x(Height^2)\] with kg and m. Adjusting the 20 about 3 up (more weight) or down (underweight).
 
@@ -159,57 +160,49 @@ Weapons apart from stated bonuses give you a free maneuver to use while wielding
 **Load** - A character may only carry a reasonable number of minor items and up to their `Body` worth of major items.
 Major items being, staffs, swords,
 guns, tents and the like. Every item carried above this amount gives you a `-2 Body` on skill checks.
-If the item is made for a different size than you, it takes up +2 for every size between you and the item.
+If the item is made for a different size than you, it takes up `+2` for every size between you and the item.
 
 ## Spellcasting
 
-### Spell Effects
-
-| Mana Cost | Effect                                                       |
-| :-------: | ------------------------------------------------------------ |
-|     0     | Tiny Prestidigitory effects, small flashes and such          |
-|     1     | Telekinesis of Unattended objects, with concentration. Change taste |
-|     2     | Animate an object to act without your direct control         |
-|     3     | Lighting a well kindled remote place                         |
-|     6     | Slightly skew someone's view of you for an hour              |
-|     6     | Illusion of size Small                                       |
-|     7     | Heat any metal you lock eyesight with to be painful to touch |
-|    10     | Fireball                                                  |
-
-> If you can't place your spell, ask your GM, perhaps write down what you learned and make a spellbook.
-> For other spell suggestions and costs, check the [Grimoire](../grimoire).
+A spell is made up of 3 components, the Action, the Element and the Character.
+Not all must be used, sometimes more than one of each is used.
 
 **Mana** - Most effects will ask you to spend mana, you have a basic pool equal to
 your `Soul Resources`. At any time you may spend a Soul resource to
-increase your current mana by your `Soul Rank`. Magic works through
+increase your current mana by your `Soul Rank`.
+
+Magic works through
 magical symbols. Spell-casters can create these circles in the air
 instantaneously, however these persist only for a single round.
+Long-term effects need an inscription on a surface to work,
+these can be created magically, but it is very difficult.
+
+For other spell suggestions and costs, check the [Grimoire](../grimoire).
 
 ## Combat
 
 ### Attacks
 
-The Attack and Defence action's are the same as any
-other action, consider them skill checks adding appropriate Die Bonuses, with a CR of the enemy's roll.
+To determine the outcome of an attack, roll the attack as a skill check,
+afterwards, if the defending party succeeds at a skill check with a `CR` of your attack roll,
+they succesfully prevented your attack from landing.
 
 > Dodging an attack would require a `Dexterity` check, Blocking it with a shield would depend on whether you are deflecting or absorbing the force, resulting in your `Dexterity` or `Body` Bonuses to be added respectively,
 
 When you are hit you lose Stats, 1 by default.
-If the success of the roll (CR - Roll) is by more than your remaining Stat,
+If the success of the roll (CR - Roll) is by more than your enemy's skill,
 you score a critical success and the enemy loses 1 additional stat for every degree of success.
 
 1 Round of combat is 3 seconds.
 If an effect would end 1 or 2 seconds into the round, either it ends 2 or 4 turns into the round,
 or if the encounter has less than 4 participants, it ends immediately after your turn.
 
-## Initiative
+### Initiative
 
 Combat is initiated by an attack, that creature is first in initiative and has used up its turn delivering this attack.
 If one party had been ambushed, every member is automatically `Stumbled`,
 otherwise the rest of the initiative cycle alternates between parties.
 If one is not attacked in a round, he rises up in the Initiative by one creature.
-
-## Turn Actions
 
 ### Maneuvers
 
@@ -219,7 +212,7 @@ You cannot use more than 1 maneuver per turn (including free maneuvers) and a De
 
 **A - Precise** - Roll 5D6 take lowest 3
 
-**A - Mighty** - Causes target to use up 3 resources instead of one
+**Accurate** - Roll 4d6 take lowest 3
 
 **A - Mighty** - Causes target to lose 3 times as much of a Stat
 
@@ -229,14 +222,30 @@ You cannot use more than 1 maneuver per turn (including free maneuvers) and a De
 
 **Feint** - You give an ally a free Basic Maneuver against the same enemy or Kick the creature back attempting to make him stumbled or moving them
 
-**Defence/Armor/Parry** - You roll against the enemies attack roll + your rank in this,
-if you succeed the hit is absorbed or parried and is counted as a miss
+**Defence/Armor/Parry/Dodge** - You roll against the enemies attack roll + your rank in this,
+if you succeed the hit is absorbed or parried and is counted as a miss,
+doesn't work against magical effects by default
 
-> A - indicates that said skill is `Advanced` which may be referenced by other rules. Others are called `Basic`
+> A - indicates that said maneuver is `Advanced` which may be referenced by other rules. Others are called `Basic`
 
-#### Keywords
+### Turn Actions
+
+In a turn, you have two phases, a move and a move/action phase.
+Your move allows you to move 1 + A quarter of you Speed Skill in meters.
+
+As an action you may do one of the following:
+
+- Attack
+- Defend - Gain `Dodge 0` until the start of your next turn, but move a pace backwards or sideways when attacked
+- Activate a Magic Circle
+- Aid - You may roll a skill check against `CR 10`, if you succeed, an ally attempting the same check acts as if they are `Skilled`, if both of you are skilled, you may roll against `CR 12` , in which case the ally rolls as a `Master`
+- Ready - Spend the round changing held items, if they're in a bag, you should spend 2 actions taking them out
+
+## Keywords
 
 **Area** - This shows that an action performed affects a certain area such as an explosion or cannonball. Normally this is specified as a simple length that specifies the diameter of a sphere or length of a line based on context. By default a sphere centered on you.
+
+**CR** - The difficulty of a roll
 
 **Range** - Range may specify an I before the distance to indicate an incorporeal effect that passes unhindered through solid objects.
 
@@ -262,16 +271,14 @@ if you succeed the hit is absorbed or parried and is counted as a miss
 
 **Vulnerability** - Double the number of resources expended due to an effect caused by this source.
 
-**Stumped/Distracted** - You can't use any maneuvers
+**Stumped/Distracted** - You can't use any maneuvers, that you choose to use
 
-#### Conditions
+### Conditions
 
-**Stumbled** - creatures go at the end of initiative and cannot move more than 1 step (in the order they were stumbled)
+**Stumbled** - creatures go at the end of initiative (in the order they were stumbled, if there is more than one) and cannot move more than 1 step, if they are already at the end, they move to the beginning of initiative but loose their next turn
 
 **Short of Breath** - While you are short of breath, you can't use any `Maneuvers` with your actions that use the `Body` skill and no *Advanced Maneuvers* with actions using the `Soul` skill. If you fail an action you become *Exhausted* for the rest of the duration + *1 Round* or just *1 Round* if the `Out of Breath`'s duration is longer than a minute or 1 minute if over 1 hour.
 
 **Exhausted** - You suffer a `-2` on all rolls per level of Exhaustion as well as all the hindrances given by `Short of Breath`.
 
 **Restrained** -
-
-#### Out of Turn Actions
