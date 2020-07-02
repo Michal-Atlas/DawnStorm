@@ -27,15 +27,15 @@ Exceeding its size by more than that allows instead to utilize the `Mighty` mane
 | Immense  | Towering over land itself          |
 | Primal   | Deities & Titans                   |
 
+> **Weight** - If for any reason you need an estimate of weight for your humanoid players. Use \[Weight = 20x(Height^2)\] with kg and m. Adjusting the 20 about 3 up (more weight) or down (underweight).
+
 ### Skills
 
-The GM gives you a `Skill Point` when you use a skill in a non-trivial way, they should target about 3 `SP` an hour more or less based on .
+The GM gives you a `Skill Point` when you use a skill in a non-trivial way.
 
 > `Skill Point` worthy case example:
 
-You have an amount of so called `Resources` equal to 3 + Your Rank in that skill.
-
-The amount of `Skill Points` you need to improve any skill is based on it's difficulty and then add +1 per Rank:
+The amount of `Skill Points` you need to improve any skill is based on it's difficulty and then add +1 per Rank up to 4:
 
 |Cost|Name|
 |:---:|---|
@@ -44,14 +44,11 @@ The amount of `Skill Points` you need to improve any skill is based on it's diff
 |4|*Medium*|
 |5|*Hard*|
 |6|*Master*|
-|8|*Base*|
+|7|*Base*|
 
 > If nothing is listed assume *Medium*
 
-When you `Rank Up` in a non-Base skill you may spend the amount of `Skill Points` it took and spend a third of them (at least one, rounded down) them in any Skill that is a descendant of the Ranked Up skill, however it may not exceed the level of it's parent by more than 1.
-To find your `Die Bonus` to a certain action, find a skill that most closely resembles that action, and then add to it its Base Skill, then divide the total by 2 rounded down.
-
-    Let only some skills be used?
+When you `Rank Up` in a skill you may spend the amount of `Skill Points` it took and spend half of them (at least one, rounded down) them in any Skill that is a descendant of the Ranked Up skill, however it may not exceed the level of it's parent by more than 2.
 
 Bonuses and Hindrances to a skill will be specified in the format `-3 Soul`, which would mean that anytime you want to use the `Soul` skill for a check, consider it to be 3 lower than it actually is. If this would drop your level so that you couldnt've taken a skill, you lose access to that skill.
 
@@ -60,34 +57,88 @@ Bonuses and Hindrances to a skill will be specified in the format `-3 Soul`, whi
 **Base Skills** - Everything starts with these skills, they are all `Base` difficulty.
 These are `Body`, `Soul` and `Influence`.
 
-**Abilities** - Some skills may contain Abilities. You gain one of these abilities every
-Rank up in that skill, beyond the third. If the skill has an `A
+**Abilities** - Some skills contain Abilities. You gain one of these abilities every
+`Die Bonus` Increase in that skill, beyond the third Rank. If the skill has an `A
 (Advanced)` next to it, you may only choose it after having invested at
-least 5 levels in said skill. If it has an `M (Master)`, choose it after
-at least 10 levels. Abilities with an `E - Epic` tag
+least 7 Ranks in said skill. If it has an `M (Master)`, choose it after
+at least 12 Ranks. Abilities with an `E - Epic` tag
 should mostly be used by the GM or allowed at the GMs discretion in very
-powerful campaigns, a beginning level of 15 is recommended. `D - Deity`, only DMs should use it very carefully and after thorough consideration.
+powerful campaigns, a beginning Rank of 18 is recommended. `D - Deity`, only DMs should use it very carefully and after thorough consideration.
+
+**Specialities** - If a skill lists Specialities, you must choose one of them (or a new one if the GM allows) when `Ranking up`, they perform as absolutely separate skills.
+If a subject is related enough, you may use half of the die bonus.
 
 **Class** - You start with a set of skills according to your class
+
+**Race** - If your race includes some modifiers add them on top off a class. If there is a flat number without a plus or minus, it is the maximum you should start with.
 
 #### [Classes](classes)
 
 #### [List of Basic Skills](skills)
 
+## Stats
+
+You have 3 stats in the DawnStorm game, `Body`, `Soul` and `Influence`.
+These represent everything you can do, and you should be able to categorize all actions under one of these stats.
+
+|Stat|Examples|
+|:---:|---|
+|Body|strength, constitution|
+|Soul|resisting magic and torture, casting magic, overcoming horrors and fears|
+|Influence|persuasion, bartering with shopkeeps, underworld contacts|
+
+Each Stat is equal to 3 + Your Rank in the skill of the same name.
+In DawnStorm, when you are damaged or hurt, you will spend these Stats.
+For example: damage in combat spends `Body`, verbal put-downs cost you `Influence`
+
+**Regeneration** - Your stats regenerate after 8 hours of sleep, if you don't manage that amount, you regenerate only half if you slept at least four hours, otherwise one quarter.
+
+**Scarring** - WHen you are out of a given stat and some event forces you to spend it, you must `Scar` yourself, or you may `Scar` yourself voluntarily.
+These symbolize damage beyond something you can walk-of after a day or two.
+A scar should be accompanied with recieving the effect, or finding out about it (not that it doesn't limit their Stat spending).
+A `Scar` is drawn across already spent points, and gives you `2 + 2 x Each spent point`.
+This wound always has a physical explanation to what it is and should affect your character even when outside combat.
+The taken up points of the Stat become unusable until you deal with the problem that is connected to the `Scar`.
+A `Scar's Rank` is equal to the number of points it takes up.
+If an effect would grant you additional Points in a Stat, you cannot Scar these, you may only Scar your own.
+
+|Stat + Scar Rank|Example Wound|
+|:---:|---|
+|Body Rank 1|Deeper cut|
+|Body Rank 2|Major Food Poisoning|
+|Body Rank 3|Stopped a sword with your Forearm|
+|Body Rank 5|Missing Limb|
+|Soul Rank 1|Small mental quirk|
+|Soul Rank 5|Borderline madness|
+|Influence Rank 1|Small public humiliation|
+|Influence Rank 2|Nasty local rumours|
+|Influence Rank 5|Denounced by ruler|
+
+> Influence Scar's may often apply only based on location, similairly to Soul Scar's that may be temporarily triggered by something.
+
+**Death and Unconsciousness** - Many Scar's in any stat is enough to make a character unplayable, not having any more Unscarred Points in a Stat is taken as the character being dead, crazy or unable to interact with normal people.
+After suffering Scar's of a total equal to or more than a 3/4 of your Body stat, you fall unconscious.
+
 ## Skill Checks
+
+To find your `Die Bonus` in a skill,
+divide it by 2 rounded up.
+
+To find your `Die Bonus` to an action,
+find a `Skill` that most closely resembles that action, and add to it half the `Die Bonus` of its parent skill.
+
+Add the `Die Bonus` to the `CR` and you succeed if you roll **lower** than the given total.
+
+> If my character has Influence(6) and Performance\[Lyre\](8), and I try to impress a nobleman with a set `CR` of 8.
+> I get 4 from Performance, and 1 from Influence, totalling a bonus of 5.
+> So the Nobleman is impressed if I manage to roll under 13.
 
 |CR||
 |:---:|---|
 |10|Normal|
 
-### Spending Resources and Scarring
-
-When you are hit you must spend an amount of points from the appropriate Skill, no exceptions, if you have no more `resources` to spend you must scar yourself.
-
-**Scarring** - You may spend already spent points in bulk for 2 +
-Double their worth, however you suffer a permanent wound.
-A Scar's `Rank` is how many points it spent.
-Scars may have many forms and the point of one big scar is to put into mechanics the fact that it is one big injury.
+**Group checks** - If you need to use a skill against a crowd, roll 4 times against the actors roll,
+the whole crowd is divided on the subject based on the success rate of the rolls.
 
 ## Inventory and Items
 
@@ -126,7 +177,7 @@ If the item is made for a different size than you, it takes up +2 for every size
 |    10     | Fireball                                                  |
 
 > If you can't place your spell, ask your GM, perhaps write down what you learned and make a spellbook.
-> For other spell suggestions and costs, check the [Grimoire](../Grimoire).
+> For other spell suggestions and costs, check the [Grimoire](../grimoire).
 
 **Mana** - Most effects will ask you to spend mana, you have a basic pool equal to
 your `Soul Resources`. At any time you may spend a Soul resource to
@@ -136,71 +187,52 @@ instantaneously, however these persist only for a single round.
 
 ## Combat
 
-    Thoughts:
-    Danger based on successes
-    Initiative based on successes, initiative pushback
-    Roll at end of encounter to quickly start
-    Base resource of 2
-    If a party is surprised they become stumbled
-    Obvious advantage gives you two maneuvers instead of one
-    If an attack roll exceeds your remaining resources, you have to spend an
-    additional resource. Two, if over double your remaining resources of
-    said type.
-    10 Second round
-
 ### Attacks
 
-Two Characters actively involved in combat and interacting with their
-weapons roll-off. The Attack and Defence action's are the same as any
-other action, consider them skill checks adding appropriate Die Bonuses.
-I.E. Dodging an attack would require a `Dexterity` check, Blocking it with a shield would depend on whether you are deflecting or absorbing the force, resulting in your `Dexterity` or `Body` Bonuses to be added respectively,
-if you think of any more specific skills for you to use and gain extra Bonuses, go for it, get creative.
+The Attack and Defence action's are the same as any
+other action, consider them skill checks adding appropriate Die Bonuses, with a CR of the enemy's roll.
 
-When you are hit you lose Resources, 1 by default, however many effects alter this.
+> Dodging an attack would require a `Dexterity` check, Blocking it with a shield would depend on whether you are deflecting or absorbing the force, resulting in your `Dexterity` or `Body` Bonuses to be added respectively,
 
-#### Examples of Scars
+When you are hit you lose Stats, 1 by default.
+If the success of the roll (CR - Roll) is by more than your remaining Stat,
+you score a critical success and the enemy loses 1 additional stat for every degree of success.
 
-|Body Scar | Description |
-|:--------:| -------------------|
-|   Rank 1  |Hurting Bruise|
-|  Rank 2 | Deep bleeding cut|
-| Rank 4|  Missing limb|
+1 Round of combat is 3 seconds.
+If an effect would end 1 or 2 seconds into the round, either it ends 2 or 4 turns into the round,
+or if the encounter has less than 4 participants, it ends immediately after your turn.
 
-|Soul Scar | Description |
-|:--------:| -------------------|
-|  Rank 1 | Slight Quirk|
-|   Rank 5  |Borderline Insanity|
+## Initiative
 
-|Influence Scar | Description |
-|:--------:| -------------------|
-|Rank 2 | Funny memory people tease you for|
-| Rank 5  |Deeply rooted shame|
+Combat is initiated by an attack, that creature is first in initiative and has used up its turn delivering this attack.
+If one party had been ambushed, every member is automatically `Stumbled`,
+otherwise the rest of the initiative cycle alternates between parties.
+If one is not attacked in a round, he rises up in the Initiative by one creature.
 
-A scar disappears once its cause has been resolved and you don't
-regenerate those points until that happens. Receiving a wound out of
-Battle also results in such a Scar.
+## Turn Actions
 
-#### Turn Actions
+### Maneuvers
 
-##### Maneuvers
+To use a `Basic` maneuver, you spend 1 Stat.
+One `Defence/Parry` per turn is free.
+You cannot use more than 1 maneuver per turn (including free maneuvers) and a Defence/Parry or Feint, unless a separate effect states so.
 
-**A - Precise** - Roll 5D6 take top 3
-
-**Accurate** - Roll 4D6 take top 3
+**A - Precise** - Roll 5D6 take lowest 3
 
 **A - Mighty** - Causes target to use up 3 resources instead of one
 
-**Powerful** - Causes target to use up 2 resources instead of one
+**A - Mighty** - Causes target to lose 3 times as much of a Stat
 
-**Weak** - Causes target to use up 1 less resource
+**Powerful** - Causes target to lose 2 times as much of a Stat
 
-**Feint** - You give an ally a free Maneuver or Kick the creature back attempting to make him stumbled
+**Weak** - Causes target to lose half as much of a Stat
 
-**Defence/Parry** -
+**Feint** - You give an ally a free Basic Maneuver against the same enemy or Kick the creature back attempting to make him stumbled or moving them
 
-> A - indicates that said skill is `Advanced` which may be referenced by other rules.
+**Defence/Armor/Parry** - You roll against the enemies attack roll + your rank in this,
+if you succeed the hit is absorbed or parried and is counted as a miss
 
-#### Advantage Subversion
+> A - indicates that said skill is `Advanced` which may be referenced by other rules. Others are called `Basic`
 
 #### Keywords
 
@@ -210,16 +242,19 @@ Battle also results in such a Scar.
 
 **Regeneration** - The creature regains X Body resources at the start of its turn.
 
-**Armor/Mindlock/Beloved** - Expending the `Body/Soul/Influence` resource is always reduced by said amount. May specify a source that nullifies this protection.
+**Natural Armor/Mindlock/Beloved** - Expending the `Body/Soul/Influence` resource is always reduced by said amount. May specify a source in parentheses that nullifies this protection.
 
 **Fly** - Describes Fly Speed
 
 **Sense** - Always knows about all movement within a certain radius. It can feel generally what kind of creature it is.
 
+**Skilled** - You subtract 1 from your roll
+
+**Master** - You subtract 2 from your roll
+
 **Nightvision** - Does not suffer from lack of proper lighting.
 
-**Recharge** - You roll a D6 and if it's at least X the ability is ready to use again.
-Lower X by one each turn.
+**Recharge** - You roll a D6 and if it's less than X the ability is ready to use again.
 
 **Immunity** - The stated source cannot cause the creature to expend resources.
 
@@ -227,14 +262,16 @@ Lower X by one each turn.
 
 **Vulnerability** - Double the number of resources expended due to an effect caused by this source.
 
+**Stumped/Distracted** - You can't use any maneuvers
+
 #### Conditions
 
-**Stumbled** - creatures go at the end of initiative (in the order they were stumbled)
+**Stumbled** - creatures go at the end of initiative and cannot move more than 1 step (in the order they were stumbled)
 
 **Short of Breath** - While you are short of breath, you can't use any `Maneuvers` with your actions that use the `Body` skill and no *Advanced Maneuvers* with actions using the `Soul` skill. If you fail an action you become *Exhausted* for the rest of the duration + *1 Round* or just *1 Round* if the `Out of Breath`'s duration is longer than a minute or 1 minute if over 1 hour.
 
 **Exhausted** - You suffer a `-2` on all rolls per level of Exhaustion as well as all the hindrances given by `Short of Breath`.
 
-#### Out of Turn Actions
+**Restrained** -
 
-## Enemy Statblocks
+#### Out of Turn Actions

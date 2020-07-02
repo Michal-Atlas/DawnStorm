@@ -110,7 +110,7 @@ The reflection moves around the room and can talk and recall all the memories of
 The Mirra cannot create new memories or create new impressions on people, it is always just a perfect copy, however it may utilize very short term memory or connect concepts to changes in the room which it may ask you to make.
 The Mirra recalls existing memories perfectly and instantaneously.
 
-## Humanoids
+## Humanoids - Recommended for Players
 
 ### Goblin
 
@@ -120,9 +120,7 @@ Size: `Small`
 
 ---
 
-### Giants
-
-#### Isk
+### Isk
 
 ---
 
@@ -134,16 +132,44 @@ The Isk descend from a large tribe of giants that once descended from the mounta
 
 ### Keinfolk
 
+---
+
+Battle Tactics (`+2`)
+Profiling (`+2`)
+Influence (`+2`)
+Animal Handling \[Any\] (`+2`)
+Charisma (`+2`)
+
+---
+
 Incredibly proud, stubborn and loyal creatures, described mostly as humanoid lions.
 Pride upon pride, their mane is what defines their class, long and wavy manes always giving an advantage when arriving in any Keinfolk society.
 
 ### Talach
+
+---
+
+Animal Handling \[All\] (`+2`)
+Charisma (`+4`)
+Physical Beauty (`+6`; Stunning)
+Performance \[Any\] (`+8`; Crowdpleaser)
+Performance \[Any\] (`+4`; Crowdpleaser)
+Performance \[Any\] (`+2`)
+
+---
 
 Tall, with pointed ears, humble and noble, truly a beloved race by most anyone who meets them.
 Their curiosity and fantasy had made them into popular artists and poets, out of their cities often kept in castles and manors by nobility due to this affinity.
 Their intelligence hasn't been perceived to be high nor their strength or speed, manual dexterity is the one thing they have and which no other race may rival them in.
 
 ### Talkin
+
+---
+
+Dexterity (`+4`)
+Knowledge - Underground (`+2`)
+
+---
 
 They are very similar to the Talach, however their ears are significantly flatter, lower, sometimes almost horizontal.
 Quite sly, sneaky and adept at close range combat they make excellent spies and thieves and are often employed as such.
