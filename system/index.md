@@ -30,57 +30,18 @@ For every size beyond the first, add 4 to Body based rolls.
 
 > **Weight** - If for any reason you need an estimate of weight for your humanoid players. Use \[Weight = 20x(Height^2)\] with kg and m. Adjusting the 20 about 3 up (more weight) or down (underweight).
 
-### Careers
-
-The GM gives you a `Skill Point` when you use a Job in a non-trivial way.
-
-> `Skill Point` worthy case example:
-
-The amount of `Skill Points` you need to improve any skill is based on it's difficulty and then add +1 per Rank up to 4:
-
-|Cost|Name|
-|:---:|---|
-|2|*Trivial*|
-|3|*Easy*|
-|4|*Medium*|
-|5|*Hard*|
-|6|*Master*|
-|7|*Base*|
-
-> If nothing is listed assume *Medium*
-
-When you `Rank Up` in a skill you may spend the amount of `Skill Points` it took and spend half of them (at least one, rounded down) them in any Skill that is a descendant of the Ranked Up skill, however it may not exceed the level of it's parent by more than 2.
-
-Bonuses and Hindrances to a skill will be specified in the format `-3 Soul`, which would mean that anytime you want to use the `Soul` skill for a check, consider it to be 3 lower than it actually is. If this would drop your level so that you couldnt've taken a skill, you lose access to that skill.
-
-> If I have a skill of level 6 with 2 selected Basic abilities, I would lose no abilities at `-1 Skill`, 1 ability at `-2 Skill`, because there is not enough levels in the skill to reach my current set of abilities.
-
-**Base Skills** - Everything starts with these skills, they are all `Base` difficulty.
-These are `Body`, `Soul` and `Influence`.
-
-**Abilities** - Some skills contain Abilities. You gain one of these abilities every
-`Die Bonus` Increase in that skill, beyond the third Rank. If the skill has an `A
-(Advanced)` next to it, you may only choose it after having invested at
-least 7 Ranks in said skill. If it has an `M (Master)`, choose it after
-at least 12 Ranks. Abilities with an `E - Epic` tag
-should mostly be used by the GM or allowed at the GMs discretion in very
-powerful campaigns, a beginning Rank of 18 is recommended. `D - Deity`, only DMs should use it very carefully and after thorough consideration.
-
-**Specialities** - If a skill lists Specialities, you must choose one of them (or a new one if the GM allows) when `Ranking up`, they perform as absolutely separate skills.
-If a subject is related enough, you may use half of the die bonus.
-
-**Class** - You start with a set of skills according to your class
-
-**Race** - If your race includes some modifiers add them on top off a class. If there is a flat number without a plus or minus, it is the maximum you should start with.
-
-#### [Classes](classes)
-
-#### [List of Basic Skills](skills)
-
-## Stats
+### Stats
 
 You have 3 stats in the DawnStorm game, `Body`, `Soul` and `Influence`.
 These represent everything you can do, and you should be able to categorize all actions under one of these stats.
+
+According to the strength of your character you start with a number of points
+divided between your stats, 15 is suggested.
+
+For the purpose of making these slightly more specific
+for the purpose of `non-Professional` dice throws,
+each `Body` stat you have or gain,
+you should categorize under `Strength` or `Agility`.
 
 |Stat|Examples|
 |:---:|---|
@@ -88,9 +49,9 @@ These represent everything you can do, and you should be able to categorize all 
 |Soul|resisting magic and torture, casting magic, overcoming horrors and fears|
 |Influence|persuasion, bartering with shopkeeps, underworld contacts|
 
-Each Stat is equal to 3 + Your Rank in the skill of the same name.
-In DawnStorm, when you are damaged or hurt, you will spend these Stats.
-For example: damage in combat spends `Body`, verbal put-downs cost you `Influence`
+When you are damaged or hurt, you will lose these Stats,
+but only temporarily, your maximum in the Stat always stays the same.
+For example: damage in combat loses `Body`, verbal put-downs cost you `Influence`
 
 **Regeneration** - Your stats regenerate after 8 hours of sleep, if you don't manage that amount, you regenerate only half if you slept at least four hours, otherwise one quarter.
 
@@ -120,25 +81,58 @@ If an effect would grant you additional Points in a Stat, you cannot Scar these,
 **Death and Unconsciousness** - Many Scar's in any stat is enough to make a character unplayable, not having any more Unscarred Points in a Stat is taken as the character being dead, crazy or unable to interact with normal people.
 After suffering Scar's of a total equal to or more than a 3/4 of your Body stat, you fall unconscious.
 
+**Expanding your skills** - Each time you spend `10XP` in professions, you can increase by one, any of your Stats.
+
+### Professions
+
+Professions give you bonuses to your rolls on more specific problems and special abilities you can use.
+After performing an adventureous task with a profession, you are awarded `XP` by your GM.
+The amount of `XP` you need to improve (`Rank Up`) a Profession is based on its difficulty and then add +1 per `Rank` up to 4:
+
+|Cost|Name|
+|:---:|---|
+|3|*Easy*|
+|4|*Medium*|
+|5|*Hard*|
+|6|*Master*|
+
+> If nothing is listed assume *Medium*
+
+**Base Professions** - These professions are those that you don't need any prerequisites for.
+
+Advanced professions will list many prerequisites, however they are usually significantly more powerful.
+
+**Abilities** - Some Professions contain Abilities. You gain one of these abilities every `Rank Up` in that skill.
+If the skill has an `Advanced (A)` next to it, you may only choose it after having invested at
+least 3 Ranks in said Profession.
+If it has a `Master (M)`, choose it after
+at least 12 Ranks in that and all upleading Professions.
+Abilities with an `E - Epic` tag should mostly be used by the GM or allowed at the GMs discretion in very powerful campaigns.
+`D - Deity`, only DMs should use them, very carefully and after thorough consideration.
+
+**Specialities** - If a skill lists `Specialities`,
+you must choose one of them (or an original one if the GM allows) when `Ranking up`,
+they perform as absolutely separate Professions.
+If a Profession is related enough, you may use half of the die bonus.
+
+> These are most often Knowledge based, where you choose one domain to be learned in.
+
+#### [List of Professions](professions)
+
 ## Skill Checks
 
-To find your `Die Bonus` in a skill,
-divide it by 2 rounded up.
-
-To find your `Die Bonus` to an action at which you concentrate and take time,
-find a `Skill` that most closely resembles that action, and add to it half the `Die Bonus` of its parent skill.
-
 Add the `Die Bonus` to the `CR` and you succeed if you roll **lower** than the given total.
-
-> If my character has Influence(6) and Performance\[Lyre\](8), and I try to impress a nobleman with a set `CR` of 8.
-> I get 4 from Performance, and 1 from Influence, totalling a bonus of 5.
-> So the Nobleman is impressed if I manage to roll under 13.
 
 |CR||
 |:---:|---|
 |10|Normal|
 
-**Group checks** - If you need to use a skill against a crowd, roll 4 times against the actors roll,
+**non-Professional checks** - If you need to check your success in an action,
+that doesn't apply to any of your professions,
+you may roll with a bonus of your stat divided by 3 rounded down - 1.
+
+**Group checks** - If you need to use a skill against a crowd,
+roll 4 times for the crowd,
 the whole crowd is divided on the subject based on the success rate of the rolls.
 
 ## Inventory and Items

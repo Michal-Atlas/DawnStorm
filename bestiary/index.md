@@ -133,13 +133,6 @@ The Isk descend from a large tribe of giants that once descended from the mounta
 ### Keinfolk
 
 ---
-
-Battle Tactics (`+2`)
-Profiling (`+2`)
-Influence (`+2`)
-Animal Handling \[Any\] (`+2`)
-Charisma (`+2`)
-
 ---
 
 Incredibly proud, stubborn and loyal creatures, described mostly as humanoid lions.
@@ -148,14 +141,6 @@ Pride upon pride, their mane is what defines their class, long and wavy manes al
 ### Talach
 
 ---
-
-Animal Handling \[All\] (`+2`)
-Charisma (`+4`)
-Physical Beauty (`+6`; Stunning)
-Performance \[Any\] (`+8`; Crowdpleaser)
-Performance \[Any\] (`+4`; Crowdpleaser)
-Performance \[Any\] (`+2`)
-
 ---
 
 Tall, with pointed ears, humble and noble, truly a beloved race by most anyone who meets them.
@@ -165,10 +150,6 @@ Their intelligence hasn't been perceived to be high nor their strength or speed,
 ### Talkin
 
 ---
-
-Dexterity (`+4`)
-Knowledge - Underground (`+2`)
-
 ---
 
 They are very similar to the Talach, however their ears are significantly flatter, lower, sometimes almost horizontal.

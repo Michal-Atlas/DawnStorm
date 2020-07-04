@@ -1,8 +1,7 @@
 # DawnStorm
 
 - [System](system)
-  - [Skills](system/skills)
-  - [Classes](system/classes)
+  - [Professions](system/professions)
 - [Bestiary](bestiary)
 - [Adventures](adventures)
 - Atlas
