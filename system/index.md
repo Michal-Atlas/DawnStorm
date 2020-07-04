@@ -83,7 +83,7 @@ After suffering Scar's of a total equal to or more than a 3/4 of your Body stat,
 
 **Expanding your skills** - Each time you spend `10XP` in professions, you can increase by one, any of your Stats.
 
-### [Professions](professions)
+### [Professions](../professions)
 
 Professions give you bonuses to your rolls on more specific problems and special abilities you can use.
 After performing an adventureous task with a profession, you are awarded `XP` by your GM.
@@ -120,7 +120,7 @@ If a Profession is related enough, you may use half of the die bonus.
 
 > These are most often Knowledge based, where you choose one domain to be learned in.
 
-[List of Professions](professions)
+[List of Professions](../professions)
 
 ## Skill Checks
 
@@ -190,7 +190,9 @@ The Character is not used most of the time by players, but modifies spells to th
 
 **Magic Circles** - Magic circles, are inscriptions of an Action and Element combination with embedded mana.
 
-**Rituals** - Rituals are a more powerful type of magic, usually designed to please a powerful creature to do the casting for you. Rituals have strict rules and costs and player will probably not get to design their own, only find existing ones.
+**Rituals** - Rituals are a more powerful type of magic,
+usually designed to please a powerful creature to do the casting for you.
+Rituals have strict rules and costs and player will probably not get to design their own, only find existing ones.
 
 For the full rules, check the [Grimoire](../grimoire).
 

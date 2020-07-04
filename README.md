@@ -7,4 +7,3 @@
 - [Grimoire](grimoire)
 
 - Atlas
-- Item Compendium
