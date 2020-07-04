@@ -1,9 +1,8 @@
 # DawnStorm
 
 - [System](system)
-  - [Professions](system/professions)
-- [Bestiary](bestiary)
-- [Adventures](adventures)
+  - [Professions](professions)
 - [Grimoire](grimoire)
+- [Bestiary](bestiary)
 
-- Atlas
+- [Adventures](adventures)
