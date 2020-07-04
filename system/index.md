@@ -83,11 +83,11 @@ After suffering Scar's of a total equal to or more than a 3/4 of your Body stat,
 
 **Expanding your skills** - Each time you spend `10XP` in professions, you can increase by one, any of your Stats.
 
-### Professions
+### [Professions](professions)
 
 Professions give you bonuses to your rolls on more specific problems and special abilities you can use.
 After performing an adventureous task with a profession, you are awarded `XP` by your GM.
-The amount of `XP` you need to improve (`Rank Up`) a Profession is based on its difficulty and then add +1 per `Rank` up to 4:
+The amount of `XP` you need to improve (`Rank Up`) a Profession is based on its difficulty:
 
 |Cost|Name|
 |:---:|---|
@@ -102,22 +102,25 @@ The amount of `XP` you need to improve (`Rank Up`) a Profession is based on its 
 
 Advanced professions will list many prerequisites, however they are usually significantly more powerful.
 
-**Abilities** - Some Professions contain Abilities. You gain one of these abilities every `Rank Up` in that skill.
-If the skill has an `Advanced (A)` next to it, you may only choose it after having invested at
-least 3 Ranks in said Profession.
+**Skills** - The profession will list some things that it includes and thus gives bonuses for.
+
+**Abilities** - Some Professions contain Abilities.
+You gain one of these abilities every `Rank Up` in that skill.
+When you see text in \[\] square brackets, those are prerequisites.
+If the skill has an `Advanced (A)` next to it, you may only choose it after having invested at least 3 Ranks in said Profession.
 If it has a `Master (M)`, choose it after
 at least 12 Ranks in that and all upleading Professions.
 Abilities with an `E - Epic` tag should mostly be used by the GM or allowed at the GMs discretion in very powerful campaigns.
 `D - Deity`, only DMs should use them, very carefully and after thorough consideration.
 
-**Specialities** - If a skill lists `Specialities`,
+**Specialities** - If a `Profession` lists `Specialities`,
 you must choose one of them (or an original one if the GM allows) when `Ranking up`,
 they perform as absolutely separate Professions.
 If a Profession is related enough, you may use half of the die bonus.
 
 > These are most often Knowledge based, where you choose one domain to be learned in.
 
-#### [List of Professions](professions)
+[List of Professions](professions)
 
 ## Skill Checks
 
@@ -162,6 +165,8 @@ Weapons apart from stated bonuses give you a free maneuver to use while wielding
 Major items being, staffs, swords, rations,
 guns, tents and the like. Every item carried above this amount gives you a `-2 Body` on skill checks.
 If the item is made for a different size than you, it takes up `+2` for every size between you and the item.
+
+### Money and Prices
 
 ## Spellcasting
 

@@ -4,6 +4,7 @@
   - [Professions](system/professions)
 - [Bestiary](bestiary)
 - [Adventures](adventures)
+- [Grimoire](grimoire)
+
 - Atlas
-- Grimoire
 - Item Compendium
