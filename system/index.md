@@ -30,9 +30,9 @@ For every size beyond the first, add 4 to Body based rolls.
 
 > **Weight** - If for any reason you need an estimate of weight for your humanoid players. Use \[Weight = 20x(Height^2)\] with kg and m. Adjusting the 20 about 3 up (more weight) or down (underweight).
 
-### Skills
+### Careers
 
-The GM gives you a `Skill Point` when you use a skill in a non-trivial way.
+The GM gives you a `Skill Point` when you use a Job in a non-trivial way.
 
 > `Skill Point` worthy case example:
 
@@ -125,7 +125,7 @@ After suffering Scar's of a total equal to or more than a 3/4 of your Body stat,
 To find your `Die Bonus` in a skill,
 divide it by 2 rounded up.
 
-To find your `Die Bonus` to an action,
+To find your `Die Bonus` to an action at which you concentrate and take time,
 find a `Skill` that most closely resembles that action, and add to it half the `Die Bonus` of its parent skill.
 
 Add the `Die Bonus` to the `CR` and you succeed if you roll **lower** than the given total.
@@ -143,41 +143,57 @@ the whole crowd is divided on the subject based on the success rate of the rolls
 
 ## Inventory and Items
 
-**Makeshift** -
+You'll find items to buy in the [Item Compendium](../item-compendium)
+
+**Makeshift** - Weapons you grab on the spot, without changing in any way, have a limit of 2 Stats of damage.
+Optimizing them in some way (sharpening the stick), limits that to 3. In either case, you cannot use their free maneuvers. To nullify these limitations, you need to succeed at an appropriate skill check and input adequate amounts of time and effort.
 
 ### Weapon Classes
 
-Weapons apart from stated bonuses give you a free maneuver to use while wielding them.
+Weapons apart from stated bonuses give you a free maneuver to use while wielding them and have an effect:
 
-|        Melee||
-|:-------------------:| :-----:|
-|  Slashing       | Accurate|
+|Melee||
+|:---:| :---:|
+|Slashing|Accurate|
 |Short Slashing|Feint|
-|     Blunt       |  Powerful|
-|    Piercing        |Powerful|
-|Shield|Defence|
+|Blunt|Powerful|
+|Piercing|Powerful|
+|Short|You can instead attack twice, but not use a maneuver|
+|Medium||
+|Long|Short arms, cannot use maneuvers against you, except for feint|
+
+> If nothing is stated, assume no maneuver bonus, medium weapon
 
 **Load** - A character may only carry a reasonable number of minor items and up to their `Body` worth of major items.
-Major items being, staffs, swords,
+Major items being, staffs, swords, rations,
 guns, tents and the like. Every item carried above this amount gives you a `-2 Body` on skill checks.
 If the item is made for a different size than you, it takes up `+2` for every size between you and the item.
 
 ## Spellcasting
 
-A spell is made up of 3 components, the Action, the Element and the Character.
-Not all must be used, sometimes more than one of each is used.
-
-**Mana** - Most effects will ask you to spend mana, you have a basic pool equal to
-your `Soul Resources`. At any time you may spend a Soul resource to
-increase your current mana by your `Soul Rank`.
-
 Magic works through
-magical symbols. Spell-casters can create these circles in the air
+magical symbols. Spell-casters can create these symbols in mid-air
 instantaneously, however these persist only for a single round.
 Long-term effects need an inscription on a surface to work,
 these can be created magically, but it is very difficult.
 
-For other spell suggestions and costs, check the [Grimoire](../grimoire).
+**Mana** - Most effects will ask you to spend mana, you have a basic pool equal to
+your `Soul` stat. At any time you may spend a `Soul` stat to
+increase your current mana by your `Soul Skill Rank`.
+
+There are 3 types of magic in DawnStorm, Spells and Rituals.
+
+**Spells** - A spell is made up of 3 components, the Motion, the Element and the Character.
+Not all have to be used, sometimes more than one of each is used.
+The Action defines loosely what the spell does, represented as a verb or short phrase.
+An Element is a noun which can be used to empower the spell, the closer it matches, the cheaper the spell.
+The Character is not used most of the time by players, but modifies spells to the style of the caster (basic Dragon spells might often have a Breath Character).
+
+**Magic Circles** - Magic circles, are inscriptions of an Action and Element combination with embedded mana.
+
+**Rituals** - Rituals are a more powerful type of magic, usually designed to please a powerful creature to do the casting for you. Rituals have strict rules and costs and player will probably not get to design their own, only find existing ones.
+
+For the full rules, check the [Grimoire](../grimoire).
 
 ## Combat
 
@@ -190,8 +206,8 @@ they succesfully prevented your attack from landing.
 > Dodging an attack would require a `Dexterity` check, Blocking it with a shield would depend on whether you are deflecting or absorbing the force, resulting in your `Dexterity` or `Body` Bonuses to be added respectively,
 
 When you are hit you lose Stats, 1 by default.
-If the success of the roll (CR - Roll) is by more than your enemy's skill,
-you score a critical success and the enemy loses 1 additional stat for every degree of success.
+If your Degree of Success is more than your enemy's skill,
+you score a critical success and the enemy loses 1 additional stat for every degree of success beyond that skill.
 
 1 Round of combat is 3 seconds.
 If an effect would end 1 or 2 seconds into the round, either it ends 2 or 4 turns into the round,
@@ -207,7 +223,7 @@ If one is not attacked in a round, he rises up in the Initiative by one creature
 ### Maneuvers
 
 To use a `Basic` maneuver, you spend 1 Stat.
-One `Defence/Parry` per turn is free.
+One `Defence/Parry` per turn is free if you have a free weapon or shield with which you didn't attack.
 You cannot use more than 1 maneuver per turn (including free maneuvers) and a Defence/Parry or Feint, unless a separate effect states so.
 
 **A - Precise** - Roll 5D6 take lowest 3
@@ -224,7 +240,7 @@ You cannot use more than 1 maneuver per turn (including free maneuvers) and a De
 
 **Defence/Armor/Parry/Dodge** - You roll against the enemies attack roll + your rank in this,
 if you succeed the hit is absorbed or parried and is counted as a miss,
-doesn't work against magical effects by default
+doesn't work against magical effects by default except Dodge
 
 > A - indicates that said maneuver is `Advanced` which may be referenced by other rules. Others are called `Basic`
 
@@ -240,12 +256,32 @@ As an action you may do one of the following:
 - Activate a Magic Circle
 - Aid - You may roll a skill check against `CR 10`, if you succeed, an ally attempting the same check acts as if they are `Skilled`, if both of you are skilled, you may roll against `CR 12` , in which case the ally rolls as a `Master`
 - Ready - Spend the round changing held items, if they're in a bag, you should spend 2 actions taking them out
+- Perform Action - Such as, put out fire or pull lever
+
+## Environment
+
+**Fall** - 1 Body per 5 m
+
+**Suffocation** - 1 + your Constitution `Die Bonus` in minutes, then `Out of Breath` for half a minute,
+then you are `Exhausted` for 18 seconds,
+after which you start recieving a growing scar which grows by one for every 3 seconds.
+If you are attacked and have to defend in a physically demanding way (dodging counts, armor does not), you lose 9 seconds of air.
+
+**Food and Water** - not eating or drinking a day gives you -1 to body based rolls, not recieving sustenance for 3 days, gives you `Exhaustion`, which increases by 1 level for every day after that.
+
+**Sleep** - not sleeping works the same as food and water, but starts giving you debuffs after 2 days of no sleep
+
+**Light** - -2 to sight based activities in dim light, -3 in near dark
+
+**Elemental Damage** - You lose 1 body per round of exposure per strength of element, regular fire has strength 0.5
 
 ## Keywords
 
 **Area** - This shows that an action performed affects a certain area such as an explosion or cannonball. Normally this is specified as a simple length that specifies the diameter of a sphere or length of a line based on context. By default a sphere centered on you.
 
 **CR** - The difficulty of a roll
+
+**Degree of success** - The number by which you exceed the required `CR`
 
 **Range** - Range may specify an I before the distance to indicate an incorporeal effect that passes unhindered through solid objects.
 
@@ -282,3 +318,10 @@ As an action you may do one of the following:
 **Exhausted** - You suffer a `-2` on all rolls per level of Exhaustion as well as all the hindrances given by `Short of Breath`.
 
 **Restrained** -
+
+## Enemies
+
+For ease of play, enemies do not track most of their stats as closely as players do.
+They will usually just state `Body`, `Soul` and `Influence`; or a universal resource called `Fate` if the enemy is fodder enough.
+They may state several abilities with cooldowns and attacks with their own die bonuses.
+If it is stated that a weapon either carried or natural, is of a certain type, consider the enemy to be able to use the maneuvers that those weapons would grant.

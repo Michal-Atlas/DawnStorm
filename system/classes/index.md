@@ -37,7 +37,7 @@ Skills:
 Inventory:
 
 - 2 Throwing Axes
-- Great-Axe (Slashing)
+- Spear (Long, Piercing) / Great-Axe (Slashing)
 - Shield / Great-Axe (Slashing)
 - Helmet (Armor 1)
 - Warm Furcoat
@@ -45,3 +45,5 @@ Inventory:
 - Sleeping Fur
 - Signalling Horn
 - 10 Silver
+
+---

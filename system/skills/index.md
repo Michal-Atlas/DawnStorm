@@ -103,6 +103,7 @@ Knowledge is not a real skill, when choosing this, you should state what the spe
 
 Specialities:
 
+- Arcane
 - Modern Inventions
 - Geology
 - Medical
@@ -134,18 +135,19 @@ Difficulty: *Hard*
 
 ---
 
-### Intelligence
-
----
-
 #### Magical Research
 
 Difficulty: *Master*
 
 Shows the ability to change known spells and perhaps even create new
 ones.
-Or to determine the function and purpose of a magic item or
-effect.
+To identify and extrapolate from seen magical effects.
+
+---
+
+#### Magical Improvisation
+
+Difficulty: *Master*
 
 ---
 
