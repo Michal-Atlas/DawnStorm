@@ -83,7 +83,7 @@ After suffering Scar's of a total equal to or more than a 3/4 of your Body stat,
 
 **Expanding your skills** - Each time you spend `10XP` in professions, you can increase by one, any of your Stats.
 
-### [Professions](../professions)
+### Professions
 
 Professions give you bonuses to your rolls on more specific problems and special abilities you can use.
 After performing an adventureous task with a profession, you are awarded `XP` by your GM.
@@ -123,7 +123,95 @@ If a Profession is related enough, you may use half of the die bonus.
 
 > These are most often Knowledge based, where you choose one domain to be learned in.
 
-[List of Professions](../professions)
+### List of Professions
+
+---
+
+#### Acolyte
+
+The Acolyte is the basic magic class. Identifying arcane occurences that you have already seen or know about is the domain of the acolyte.
+
+Skills:
+
+- Spellcasting
+- Identifying spells and magical effects
+
+Abilities:
+
+- Spellcraft: You learn 1 Motion and 2 Elements (You may gain a Magic Character if your GM allows)
+- Spellcraft 2 \[Spellcraft\]: You learn an additional 1 Motion/Element and 1 Element
+- Spellcraft 3 \[Spellcraft 2\]: You learn an additional Element
+
+#### Fighter
+
+Brawls, bar fights and ambushes, you've seen it all.
+You know what to do with most common weapons
+and even better with hands and chairs.
+
+Skills:
+
+- Unarmed Combat
+- Combat with short and medium weapons
+- Battling with improvised weapons
+
+Abilities:
+
+- Weapon Improvisation (A): Your makeshift weapons grant you the standard weapon maneuvers
+
+#### Hunter
+
+Skills:
+
+- Bows or Crossbows (Your choice)
+- Tracking
+- Knowledge - Animals
+
+#### Herbalist
+
+Skills:
+
+- Identifying plants and potions
+- First-aid and medicine
+
+#### Squire
+
+Squires are warriors, who are trained and educated.
+
+Skills:
+
+- Shields
+- Long Weapons
+- Knowledge - Tactics, Armies, War Codes
+
+#### Thief
+
+Skills:
+
+- Acrobacy
+- Sleight of Hand
+- Knowledge - Underground
+
+---
+
+#### Mage
+
+Skills:
+
+- Arcane Memory: You are able to completely remember up to two magic circles you've seen at least momentarily
+- Convenient Magic (A): You may cast spells with up to 5 Mana without spending any
+
+#### Nord
+
+#### Vedmak [5 - Hunter + Acolyte]
+
+You hunt magical beasts
+
+Abilities:
+
+- Beast Form (M): By touching a part of a dead magical beast, you may assume its form. You gain all its abilities and its Body Stat, however when you turn back, all Scars and spent Stats are applied to you. If this would kill you, you fall unconscious instead.
+- Beast's wine: You have resistance against ingestion based poisons
+
+#### Witch
 
 ## Skill Checks
 
@@ -185,19 +273,83 @@ increase your current mana by your `Soul Skill Rank`.
 
 There are 3 types of magic in DawnStorm, Spells and Rituals.
 
-**Spells** - A spell is made up of 3 components, the Motion, the Element and the Character.
-Not all have to be used, sometimes more than one of each is used.
-The Action defines loosely what the spell does, represented as a verb or short phrase.
-An Element is a noun which can be used to empower the spell, the closer it matches, the cheaper the spell.
-The Character is not used most of the time by players, but modifies spells to the style of the caster (basic Dragon spells might often have a Breath Character).
+### Spells
 
-**Magic Circles** - Magic circles, are inscriptions of an Action and Element combination with embedded mana.
+When casting a spell you declare,
+a Motion and optionally an Element you know (collectively called words of power),
+how much mana you empower the spell with (minimum 1) and what the desired outcome is.
+Without a good idea of what you expect it to do,
+the Motion is useless and fizzles.
+Not all elements are useful with all motions.
+The mechanics should be second to the player's intention,
+even if it makes only a loose connection.
+A spell's potency is increased by your degrees of success.
 
-**Rituals** - Rituals are a more powerful type of magic,
+#### Motion Examples
+
+- Create + Destroy
+- Join + Divide
+- Kill + Heal
+- Scry
+- Transmute
+- Summon
+- Show
+- Command
+- Cease
+- Stride
+
+#### Element Examples
+
+If the spell doesn't contain a corresponding Element for the effect,
+the potency is halved and capped at your `Magic Improvisation` skill.
+
+- Fire / Heat
+- Water
+- Cold / Ice
+- Earth
+- Nature
+- Metal
+- Body
+- Time
+- Spectra (Supernatural)
+- Necros (Necromantic)
+
+#### Characters
+
+These both limit and flavour the spell's effects.
+
+**Draconic** - The spell's effect is exhaled as a cone-shaped breath from the mouth
+
+**Fey** - All effects are performed by nearby plants
+
+**HexBlade** - The magic is limited only to the wearer himself and mainly his weapon and armour
+
+**Artistic** - The effects must all be based on the art, animate and move small objects, or create illusions
+
+**Shadow** -
+
+### Magic Circles
+
+A magic circle is created by inscribing a Motion and an Element, with a very specific intention into a solid surface and empowering them with Mana.
+It takes 1 second to drain 1 Mana into a circle.
+At Dawn and Dusk, a circle is sealed and cannot be expanded, only recharged.
+When activated, the circle casts the spell, draining from the enclosed mana pool.
+If the creature that activates a circle is a magic user with a Character, the spell is cast with that character.
+
+### Rituals
+
+Rituals are a more powerful type of magic,
 usually designed to please a powerful creature to do the casting for you.
-Rituals have strict rules and costs and player will probably not get to design their own, only find existing ones.
+Rituals have strict rules, circumstances and sacrifices,
+their insriptions are usually so complex, they're unreadable.
+Players will probably not get to design their own, only find existing ones.
 
-For the full rules, check the [Grimoire](../grimoire).
+### Analyzing Magic
+
+Perceiving a magic circle, even an instantaneous one let's you identify any word of power that you know.
+Identifying those you don't know, requires a knowledge (arcane) check and some time and concentration with the circle or a page of notes you made about it.
+Learning a word of power requires several days, of study and experimentation with notes from several circles,
+with a `CR` of the number of different notes you're analyzing that have a word in them that you know.
 
 ## Combat
 
