@@ -30,6 +30,55 @@ For every size beyond the first, add 4 to Body based rolls.
 
 > **Weight** - If for any reason you need an estimate of weight for your humanoid players. Use \[Weight = 20x(Height^2)\] with kg and m. Adjusting the 20 about 3 up (more weight) or down (underweight).
 
+### Race
+
+#### Goblin
+
+---
+
+Size: `Small`
+
+---
+
+#### Isk
+
+---
+
+Size: `Large`
+
+---
+
+The Isk descend from a large tribe of giants that once descended from the mountains to live among a Keinfolk city. Over time, their stature had greatly diminished from their original, today being only about one and a half to double the size of humans and living commonly in some larger cities often as workers.
+
+#### Keinfolk
+
+---
+---
+
+Incredibly proud, stubborn and loyal creatures, described mostly as humanoid lions.
+Pride upon pride, their mane is what defines their class, long and wavy manes always giving an advantage when arriving in any Keinfolk society.
+
+#### Talach
+
+---
+---
+
+Tall, with pointed ears, humble and noble, truly a beloved race by most anyone who meets them.
+Their curiosity and fantasy had made them into popular artists and poets, out of their cities often kept in castles and manors by nobility due to this affinity.
+Their intelligence hasn't been perceived to be high nor their strength or speed, manual dexterity is the one thing they have and which no other race may rival them in.
+
+#### Talkin
+
+---
+---
+
+They are very similar to the Talach, however their ears are significantly flatter, lower, sometimes almost horizontal.
+Quite sly, sneaky and adept at close range combat they make excellent spies and thieves and are often employed as such.
+
+#### Tylluan
+
+The Tylluan are to owls what the keinfolk are to lions.
+
 ### Stats
 
 You have 3 stats in the DawnStorm game, `Body`, `Soul` and `Influence`.
