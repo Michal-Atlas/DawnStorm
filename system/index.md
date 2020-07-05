@@ -101,6 +101,9 @@ The amount of `XP` you need to improve (`Rank Up`) a Profession is based on its 
 **Base Professions** - These professions are those that you don't need any prerequisites for.
 
 Advanced professions will list many prerequisites, however they are usually significantly more powerful.
+These prerequisites are usually in \[\] square brackets behind the Profession name.
+A number followed by Professions, means that many `Ranks` divided among them.
+Some classes have other steps you must take to acquire them, these are listed under `Rite` in the description of the `Profession`.
 
 **Skills** - The profession will list some things that it includes and thus gives bonuses for.
 
