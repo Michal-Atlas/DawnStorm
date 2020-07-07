@@ -1,19 +1,34 @@
 # DawnStorm - A 3D6 Pen & Paper RPG
 
-[<< Back](../)
+<!-- TODO #3 -->
 
 {::options auto_ids="true" /}
 
 - TOC_TEST
 {:toc}
 
+## Preword
+
+I started this project with the intention of ending up with a simple RPG system,
+that nonetheless felt good and was fast to play.
+The second goal was to give as much freedom as possible, while keeping it simple for both the players and the GM.
+
+When you see something colored like `THIS` it is a keyword and will be explained somewhere later on.
+
+Some parts are labelled like
+> THIS
+These provide some additional suggestions, explanations or just general commentary.
+
+The last thing is that almost all of this is built as suggestions,
+I'm more than happy if the players ask politely for items not on lists,
+spell words not shown and races not recommended,
+that is one of the points to the game.
+
+Now, let's get rolling.
+
 ## Character creation
 
 ### Size
-
-If a creature exceeds another's size by one, it can freely use the `Powerful` maneuver with Body based encounters against that creature.
-Exceeding its size by more than that allows instead to utilize the `Mighty` maneuver and subtract 8 from the roll for every size by which it is exceeded.
-For every size beyond the first, add 4 to Body based rolls.
 
 |Size|Description|
 |---|---|
@@ -27,6 +42,11 @@ For every size beyond the first, add 4 to Body based rolls.
 |Colossal | Leviathans, Ancient Dragons        |
 |Immense  | Towering over land itself          |
 |Primal   | Deities & Titans                   |
+
+If a creature exceeds another's size by one, it can freely use the `Powerful` maneuver with Body based encounters against that creature.
+However the target acts as if it was `Skilled` at `Dodging` them.
+Exceeding its size by more than that allows instead to utilize the `Mighty` maneuver and subtract 8 from the roll for every size by which it is exceeded.
+For every size beyond the first, add 4 to Body based rolls.
 
 > **Weight** - If for any reason you need an estimate of weight for your humanoid players. Use \[Weight = 20x(Height^2)\] with kg and m. Adjusting the 20 about 3 up (more weight) or down (underweight).
 
@@ -53,6 +73,9 @@ The Isk descend from a large tribe of giants that once descended from the mounta
 #### Keinfolk
 
 ---
+
+**Kein Roar** - Once a day, you are able to Roar so loud that any creatures within a 30 meter radius, must succeed at a `DA 9` Check, or become `Frightened` of you for 6 Seconds.
+
 ---
 
 Incredibly proud, stubborn and loyal creatures, described mostly as humanoid lions.
@@ -61,19 +84,26 @@ Pride upon pride, their mane is what defines their class, long and wavy manes al
 #### Talach
 
 ---
+
+**Talach talent** - Choose a form of art, you are a `Master` at creating it. Choose another, you are `Skilled` with it.
+
 ---
 
 Tall, with pointed ears, humble and noble, truly a beloved race by most anyone who meets them.
-Their curiosity and fantasy had made them into popular artists and poets, out of their cities often kept in castles and manors by nobility due to this affinity.
+Their curiosity and fantasy had made them into popular artists and poets, outside their cities often kept in castles and manors by nobility due to this affinity.
 Their intelligence hasn't been perceived to be high nor their strength or speed, manual dexterity is the one thing they have and which no other race may rival them in.
 
 #### Talkin
 
 ---
+
+**Talkin Ear** - Your ears are very sensitive to whispers and murmurs.
+When listening to someone in a crowded room, you hear as if the room was silent.
+
 ---
 
 They are very similar to the Talach, however their ears are significantly flatter, lower, sometimes almost horizontal.
-Quite sly, sneaky and adept at close range combat they make excellent spies and thieves and are often employed as such.
+Quite sly, sneaky and adept at close range combat, they make excellent spies and thieves and are often employed as such.
 
 #### Tylluan
 
@@ -83,14 +113,15 @@ The Tylluan are to owls what the keinfolk are to lions.
 
 You have 3 stats in the DawnStorm game, `Body`, `Soul` and `Influence`.
 These represent everything you can do, and you should be able to categorize all actions under one of these stats.
+Occassionally called points for ease of wording.
 
 According to the strength of your character you start with a number of points
-divided between your stats, 15 is suggested.
+divided between your stats, 20 is suggested.
 
 For the purpose of making these slightly more specific
-for the purpose of `non-Professional` dice throws,
+in the case of `non-Professional` dice throws,
 each `Body` stat you have or gain,
-you should categorize under `Strength` or `Agility`.
+should be categorized under `Strength` or `Agility`.
 
 |Stat|Examples|
 |:---:|---|
@@ -98,20 +129,21 @@ you should categorize under `Strength` or `Agility`.
 |Soul|resisting magic and torture, casting magic, overcoming horrors and fears|
 |Influence|persuasion, bartering with shopkeeps, underworld contacts|
 
-When you are damaged or hurt, you will lose these Stats,
+When you are damaged or hurt, you will "lose" or "spend" these Stats,
 but only temporarily, your maximum in the Stat always stays the same.
+Consider it similair to losing Hit Points or Mana.
 For example: damage in combat loses `Body`, verbal put-downs cost you `Influence`
 
-**Regeneration** - Your stats regenerate after 8 hours of sleep, if you don't manage that amount, you regenerate only half if you slept at least four hours, otherwise one quarter.
+**Regeneration** - Your stats regenerate after 8 hours of sleep, if you don't manage that amount, you regenerate only half of your total if you slept at least four hours, otherwise one quarter.
 
-**Scarring** - WHen you are out of a given stat and some event forces you to spend it, you must `Scar` yourself, or you may `Scar` yourself voluntarily.
+**Scarring** - When you are out of a given stat and some event forces you to spend it, you must `Scar` yourself, or you may `Scar` yourself voluntarily.
 These symbolize damage beyond something you can walk-of after a day or two.
-A scar should be accompanied with recieving the effect, or finding out about it (not that it doesn't limit their Stat spending).
+A scar should be accompanied with recieving an effect, or finding out about one.
 A `Scar` is drawn across already spent points, and gives you `2 + 2 x Each spent point`.
-This wound always has a physical explanation to what it is and should affect your character even when outside combat.
+This wound always has an explanation to what it is and should affect your character even when outside combat.
 The taken up points of the Stat become unusable until you deal with the problem that is connected to the `Scar`.
 A `Scar's Rank` is equal to the number of points it takes up.
-If an effect would grant you additional Points in a Stat, you cannot Scar these, you may only Scar your own.
+If an effect would grant you additional Points in a Stat, you cannot Scar these, you may only Scar your own Stats.
 
 |Stat + Scar Rank|Example Wound|
 |:---:|---|
@@ -127,14 +159,14 @@ If an effect would grant you additional Points in a Stat, you cannot Scar these,
 
 > Influence Scar's may often apply only based on location, similairly to Soul Scar's that may be temporarily triggered by something.
 
-**Death and Unconsciousness** - Many Scar's in any stat is enough to make a character unplayable, not having any more Unscarred Points in a Stat is taken as the character being dead, crazy or unable to interact with normal people.
-After suffering Scar's of a total equal to or more than a 3/4 of your Body stat, you fall unconscious.
+**Death and Unconsciousness** - Many Scars in any stat is enough to make a character unplayable, not having any more Unscarred Points in a Stat is taken as the character being dead, crazy or unable to interact with normal people.
+After suffering Body Scars of a total equal to or more than a 3/4 of your Body stat, you fall unconscious.
 
 **Expanding your skills** - Each time you spend `10XP` in professions, you can increase by one, any of your Stats.
 
 ### Professions
 
-Professions give you bonuses to your rolls on more specific problems and special abilities you can use.
+Professions give you bonuses to your rolls and special abilities you can use.
 After performing an adventureous task with a profession, you are awarded `XP` by your GM.
 The amount of `XP` you need to improve (`Rank Up`) a Profession is based on its difficulty:
 
@@ -145,7 +177,9 @@ The amount of `XP` you need to improve (`Rank Up`) a Profession is based on its 
 |5|*Hard*|
 |6|*Master*|
 
-> If nothing is listed assume *Medium*
+If nothing is listed assume *Medium*
+
+> You may want to raise these if you are planning on a very long term campaign
 
 **Base Professions** - These professions are those that you don't need any prerequisites for.
 
@@ -155,8 +189,10 @@ A number followed by Professions, means that many `Ranks` divided among them.
 Some classes have other steps you must take to acquire them, these are listed under `Rite` in the description of the `Profession`.
 
 **Skills** - The profession will list some things that it includes and thus gives bonuses for.
+The Skills listed are just examples, each Profession includes much more than is listed
+and the judgement of each individual action that comes up should be up to the Players and GM.
 
-**Abilities** - Some Professions contain Abilities.
+**Abilities** - Professions contain Abilities.
 You gain one of these abilities every `Rank Up` in that skill.
 When you see text in \[\] square brackets, those are prerequisites.
 If the skill has an `Advanced (A)` next to it, you may only choose it after having invested at least 3 Ranks in said Profession.
@@ -174,7 +210,7 @@ If a Profession is related enough, you may use half of the die bonus.
 
 ### List of Professions
 
----
+<!-- TODO #1 -->
 
 #### Acolyte
 
@@ -249,7 +285,7 @@ Skills:
 - Arcane Memory: You are able to completely remember up to two magic circles you've seen at least momentarily
 - Convenient Magic (A): You may cast spells with up to 5 Mana without spending any
 
-#### Nord
+#### Nord [5 - Hunter + Fighter]
 
 #### Vedmak [5 - Hunter + Acolyte]
 
@@ -260,13 +296,17 @@ Abilities:
 - Beast Form (M): By touching a part of a dead magical beast, you may assume its form. You gain all its abilities and its Body Stat, however when you turn back, all Scars and spent Stats are applied to you. If this would kill you, you fall unconscious instead.
 - Beast's wine: You have resistance against ingestion based poisons
 
-#### Witch
+#### Witch [5 - Acolyte + Herbalist]
 
 ## Skill Checks
 
-Add the `Die Bonus` to the `CR` and you succeed if you roll **lower** than the given total.
+When you need to check if you succeeded at a particular task, you roll 3D6 and if you Rolled **lower** than the `Difficulty of Action` further called `DA` you were successfull.
+Many effects will subtract or add to your roll, most commonly your Professions.
+You may subtract, up to two Profession's bonuses from your roll.
 
-|CR||
+> Remember, since lower is better, you subtract your bonuses from your roll
+
+|DA||
 |:---:|---|
 |10|Normal|
 
@@ -279,11 +319,6 @@ roll 4 times for the crowd,
 the whole crowd is divided on the subject based on the success rate of the rolls.
 
 ## Inventory and Items
-
-You'll find items to buy in the [Item Compendium](../item-compendium)
-
-**Makeshift** - Weapons you grab on the spot, without changing in any way, have a limit of 2 Stats of damage.
-Optimizing them in some way (sharpening the stick), limits that to 3. In either case, you cannot use their free maneuvers. To nullify these limitations, you need to succeed at an appropriate skill check and input adequate amounts of time and effort.
 
 ### Weapon Classes
 
@@ -306,7 +341,47 @@ Major items being, staffs, swords, rations,
 guns, tents and the like. Every item carried above this amount gives you a `-2 Body` on skill checks.
 If the item is made for a different size than you, it takes up `+2` for every size between you and the item.
 
+**Makeshift** - Weapons you grab on the spot, without changing in any way, have a limit of 2 Stats of damage.
+Optimizing them in some way (sharpening the stick), limits that to 3. In either case, you cannot use their free maneuvers. To nullify these limitations, you need to succeed at an appropriate skill check and input adequate amounts of time and effort.
+
 ### Money and Prices
+
+<!-- TODO #2 -->
+In the world of DawnStorm, you have 4 types of coins.
+
+#### Coins
+
+|Coin|Worth|
+|---|---|
+|Copper Penny|6 in a commoner's day's work|
+|Silver Shilling|100 Copper Pennies|
+|Platinum|5000 Copper Pennies|
+|Gold|10000 Copper Pennies|
+
+#### Food
+
+|Name|Price|
+|---|---|
+|Day of Rations|1 Copper|
+
+#### Tools
+
+|Name|Price|
+|---|---|
+|||
+
+#### Weapons
+
+|Name|Price|
+|---|---|
+|Sword||
+|LongSword||
+
+#### Estates
+
+|Name|Price|
+|---|---|
+|||
 
 ## Spellcasting
 
@@ -346,6 +421,20 @@ A spell's potency is increased by your degrees of success.
 - Command
 - Cease
 - Stride
+
+##### Potencies
+
+|Potency|Create|
+|:---:|---|
+|1|Creates a square centimeter of a substance for an instant, at your fingertips|
+|5|Creates a 10 cm ball of a substance up to 2 metres from you|
+|10||
+
+|Potency|Kill|
+|:---:|---|
+
+|Potency|Command|
+|:---:|---|
 
 #### Element Examples
 
@@ -398,14 +487,14 @@ Players will probably not get to design their own, only find existing ones.
 Perceiving a magic circle, even an instantaneous one let's you identify any word of power that you know.
 Identifying those you don't know, requires a knowledge (arcane) check and some time and concentration with the circle or a page of notes you made about it.
 Learning a word of power requires several days, of study and experimentation with notes from several circles,
-with a `CR` of the number of different notes you're analyzing that have a word in them that you know.
+with a `DA` of the number of different notes you're analyzing that have a word in them that you know.
 
 ## Combat
 
 ### Attacks
 
 To determine the outcome of an attack, roll the attack as a skill check,
-afterwards, if the defending party succeeds at a skill check with a `CR` of your attack roll,
+afterwards, if the defending party succeeds at a skill check with a `DA` of your attack roll,
 they succesfully prevented your attack from landing.
 
 > Dodging an attack would require a `Dexterity` check, Blocking it with a shield would depend on whether you are deflecting or absorbing the force, resulting in your `Dexterity` or `Body` Bonuses to be added respectively,
@@ -459,8 +548,8 @@ As an action you may do one of the following:
 - Attack
 - Defend - Gain `Dodge 0` until the start of your next turn, but move a pace backwards or sideways when attacked
 - Activate a Magic Circle
-- Aid - You may roll a skill check against `CR 10`, if you succeed, an ally attempting the same check acts as if they are `Skilled`, if both of you are skilled, you may roll against `CR 12` , in which case the ally rolls as a `Master`
-- Ready - Spend the round changing held items, if they're in a bag, you should spend 2 actions taking them out
+- Aid - You may roll a skill check against `DA 10`, if you succeed, an ally attempting the same check acts as if they are `Skilled`, if both of you are skilled, you may roll against `DA 12` , in which case the ally rolls as a `Master`
+- Ready - Spend the round changing held items, if they're in a bag, you should spend 2 actions taking them out. Similair to clothing, putting on chainmail would cost a turn, a full suit would cost 2 to 3.
 - Perform Action - Such as, put out fire or pull lever
 
 ## Environment
@@ -486,7 +575,7 @@ If you are attacked and have to defend in a physically demanding way (dodging co
 
 **CR** - The difficulty of a roll
 
-**Degree of success** - The number by which you exceed the required `CR`
+**Degree of success** - The number by which you exceed the required `DA`
 
 **Range** - Range may specify an I before the distance to indicate an incorporeal effect that passes unhindered through solid objects.
 
