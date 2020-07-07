@@ -74,7 +74,7 @@ The Isk descend from a large tribe of giants that once descended from the mounta
 
 ---
 
-**Kein Roar** - Once a day, you are able to Roar so loud that any creatures within a 30 meter radius, must succeed at a `DA 9` Check, or become `Frightened` of you for 6 Seconds.
+**Kein Roar** - Once a day, you are able to Roar so loud that any creatures within a 30 meter radius, must succeed at a `RD 9` Check, or become `Frightened` of you for 6 Seconds.
 
 ---
 
@@ -167,6 +167,10 @@ After suffering Body Scars of a total equal to or more than a 3/4 of your Body s
 ### Professions
 
 Professions give you bonuses to your rolls and special abilities you can use.
+They sometimes don't necessarily mean that you are your Profession,
+having a Rank in Thief doesn't necessarily translate into your character being a Thief,
+it only shows that they have a similair set of skills,
+that your character could've picked up and used elsewhere.
 After performing an adventureous task with a profession, you are awarded `XP` by your GM.
 The amount of `XP` you need to improve (`Rank Up`) a Profession is based on its difficulty:
 
@@ -195,11 +199,10 @@ and the judgement of each individual action that comes up should be up to the Pl
 **Abilities** - Professions contain Abilities.
 You gain one of these abilities every `Rank Up` in that skill.
 When you see text in \[\] square brackets, those are prerequisites.
-If the skill has an `Advanced (A)` next to it, you may only choose it after having invested at least 3 Ranks in said Profession.
+If the skill has an`Advanced (A)` next to it, you may only choose it after having invested at least 3 Ranks in said Profession.
 If it has a `Master (M)`, choose it after
-at least 12 Ranks in that and all upleading Professions.
+at least 12 Ranks in that and all related Professions.
 Abilities with an `E - Epic` tag should mostly be used by the GM or allowed at the GMs discretion in very powerful campaigns.
-`D - Deity`, only DMs should use them, very carefully and after thorough consideration.
 
 **Specialities** - If a `Profession` lists `Specialities`,
 you must choose one of them (or an original one if the GM allows) when `Ranking up`,
@@ -294,13 +297,13 @@ You hunt magical beasts
 Abilities:
 
 - Beast Form (M): By touching a part of a dead magical beast, you may assume its form. You gain all its abilities and its Body Stat, however when you turn back, all Scars and spent Stats are applied to you. If this would kill you, you fall unconscious instead.
-- Beast's wine: You have resistance against ingestion based poisons
+- Beast's wine: You have `resistance` against blood based poisons
 
 #### Witch [5 - Acolyte + Herbalist]
 
 ## Skill Checks
 
-When you need to check if you succeeded at a particular task, you roll 3D6 and if you Rolled **lower** than the `Difficulty of Action` further called `DA` you were successfull.
+When you need to check if you succeeded at a particular task, you roll 3D6 and if you Rolled **lower** than the `Roll Difficulty` further called `RD` you were successfull.
 Many effects will subtract or add to your roll, most commonly your Professions.
 You may subtract, up to two Profession's bonuses from your roll.
 
@@ -358,28 +361,20 @@ In the world of DawnStorm, you have 4 types of coins.
 |Platinum|5000 Copper Pennies|
 |Gold|10000 Copper Pennies|
 
-#### Food
-
-|Name|Price|
+|Food|Price|
 |---|---|
 |Day of Rations|1 Copper|
 
-#### Tools
-
-|Name|Price|
+|Tools|Price|
 |---|---|
 |||
 
-#### Weapons
-
-|Name|Price|
+|Weapons|Price|
 |---|---|
 |Sword||
 |LongSword||
 
-#### Estates
-
-|Name|Price|
+|Estates|Price|
 |---|---|
 |||
 
@@ -388,8 +383,7 @@ In the world of DawnStorm, you have 4 types of coins.
 Magic works through
 magical symbols. Spell-casters can create these symbols in mid-air
 instantaneously, however these persist only for a single round.
-Long-term effects need an inscription on a surface to work,
-these can be created magically, but it is very difficult.
+Long-term effects need an inscription on a surface to work.
 
 **Mana** - Most effects will ask you to spend mana, you have a basic pool equal to
 your `Soul` stat. At any time you may spend a `Soul` stat to
@@ -401,19 +395,32 @@ There are 3 types of magic in DawnStorm, Spells and Rituals.
 
 When casting a spell you declare,
 a Motion and optionally an Element you know (collectively called words of power),
-how much mana you empower the spell with (minimum 1) and what the desired outcome is.
+and what the desired outcome is.
 Without a good idea of what you expect it to do,
 the Motion is useless and fizzles.
 Not all elements are useful with all motions.
 The mechanics should be second to the player's intention,
 even if it makes only a loose connection.
-A spell's potency is increased by your degrees of success.
+A spell's potency is increased by your degrees of success,
+or may have undesired consequences when you fail rolls.
 
-#### Motion Examples
+#### Motions
 
-- Create + Destroy
-- Join + Divide
-- Kill + Heal
+Motions all have multiple Tiers with an `RD` and a `Mana` cost.
+When casting a spell with the given motion's tier, you first deduct that much `Mana` from your pool, then roll against that `RD` to determine if the spell was successfull.
+
+If your character recieved damage in the last round, you get a cumulative `2` to your roll + `1` for every `Stat` you lost, to a maximum of `+6`.
+
+<!-- TODO #5 -->
+
+- Create
+  - Tier I [`RD10` , `2 Mana`]: Spontaneously create an item no bigger than the width of your hand, creatable from resources that you are touching.
+- Destroy
+- Join
+  - Tier I [`RD8` , `1 Mana`]: Connect two items that touch in any way and make them movable only by a living creature.
+- Divide
+- Kill
+- Heal
 - Scry
 - Transmute
 - Summon
@@ -422,24 +429,10 @@ A spell's potency is increased by your degrees of success.
 - Cease
 - Stride
 
-##### Potencies
-
-|Potency|Create|
-|:---:|---|
-|1|Creates a square centimeter of a substance for an instant, at your fingertips|
-|5|Creates a 10 cm ball of a substance up to 2 metres from you|
-|10||
-
-|Potency|Kill|
-|:---:|---|
-
-|Potency|Command|
-|:---:|---|
-
-#### Element Examples
+#### Elements
 
 If the spell doesn't contain a corresponding Element for the effect,
-the potency is halved and capped at your `Magic Improvisation` skill.
+you are limited to `Tier I` spells.
 
 - Fire / Heat
 - Water
@@ -487,14 +480,14 @@ Players will probably not get to design their own, only find existing ones.
 Perceiving a magic circle, even an instantaneous one let's you identify any word of power that you know.
 Identifying those you don't know, requires a knowledge (arcane) check and some time and concentration with the circle or a page of notes you made about it.
 Learning a word of power requires several days, of study and experimentation with notes from several circles,
-with a `DA` of the number of different notes you're analyzing that have a word in them that you know.
+with a `RD` of the number of different notes you're analyzing that have a word in them that you know.
 
 ## Combat
 
 ### Attacks
 
 To determine the outcome of an attack, roll the attack as a skill check,
-afterwards, if the defending party succeeds at a skill check with a `DA` of your attack roll,
+afterwards, if the defending party succeeds at a skill check with a `RD` of your attack roll,
 they succesfully prevented your attack from landing.
 
 > Dodging an attack would require a `Dexterity` check, Blocking it with a shield would depend on whether you are deflecting or absorbing the force, resulting in your `Dexterity` or `Body` Bonuses to be added respectively,
@@ -548,7 +541,7 @@ As an action you may do one of the following:
 - Attack
 - Defend - Gain `Dodge 0` until the start of your next turn, but move a pace backwards or sideways when attacked
 - Activate a Magic Circle
-- Aid - You may roll a skill check against `DA 10`, if you succeed, an ally attempting the same check acts as if they are `Skilled`, if both of you are skilled, you may roll against `DA 12` , in which case the ally rolls as a `Master`
+- Aid - You may roll a skill check against `RD 10`, if you succeed, an ally attempting the same check acts as if they are `Skilled`, if both of you are skilled, you may roll against `RD 12` , in which case the ally rolls as a `Master`
 - Ready - Spend the round changing held items, if they're in a bag, you should spend 2 actions taking them out. Similair to clothing, putting on chainmail would cost a turn, a full suit would cost 2 to 3.
 - Perform Action - Such as, put out fire or pull lever
 
@@ -573,9 +566,9 @@ If you are attacked and have to defend in a physically demanding way (dodging co
 
 **Area** - This shows that an action performed affects a certain area such as an explosion or cannonball. Normally this is specified as a simple length that specifies the diameter of a sphere or length of a line based on context. By default a sphere centered on you.
 
-**CR** - The difficulty of a roll
+**RD** - The difficulty of a roll
 
-**Degree of success** - The number by which you exceed the required `DA`
+**Degree of success** - The number by which you exceed the required `RD`
 
 **Range** - Range may specify an I before the distance to indicate an incorporeal effect that passes unhindered through solid objects.
 
