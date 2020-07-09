@@ -26,6 +26,26 @@ that is one of the points to the game.
 
 Now, let's get rolling.
 
+## Skill Checks
+
+When you need to check if you succeeded at a particular task, you roll 3D6 and if you Rolled **lower** or equal to the `Roll Difficulty` (further called `RD`) you were successfull.
+Many effects will subtract or add to your roll, most commonly your Professions.
+You may subtract, up to two Profession's bonuses from your roll.
+
+> Remember, since lower is better, you subtract your bonuses from your roll
+
+|DA||
+|:---:|---|
+|10|Normal|
+
+**non-Professional checks** - If you need to check your success in an action,
+that doesn't apply to any of your professions,
+you may roll with a bonus of your stat divided by 3 rounded down - 1.
+
+**Group checks** - If you need to use a skill against a crowd,
+roll 4 times for the crowd,
+the whole crowd is divided on the subject based on the success rate of the rolls.
+
 ## Character creation
 
 ### Race
@@ -288,26 +308,6 @@ Abilities:
 - Beast's wine: You have `resistance` against blood based poisons
 
 #### Witch [5 - Acolyte + Herbalist]
-
-## Skill Checks
-
-When you need to check if you succeeded at a particular task, you roll 3D6 and if you Rolled **lower** or equal to the `Roll Difficulty` (further called `RD`) you were successfull.
-Many effects will subtract or add to your roll, most commonly your Professions.
-You may subtract, up to two Profession's bonuses from your roll.
-
-> Remember, since lower is better, you subtract your bonuses from your roll
-
-|DA||
-|:---:|---|
-|10|Normal|
-
-**non-Professional checks** - If you need to check your success in an action,
-that doesn't apply to any of your professions,
-you may roll with a bonus of your stat divided by 3 rounded down - 1.
-
-**Group checks** - If you need to use a skill against a crowd,
-roll 4 times for the crowd,
-the whole crowd is divided on the subject based on the success rate of the rolls.
 
 ## Inventory and Items
 
