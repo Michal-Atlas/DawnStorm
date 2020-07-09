@@ -107,6 +107,12 @@ Quite sly, sneaky and adept at close range combat, they make excellent spies and
 
 #### Tylluan
 
+---
+
+**Tylluan Sight** - You have `NightVision`
+
+---
+
 The Tylluan are to owls what the keinfolk are to lions.
 
 ### Stats
@@ -167,7 +173,7 @@ After suffering Body Scars of a total equal to or more than a 3/4 of your Body s
 ### Professions
 
 Professions give you bonuses to your rolls and special abilities you can use.
-They sometimes don't necessarily mean that you are your Profession,
+They don't necessarily mean that you are your Profession,
 having a Rank in Thief doesn't necessarily translate into your character being a Thief,
 it only shows that they have a similair set of skills,
 that your character could've picked up and used elsewhere.
@@ -254,6 +260,10 @@ Skills:
 - Tracking
 - Knowledge - Animals
 
+Abilities:
+
+- Birdsense: If something frightens away birds that you can hear or see, you know it's position and size.
+
 #### Herbalist
 
 Skills:
@@ -303,7 +313,7 @@ Abilities:
 
 ## Skill Checks
 
-When you need to check if you succeeded at a particular task, you roll 3D6 and if you Rolled **lower** than the `Roll Difficulty` further called `RD` you were successfull.
+When you need to check if you succeeded at a particular task, you roll 3D6 and if you Rolled **lower** or equal to the `Roll Difficulty` (further called `RD`) you were successfull.
 Many effects will subtract or add to your roll, most commonly your Professions.
 You may subtract, up to two Profession's bonuses from your roll.
 
@@ -350,8 +360,6 @@ Optimizing them in some way (sharpening the stick), limits that to 3. In either 
 ### Money and Prices
 
 <!-- TODO #2 -->
-In the world of DawnStorm, you have 4 types of coins.
-
 #### Coins
 
 |Coin|Worth|
@@ -386,41 +394,40 @@ instantaneously, however these persist only for a single round.
 Long-term effects need an inscription on a surface to work.
 
 **Mana** - Most effects will ask you to spend mana, you have a basic pool equal to
-your `Soul` stat. At any time you may spend a `Soul` stat to
-increase your current mana by your `Soul Skill Rank`.
-
-There are 3 types of magic in DawnStorm, Spells and Rituals.
+your `Soul`. At any time you may spend a `Soul` stat to
+reset your mana back to that number (this does not let you spend more than your maximum mana on one spell).
 
 ### Spells
 
 When casting a spell you declare,
 a Motion and optionally an Element you know (collectively called words of power),
 and what the desired outcome is.
-Without a good idea of what you expect it to do,
-the Motion is useless and fizzles.
 Not all elements are useful with all motions.
-The mechanics should be second to the player's intention,
-even if it makes only a loose connection.
-A spell's potency is increased by your degrees of success,
-or may have undesired consequences when you fail rolls.
+
+If your character recieved damage in the last round, you get a cumulative `+2` to your roll + `1` for every `Stat` you lost, to a maximum of `+6`.
+Having restrained hands adds a `+4` to the spell `RD`.
+
+Having plenty of time to draw a magic circle Reduces the difficulty and cost of the spell, both by 1 per 10 minutes, but up to your die roll modifier for spellcasting.
 
 #### Motions
 
 Motions all have multiple Tiers with an `RD` and a `Mana` cost.
 When casting a spell with the given motion's tier, you first deduct that much `Mana` from your pool, then roll against that `RD` to determine if the spell was successfull.
 
-If your character recieved damage in the last round, you get a cumulative `2` to your roll + `1` for every `Stat` you lost, to a maximum of `+6`.
-
 <!-- TODO #5 -->
 
 - Create
-  - Tier I [`RD10` , `2 Mana`]: Spontaneously create an item no bigger than the width of your hand, creatable from resources that you are touching.
+  - Tier I [`RD10`, `1 Mana`]: Spontaneously create an item no bigger than the width of your hand, creatable from resources that you are touching.
+  - Tier II [`RD8`, `2 Mana`]: The item, must not exceed your outstretched arms length in any dimension.
 - Destroy
 - Join
-  - Tier I [`RD8` , `1 Mana`]: Connect two items that touch in any way and make them movable only by a living creature.
+  - Tier I [`RD10` , `1 Mana`]: Connect two items that touch in any way and make them movable only by a living creature.
 - Divide
+  - Tier I [`RD10` , `1 Mana`]: Cut with your finger an inanimate object as if it were a knife.
 - Kill
+  - Tier I [`RD8` , `1 Mana`]: Cause Rot and Decay in a deceased animal or plant, making its body turn to dust within an hour.
 - Heal
+  - Tier I [`RD7` , `1 Mana`]: Close an actively bleeding wound and prevents it from getting infected.
 - Scry
 - Transmute
 - Summon
@@ -433,6 +440,7 @@ If your character recieved damage in the last round, you get a cumulative `2` to
 
 If the spell doesn't contain a corresponding Element for the effect,
 you are limited to `Tier I` spells.
+Some Elements will contain an `RD` modifier.
 
 - Fire / Heat
 - Water
@@ -455,7 +463,7 @@ These both limit and flavour the spell's effects.
 
 **HexBlade** - The magic is limited only to the wearer himself and mainly his weapon and armour
 
-**Artistic** - The effects must all be based on the art, animate and move small objects, or create illusions
+**Artistic** - The effects must all be based on art, animate and move small objects, or create illusions
 
 **Shadow** -
 
@@ -525,7 +533,7 @@ You cannot use more than 1 maneuver per turn (including free maneuvers) and a De
 
 **Feint** - You give an ally a free Basic Maneuver against the same enemy or Kick the creature back attempting to make him stumbled or moving them
 
-**Defence/Armor/Parry/Dodge** - You roll against the enemies attack roll + your rank in this,
+**Defence/Armor/Parry/Dodge** - You roll against the enemy's attack roll + your rank in this,
 if you succeed the hit is absorbed or parried and is counted as a miss,
 doesn't work against magical effects by default except Dodge
 
@@ -568,11 +576,11 @@ If you are attacked and have to defend in a physically demanding way (dodging co
 
 **RD** - The difficulty of a roll
 
-**Degree of success** - The number by which you exceed the required `RD`
+**Degrees of success** - The number by which you exceed the required `RD`
 
 **Range** - Range may specify an I before the distance to indicate an incorporeal effect that passes unhindered through solid objects.
 
-**Regeneration** - The creature regains X Body resources at the start of its turn.
+**Regeneration** - The creature regains X Body at the start of its turn.
 
 **Natural Armor/Mindlock/Beloved** - Expending the `Body/Soul/Influence` resource is always reduced by said amount. May specify a source in parentheses that nullifies this protection.
 
@@ -580,7 +588,7 @@ If you are attacked and have to defend in a physically demanding way (dodging co
 
 **Sense** - Always knows about all movement within a certain radius. It can feel generally what kind of creature it is.
 
-**Skilled** - You subtract 1 from your roll
+**Skilled** - You subtract 1 from your roll, stackable
 
 **Master** - You subtract 2 from your roll
 
@@ -588,17 +596,17 @@ If you are attacked and have to defend in a physically demanding way (dodging co
 
 **Recharge** - You roll a D6 and if it's less than X the ability is ready to use again.
 
-**Immunity** - The stated source cannot cause the creature to expend resources.
+**Immunity** - The stated source cannot cause the creature to expend Stats.
 
-**Resistance** - Halve the number of resources expended due to an effect caused by this source.
+**Resistance** - Halve the number of Stats lost due to an effect caused by this source.
 
-**Vulnerability** - Double the number of resources expended due to an effect caused by this source.
+**Vulnerability** - Double the number of Stats lost due to an effect caused by this source.
 
-**Stumped/Distracted** - You can't use any maneuvers, that you choose to use
+**Stumped/Distracted** - You can't use any maneuvers, that you choose to use (that means maneuvers that you spend Stats for or effects that state you *may* use them)
 
 ### Conditions
 
-**Stumbled** - creatures go at the end of initiative (in the order they were stumbled, if there is more than one) and cannot move more than 1 step, if they are already at the end, they move to the beginning of initiative but loose their next turn
+**Stumbled** - creatures go at the end of initiative (in the order they were stumbled, if there is more than one) and cannot move more than 1 step, if they are already at the end 9f initiative, they move to the beginning of initiative but lose their next turn
 
 **Short of Breath** - While you are short of breath, you can't use any `Maneuvers` with your actions that use the `Body` skill and no *Advanced Maneuvers* with actions using the `Soul` skill. If you fail an action you become *Exhausted* for the rest of the duration + *1 Round* or just *1 Round* if the `Out of Breath`'s duration is longer than a minute or 1 minute if over 1 hour.
 
