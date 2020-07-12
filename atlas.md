@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Atlas
 permalink: /atlas/
 ---
