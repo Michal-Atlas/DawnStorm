@@ -1,6 +1,10 @@
-# The DawnStorm Bestiary
+---
+layout: page
+title: Bestiary
+permalink: /bestiary/
+---
 
-[<< Back](../)
+# The DawnStorm Bestiary
 
 {::options auto_ids="true" /}
 

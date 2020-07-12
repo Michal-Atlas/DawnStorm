@@ -1,3 +1,9 @@
+---
+layout: page
+title: System
+permalink: /system/
+---
+
 # DawnStorm - A 3D6 Pen & Paper RPG
 
 <!-- TODO #3 -->
@@ -60,32 +66,21 @@ Size: `Small`
 
 #### Isk
 
----
+  Size: `Large`
 
-Size: `Large`
-
----
 
 The Isk descend from a large tribe of giants that once descended from the mountains to live among a Keinfolk city. Over time, their stature had greatly diminished from their original, today being only about one and a half to double the size of humans and living commonly in some larger cities often as workers.
 
 #### Keinfolk
 
----
-
-**Kein Roar** - Once a day, you are able to Roar so loud that any creatures within a 30 meter radius, must succeed at a `RD 9` Check, or become `Frightened` of you for 6 Seconds.
-
----
+  **Kein Roar** - Once a day, you are able to Roar so loud that any creatures within a 30 meter radius, must succeed at a `RD 9` Check, or become `Frightened` of you for 6 Seconds.
 
 Incredibly proud, stubborn and loyal creatures, described mostly as humanoid lions.
 Pride upon pride, their mane is what defines their class, long and wavy manes always giving an advantage when arriving in any Keinfolk society.
 
 #### Talach
 
----
-
-**Talach talent** - Choose a form of art, you are a `Master` at creating it. Choose another, you are `Skilled` with it.
-
----
+    **Talach talent** - Choose a form of art, you are a `Master` at creating it. Choose another, you are `Skilled` with it.
 
 Tall, with pointed ears, humble and noble, truly a beloved race by most anyone who meets them.
 Their curiosity and fantasy had made them into popular artists and poets, outside their cities often kept in castles and manors by nobility due to this affinity.
