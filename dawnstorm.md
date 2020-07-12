@@ -58,29 +58,24 @@ the whole crowd is divided on the subject based on the success rate of the rolls
 
 #### Goblin
 
----
-
 Size: `Small`
-
----
 
 #### Isk
 
-  Size: `Large`
-
+Size: `Large`
 
 The Isk descend from a large tribe of giants that once descended from the mountains to live among a Keinfolk city. Over time, their stature had greatly diminished from their original, today being only about one and a half to double the size of humans and living commonly in some larger cities often as workers.
 
 #### Keinfolk
 
-  **Kein Roar** - Once a day, you are able to Roar so loud that any creatures within a 30 meter radius, must succeed at a `RD 9` Check, or become `Frightened` of you for 6 Seconds.
+**Kein Roar** - Once a day, you are able to Roar so loud that any creatures within a 30 meter radius, must succeed at a `RD 9` Check, or become `Frightened` of you for 6 Seconds.
 
 Incredibly proud, stubborn and loyal creatures, described mostly as humanoid lions.
 Pride upon pride, their mane is what defines their class, long and wavy manes always giving an advantage when arriving in any Keinfolk society.
 
 #### Talach
 
-    **Talach talent** - Choose a form of art, you are a `Master` at creating it. Choose another, you are `Skilled` with it.
+**Talach talent** - Choose a form of art, you are a `Master` at creating it. Choose another, you are `Skilled` with it.
 
 Tall, with pointed ears, humble and noble, truly a beloved race by most anyone who meets them.
 Their curiosity and fantasy had made them into popular artists and poets, outside their cities often kept in castles and manors by nobility due to this affinity.
@@ -88,23 +83,15 @@ Their intelligence hasn't been perceived to be high nor their strength or speed,
 
 #### Talkin
 
----
-
 **Talkin Ear** - Your ears are very sensitive to whispers and murmurs.
 When listening to someone in a crowded room, you hear as if the room was silent.
-
----
 
 They are very similar to the Talach, however their ears are significantly flatter, lower, sometimes almost horizontal.
 Quite sly, sneaky and adept at close range combat, they make excellent spies and thieves and are often employed as such.
 
 #### Tylluan
 
----
-
 **Tylluan Sight** - You have `NightVision`
-
----
 
 The Tylluan are to owls what the keinfolk are to lions.
 
@@ -281,8 +268,6 @@ Skills:
 - Acrobacy
 - Sleight of Hand
 - Knowledge - Underground
-
----
 
 #### Mage
 
