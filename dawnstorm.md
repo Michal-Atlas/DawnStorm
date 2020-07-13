@@ -366,23 +366,41 @@ Having plenty of time to draw a magic circle Reduces the difficulty and cost of 
 Motions all have multiple Tiers with an `RD` and a `Mana` cost.
 When casting a spell with the given motion's tier, you first deduct that much `Mana` from your pool, then roll against that `RD` to determine if the spell was successfull.
 
+Failing the spell doesn't immediately mean nothing happened, your `degree of failure` determine that:
+
+|Degree of failure|Effect|
+|:---:|---|
+|1-2|Slightly altered effect if possible, otherwise Failed spell|
+|3-6|Failed Spell|
+|7+|The spell backfires, GMs decision (usually not by inverting the effect)|
+
+Tier Guidelines:
+
+- **Tier I \[`RD10`, `1Mana`\]**: Achievable within the hour with sufficient skill and tools, the effect vanishes within 10 minutes
+- **Tier II \[`RD8`, `2Mana`\]**: A skilled workgroup could achieve within the hour
+- **Tier III \[`RD4`, `6Mana`\]**: Apparently magical effects, mostly on inanimate objects or a small group of about 3 to 5, or advanced effects such as manipulation on one person
+- **Tier IV \[`RD0`, `XMana`\]**: Complex effects, extending to supernatural, manipulating reality with portals and short-range teleportation
+- **Tier V \[`RD-2`, `XMana + Soul Scar` \]**:
+- **Tier VI \[`RD-4`, `Soul Scar`\]**: Miracles
+
 <!-- TODO #5 -->
+Motions:
 
 - Cease
 - Command
 - Create
-  - Tier I [`RD10`, `1 Mana`]: Spontaneously create an item no bigger than the width of your hand, creatable from resources that you are touching.
-  - Tier II [`RD8`, `2 Mana`]: The item, must not exceed your outstretched arms length in any dimension.
+  - Spontaneously create an item no bigger than the width of your hand, creatable from resources that you are touching.
+  - The item, must not exceed your outstretched arms length in any dimension.
 - Destroy
 - Divide/Dislocate
-  - Tier I [`RD10` , `1 Mana`]: Cut with your finger an inanimate object as if it were a knife.
-  - Tier III []: Metaphysical concepts
+  - Cut with your finger an inanimate object as if it were a knife.
+  - Cut Metaphysical concepts
 - Heal
-  - Tier I [`RD7` , `1 Mana`]: Close an actively bleeding wound and prevents it from getting infected.
+  - Close an actively bleeding wound and prevents it from getting infected.
 - Join
-  - Tier I [`RD10` , `1 Mana`]: Connect two items that touch in any way and make them movable only by a living creature.
+  - Connect two items that touch in any way and make them movable only by a living creature.
 - Kill
-  - Tier I [`RD8` , `1 Mana`]: Cause Rot and Decay in a deceased animal or plant, making its body turn to dust within an hour.
+  - Cause Rot and Decay in a deceased animal or plant, making its body turn to dust within an hour.
 - Scry
 - Show
 - Stride
@@ -392,8 +410,10 @@ When casting a spell with the given motion's tier, you first deduct that much `M
 #### Elements
 
 If the spell doesn't contain a corresponding Element for the effect,
-you are limited to `Tier I` spells.
+you are limited to `Tier I` and `II` spells.
 Some Elements will contain an `RD` modifier.
+
+Elements:
 
 - Body
 - Cold / Ice
