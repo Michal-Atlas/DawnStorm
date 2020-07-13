@@ -5,8 +5,6 @@ permalink: /system/
 
 # DawnStorm - A 3D6 Pen & Paper RPG
 
-<!-- TODO #3 -->
-
 {::options auto_ids="true" /}
 
 - TOC_TEST
@@ -187,8 +185,6 @@ If a Profession is related enough, you may use half of the die bonus.
 
 > These are most often Knowledge based, where you choose one domain to be learned in.
 
-<!-- TODO #1 -->
-
 #### Acolyte
 
 The Acolyte is the basic magic class. Identifying arcane occurences that you have already seen or know about is the domain of the acolyte.
@@ -311,7 +307,6 @@ Optimizing them in some way (sharpening the stick), limits that to 3. In either 
 
 ### Money and Prices
 
-<!-- TODO #2 -->
 #### Coins
 
 |Coin|Worth|
@@ -383,7 +378,6 @@ Tier Guidelines:
 - **Tier V \[`RD-2`, `XMana + Soul Scar` \]**:
 - **Tier VI \[`RD-4`, `Soul Scar`\]**: Miracles
 
-<!-- TODO #5 -->
 Motions:
 
 - Cease
