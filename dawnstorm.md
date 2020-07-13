@@ -157,16 +157,7 @@ having a Rank in Thief doesn't necessarily translate into your character being a
 it only shows that they have a similair set of skills,
 that your character could've picked up and used elsewhere.
 After performing an adventureous task with a profession, you are awarded `XP` by your GM.
-The amount of `XP` you need to improve (`Rank Up`) a Profession is based on its difficulty:
-
-|Cost|Name|
-|:---:|---|
-|3|*Easy*|
-|4|*Medium*|
-|5|*Hard*|
-|6|*Master*|
-
-If nothing is listed assume *Medium*
+The amount of `XP` you need to improve (`Rank Up`) a Profession is 4.
 
 > You may want to raise these if you are planning on a very long term campaign
 
@@ -174,7 +165,7 @@ If nothing is listed assume *Medium*
 
 Advanced professions will list many prerequisites, however they are usually significantly more powerful.
 These prerequisites are usually in \[\] square brackets behind the Profession name.
-A number followed by Professions, means that many `Ranks` divided among them.
+A number followed by Professions, means that many `Ranks` divided among them, with at least 1 in each.
 Some classes have other steps you must take to acquire them, these are listed under `Rite` in the description of the `Profession`.
 
 **Skills** - The profession will list some things that it includes and thus gives bonuses for.
@@ -195,8 +186,6 @@ they perform as absolutely separate Professions.
 If a Profession is related enough, you may use half of the die bonus.
 
 > These are most often Knowledge based, where you choose one domain to be learned in.
-
-### List of Professions
 
 <!-- TODO #1 -->
 
@@ -268,16 +257,20 @@ Skills:
 - Sleight of Hand
 - Knowledge - Underground
 
-#### Mage
+#### Mage [3 - Acolyte]
 
 Skills:
 
 - Arcane Memory: You are able to completely remember up to two magic circles you've seen at least momentarily
 - Convenient Magic (A): You may cast spells with up to 5 Mana without spending any
 
-#### Nord [5 - Hunter + Fighter]
+#### Nord [4 - Hunter + Fighter]
 
-#### Vedmak [5 - Hunter + Acolyte]
+Skills:
+
+-
+
+#### Vedmak [4 - Hunter + Acolyte]
 
 You hunt magical beasts
 
@@ -286,7 +279,9 @@ Abilities:
 - Beast Form (M): By touching a part of a dead magical beast, you may assume its form. You gain all its abilities and its Body Stat, however when you turn back, all Scars and spent Stats are applied to you. If this would kill you, you fall unconscious instead.
 - Beast's wine: You have `resistance` against blood based poisons
 
-#### Witch [5 - Acolyte + Herbalist]
+#### Warmage [4 - Mage + Squire]
+
+#### Witch [4 - Acolyte + Herbalist]
 
 ## Inventory and Items
 
@@ -373,25 +368,26 @@ When casting a spell with the given motion's tier, you first deduct that much `M
 
 <!-- TODO #5 -->
 
+- Cease
+- Command
 - Create
   - Tier I [`RD10`, `1 Mana`]: Spontaneously create an item no bigger than the width of your hand, creatable from resources that you are touching.
   - Tier II [`RD8`, `2 Mana`]: The item, must not exceed your outstretched arms length in any dimension.
 - Destroy
-- Join
-  - Tier I [`RD10` , `1 Mana`]: Connect two items that touch in any way and make them movable only by a living creature.
-- Divide
+- Divide/Dislocate
   - Tier I [`RD10` , `1 Mana`]: Cut with your finger an inanimate object as if it were a knife.
-- Kill
-  - Tier I [`RD8` , `1 Mana`]: Cause Rot and Decay in a deceased animal or plant, making its body turn to dust within an hour.
+  - Tier III []: Metaphysical concepts
 - Heal
   - Tier I [`RD7` , `1 Mana`]: Close an actively bleeding wound and prevents it from getting infected.
+- Join
+  - Tier I [`RD10` , `1 Mana`]: Connect two items that touch in any way and make them movable only by a living creature.
+- Kill
+  - Tier I [`RD8` , `1 Mana`]: Cause Rot and Decay in a deceased animal or plant, making its body turn to dust within an hour.
 - Scry
-- Transmute
-- Summon
 - Show
-- Command
-- Cease
 - Stride
+- Summon
+- Transmute
 
 #### Elements
 
@@ -399,16 +395,17 @@ If the spell doesn't contain a corresponding Element for the effect,
 you are limited to `Tier I` spells.
 Some Elements will contain an `RD` modifier.
 
-- Fire / Heat
-- Water
+- Body
 - Cold / Ice
 - Earth
-- Nature
+- Fire / Heat
 - Metal
-- Body
-- Time
-- Spectra (Supernatural)
+- Mind
+- Nature
 - Necros (Necromantic)
+- Spectra (Supernatural)
+- Time
+- Water
 
 #### Characters
 
@@ -431,14 +428,27 @@ It takes 1 second to drain 1 Mana into a circle.
 At Dawn and Dusk, a circle is sealed and cannot be expanded, only recharged.
 When activated, the circle casts the spell, draining from the enclosed mana pool.
 If the creature that activates a circle is a magic user with a Character, the spell is cast with that character.
+You may also designate a sound that activates the circle automatically.
+
+**Scrolls** -
+Scrolls produce a one-time Spell effect, they don't require a `skill check` but still cost mana.
+Afterwards, the papyrus disintegrates.
+Creating one takes 10 minutes per Tier and
+requires you to succesfully cast the spell per the Magic Circle rules.
 
 ### Rituals
 
 Rituals are a more powerful type of magic,
-usually designed to please a powerful creature to do the casting for you.
+often designed to please a powerful creature to do the casting for you.
 Rituals have strict rules, circumstances and sacrifices,
 their insriptions are usually so complex, they're unreadable.
 Players will probably not get to design their own, only find existing ones.
+
+**Ritual Spell** -
+If a player wants a very specific effect from a spell
+that isn't reproducible from the standard spell table,
+you may define a ritual spell they researched-designed to produce that effect.
+They still have a `Mana` cost and a `RD`.
 
 ### Analyzing Magic
 
@@ -446,6 +456,8 @@ Perceiving a magic circle, even an instantaneous one let's you identify any word
 Identifying those you don't know, requires a knowledge (arcane) check and some time and concentration with the circle or a page of notes you made about it.
 Learning a word of power requires several days, of study and experimentation with notes from several circles,
 with a `RD` of the number of different notes you're analyzing that have a word in them that you know.
+
+### Enchanting Items
 
 ## Combat
 
@@ -525,7 +537,7 @@ If you are attacked and have to defend in a physically demanding way (dodging co
 
 **Light** - -2 to sight based activities in dim light, -3 in near dark
 
-**Elemental Damage** - You lose 1 body per round of exposure per strength of element, regular fire has strength 0.5
+**Elemental Damage** - You lose 1 body per round of exposure per strength of element
 
 ## Size
 
