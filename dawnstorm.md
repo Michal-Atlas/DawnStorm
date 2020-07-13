@@ -372,29 +372,28 @@ Failing the spell doesn't immediately mean nothing happened, your `degree of fai
 Tier Guidelines:
 
 - **Tier I \[`RD10`, `1Mana`\]**: Achievable within the hour with sufficient skill and tools, the effect vanishes within 10 minutes
-- **Tier II \[`RD8`, `2Mana`\]**: A skilled workgroup could achieve within the hour
-- **Tier III \[`RD4`, `6Mana`\]**: Apparently magical effects, mostly on inanimate objects or a small group of about 3 to 5, or advanced effects such as manipulation on one person
-- **Tier IV \[`RD0`, `XMana`\]**: Complex effects, extending to supernatural, manipulating reality with portals and short-range teleportation
-- **Tier V \[`RD-2`, `XMana + Soul Scar` \]**:
-- **Tier VI \[`RD-4`, `Soul Scar`\]**: Miracles
+- **Tier II \[`RD6`, `6Mana`\]**: Apparently magical effects, mostly on inanimate objects or a small group of about 3 to 5, or advanced effects such as manipulation on one person
+- **Tier III \[`RD0`, `XMana`\]**: Complex effects, extending to supernatural, manipulating reality with portals and short-range teleportation
+- **Tier IV \[`RD-2`, `XMana + Soul Scar`\]**:
+- **Tier V \[`RD-4`, `Soul Scar`\]**: Miracles
 
 Motions:
 
 - Cease
 - Command
 - Create
-  - Spontaneously create an item no bigger than the width of your hand, creatable from resources that you are touching.
-  - The item, must not exceed your outstretched arms length in any dimension.
+  - **Tier I**: Spontaneously create an item no bigger than the width of your hand, creatable from resources that you are touching.
+  - **Tier II**: The item, must not exceed your outstretched arms length in any dimension.
 - Destroy
 - Divide/Dislocate
-  - Cut with your finger an inanimate object as if it were a knife.
-  - Cut Metaphysical concepts
+  - **Tier I**: Cut with your finger an inanimate object as if it were a knife.
+  - **Tier IV**: Cut Metaphysical concepts
 - Heal
-  - Close an actively bleeding wound and prevents it from getting infected.
+  - **Tier I**: Close an actively bleeding wound and prevents it from getting infected.
 - Join
-  - Connect two items that touch in any way and make them movable only by a living creature.
+  - **Tier I**: Connect two items that touch in any way and make them movable only by a living creature.
 - Kill
-  - Cause Rot and Decay in a deceased animal or plant, making its body turn to dust within an hour.
+  - **Tier I**: Cause Rot and Decay in a deceased animal or plant, making its body turn to dust within an hour.
 - Scry
 - Show
 - Stride
