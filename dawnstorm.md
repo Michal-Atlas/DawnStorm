@@ -558,20 +558,21 @@ If you are attacked and have to defend in a physically demanding way (dodging co
 |Size|Description|
 |---|---|
 |Scrawny|Think flies or insects|
-|Tiny     | Smaller than 0.3m in all dimensions|
-|Small    | Smaller than 1m in all dimensions  |
-|Normal   | Humans                             |
+|Tiny|Smaller than 0.3m in all dimensions|
+|Small|Smaller than 1m in all dimensions|
+|Normal|Humans|
 |Large|From 2m|
-|Huge     | Bigger than about 5m             |
-|Giant    | Dragons                            |
-|Colossal | Leviathans, Ancient Dragons        |
-|Immense  | Towering over land itself          |
-|Primal   | Deities & Titans                   |
+|Huge|Bigger than about 5m|
+|Giant|Dragons|
+|Colossal|Leviathans, Ancient Dragons|
+|Immense|Towering over land itself|
+|Primal|Deities & Titans|
 
-If a creature exceeds another's size by one, it can freely use the `Powerful` maneuver with Body based encounters against that creature.
-However the target acts as if it was `Skilled` at `Dodging` them.
-Exceeding its size by more than that allows instead to utilize the `Mighty` maneuver and subtract 8 from the roll for every size by which it is exceeded.
-For every size beyond the first, add 4 to Body based rolls.
+If a creature exceeds another's size, it can freely use the `Powerful` maneuver with Body based encounters against that creature,
+however the target acts as if it was `Skilled` at `Dodging` them.
+Normal has an average of `5 Body`,
+going lower subtracts 1,
+bigger sizes are double of the previous size.
 
 > **Weight** - If for any reason you need an estimate of weight for your humanoid players. Use \[Weight = 20x(Height^2)\] with kg and m. Adjusting the 20 about 3 up (more weight) or down (underweight).
 
