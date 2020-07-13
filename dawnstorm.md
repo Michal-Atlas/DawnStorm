@@ -508,9 +508,9 @@ You cannot use more than 1 maneuver per turn (including free maneuvers) and a De
 
 **Accurate** - Roll 4d6 take lowest 3
 
-**A - Mighty** - Causes target to lose 3 times as much of a Stat
+**A - Mighty** - Causes target to lose `1/2` more from a Stat (round down; minimum 2)
 
-**Powerful** - Causes target to lose 2 times as much of a Stat
+**Powerful** - Causes target to lose `1/3` more from a Stat (round down; minimum 1)
 
 **Weak** - Causes target to lose half as much of a Stat
 
