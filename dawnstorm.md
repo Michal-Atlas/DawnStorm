@@ -449,8 +449,7 @@ Afterwards, the papyrus disintegrates.
 Creating one takes 10 minutes per Tier and
 requires you to succesfully cast the spell per the Magic Circle rules.
 
-### Rituals
-
+**Rituals** -
 Rituals are a more powerful type of magic,
 often designed to please a powerful creature to do the casting for you.
 Rituals have strict rules, circumstances and sacrifices,
@@ -463,14 +462,21 @@ that isn't reproducible from the standard spell table,
 you may define a ritual spell they researched-designed to produce that effect.
 They still have a `Mana` cost and a `RD`.
 
-### Analyzing Magic
-
+**Analyzing Magic** -
 Perceiving a magic circle, even an instantaneous one let's you identify any word of power that you know.
 Identifying those you don't know, requires a knowledge (arcane) check and some time and concentration with the circle or a page of notes you made about it.
 Learning a word of power requires several days, of study and experimentation with notes from several circles,
 with a `RD` of the number of different notes you're analyzing that have a word in them that you know.
 
-### Enchanting Items
+**Enchanting Items** -
+Items are Enchanted with standard tiny magic-circles that require about double time and complete concentration.
+When a magic-circle is on an item that can be entirely lifted by you single-handedly,
+it can be activated while touching any point of the item.
+
+**Countering Spells** -
+You may `Dispel` a non-magic-circle spell as a `Defence` maneuver or an `Action`.
+Dispelling takes half the `Mana` of the spell and
+a roll of `RD` of the spell `+5` or `+2` if you know the motion.
 
 ## Combat
 
