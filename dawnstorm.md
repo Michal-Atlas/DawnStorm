@@ -434,49 +434,54 @@ These both limit and flavour the spell's effects.
 
 **Shadow** -
 
-### Magic Circles
+### Magic Glyphs
 
-A magic circle is created by inscribing a Motion and an Element, with a very specific intention into a solid surface and empowering them with Mana.
-It takes 1 second to drain 1 Mana into a circle.
-At Dawn and Dusk, a circle is sealed and cannot be expanded, only recharged.
-When activated, the circle casts the spell, draining from the enclosed mana pool.
-If the creature that activates a circle is a magic user with a Character, the spell is cast with that character.
-You may also designate a sound that activates the circle automatically.
+A magic glyph is created by inscribing a Motion and an Element, with a very specific intention into a solid surface and empowering them with `Mana`.
+Mechanically, this requires you to succesfully cast the spell.
+It takes `1 second` to drain `1 Mana` into a glyph.
+At Dawn and Dusk, a glyph is sealed and cannot be expanded, only recharged.
+
+Spending additional time and resources during casting, makes the casting cheaper and easier.
+Reducing the cost by `1 Mana` and increasing the `DR` by 1,
+costs `10 Silver` and `10 Minutes` times 3 to the power of the amount reduced.
+
+When activated, the glyph casts the spell, draining from the enclosed mana pool.
+If the item is one use, returning that mana to the creator's pool, otherwise it .
+If the creature that activates a glyph is a magic user with a Character, the spell is cast with that character.
+You may also designate a sound or simple occurence (such as someone stepping on it) that activates the glyph automatically.
+
+> Since speech doesn't take up an action, this allows you to activate glyphs outside you turn.
+
+**Soul Stone** -
+You may substitute your own mana for a Soul Stone.
 
 **Scrolls** -
 Scrolls produce a one-time Spell effect, they don't require a `skill check` but still cost mana.
 Afterwards, the papyrus disintegrates.
 Creating one takes 10 minutes per Tier and
-requires you to succesfully cast the spell per the Magic Circle rules.
-
-**Rituals** -
-Rituals are a more powerful type of magic,
-often designed to please a powerful creature to do the casting for you.
-Rituals have strict rules, circumstances and sacrifices,
-their insriptions are usually so complex, they're unreadable.
-Players will probably not get to design their own, only find existing ones.
-
-**Ritual Spell** -
-If a player wants a very specific effect from a spell
-that isn't reproducible from the standard spell table,
-you may define a ritual spell they researched-designed to produce that effect.
-They still have a `Mana` cost and a `RD`.
+requires you to succesfully cast the spell per the Magic Glyph rules.
 
 **Analyzing Magic** -
-Perceiving a magic circle, even an instantaneous one let's you identify any word of power that you know.
-Identifying those you don't know, requires a knowledge (arcane) check and some time and concentration with the circle or a page of notes you made about it.
-Learning a word of power requires several days, of study and experimentation with notes from several circles,
+Perceiving a magic glyph, even an instantaneous one let's you identify any word of power that you know.
+Identifying those you don't know, requires a knowledge (arcane) check and some time and concentration with the glyph or a page of notes you made about it.
+Learning a word of power requires several days, of study and experimentation with notes from several glyphs,
 with a `RD` of the number of different notes you're analyzing that have a word in them that you know.
 
 **Enchanting Items** -
-Items are Enchanted with standard tiny magic-circles that require about double time and complete concentration.
-When a magic-circle is on an item that can be entirely lifted by you single-handedly,
+Items are Enchanted with tiny magic-glyphs that require about double time and complete concentration.
+When a magic-glyph is on an item that can be entirely lifted by you single-handedly,
 it can be activated while touching any point of the item.
 
 **Countering Spells** -
-You may `Dispel` a non-magic-circle spell as a `Defence` maneuver or an `Action`.
+You may `Dispel` a non-magic-glyph spell as a `Defence` maneuver or an `Action`.
 Dispelling takes half the `Mana` of the spell and
-a roll of `RD` of the spell `+5` or `+2` if you know the motion.
+a roll of `RD` of the spell `+3` or `+1` if you know the motion.
+
+**God Invoking** -
+Outside these boundaries lies Divine magic.
+Monks and priests, worship and directly invoke a magical being.
+Others must use complex rituals to win their interest.
+Divine magic cannot be understood by non-divine casters at all.
 
 ## Combat
 
