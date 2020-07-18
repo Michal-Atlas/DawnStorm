@@ -188,6 +188,18 @@ You may be tempted to slash the underside of the head, however unlike dragons, W
 The two weakest points are their thigh joints and the point where their patagia connect to the body as it has been discovered to easily tear in the first section.
 When the wings are folded however the patagia is relaxed, elastic and quite difficult to pierce without an exceptionally sharp weapon.
 
+#### Sgrechian
+
+This breed of Wyverns is extremely rare.
+Usually artificially enchanted for combat purposes.
+They naturally have two main characteristics, their speed, and their scream.
+Though lacking a beath, they are able to surpass the sound barrier, by a tiny amount.
+Their head is often enchanted with a spell that protects them from impact,
+it activates with their scream.
+Their scream can be heard miles around and has deafened many who were too close,
+it is described as being extremely high-pitched,
+yet still powerful enough to be felt deep in the guts.
+
 ## Undead
 
 ### Ghoul
