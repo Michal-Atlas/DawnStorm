@@ -202,9 +202,9 @@ Skills:
 
 Abilities:
 
-- Spellcraft: You learn 1 Motion and 2 Elements (You may gain a Magic Character if your GM allows)
-- Spellcraft 2 \[Spellcraft\]: You learn an additional 1 Motion/Element and 1 Element
-- Spellcraft 3 \[Spellcraft 2\]: You learn an additional Element
+- **Spellcraft**: You learn 1 Motion and 2 Elements (You may gain a Magic Character if your GM allows)
+- **Spellcraft 2** \[Spellcraft\]: You learn an additional 1 Motion/Element and 1 Element
+- **Spellcraft 3** \[Spellcraft 2\]: You learn an additional Element
 
 #### Fighter
 
@@ -220,7 +220,9 @@ Skills:
 
 Abilities:
 
-- Weapon Improvisation (A): Your makeshift weapons grant you the standard weapon maneuvers
+- **Brawler**: Your fists are short blunt weapons
+- **Hard Skin**: Your skin has `Armor 0` against blunt weapons
+- **Weapon Improvisation**: Your makeshift weapons grant you the standard weapon maneuvers
 
 #### Hunter
 
@@ -232,7 +234,13 @@ Skills:
 
 Abilities:
 
-- Birdsense: If something frightens away birds that you can hear or see, you know it's position and size.
+- **Always ready**: You have a skill to detect forest ambushes
+- **Birdsense**: If something frightens away birds that you can hear or see, you know it's position and size
+- **Bow Slash**: You may modify your bow to have a `+2` on ranged attack rolls, however it acts as a `Medium Slashing` weapon
+- **Camouflage**: 2 minutes of scavenging in a forest creates camouflage for 2 cubic metres
+- **Double-shot**: Your skill allows you to load multiple arrows into your ranged weapon; You may now use `Powerful` when shooting your weapon of choice
+- **Traps**: Trap Knowledge and Trapsetting is added to the Skills; You may take 10 minutes setting up a trap
+- **Urban Tracking**: You are able to use your wilderness tracking skill to some limited extent in urban environments
 
 #### Herbalist
 
@@ -240,6 +248,10 @@ Skills:
 
 - Identifying plants and potions
 - First-aid and medicine
+
+Abilities:
+
+- **First-Aid**: After 10 minutes of tending to wounds, give someone back 2 Stats, up to 4 per day
 
 #### Squire
 
@@ -251,20 +263,36 @@ Skills:
 - Long Weapons
 - Knowledge - Tactics, Armies, War Codes
 
+Abilities:
+
+- **Field Smith**: You have a skill in repairing damaged armour and weapons in the field
+
 #### Thief
 
 Skills:
 
 - Acrobacy
 - Sleight of Hand
+- Stealth
 - Knowledge - Underground
+
+Abilities:
+
+- **Acrobat**: You are `Skilled` at acrobacy and may use `Precise`
+- **Always ready**: You have a skill to detect urban ambushes
+- **Cyphers**: Decoding and creating cyphers is now your skill; In addition, you know an underground slang
+- **Dagger Parry**: You can parry with a dagger even after using it for an attack
+- **Underground Connection**: You know a guy
+- **Urban Tracking**: You have a skill for finding out the general location of any notable character
+
+#### Druid [4 - Acolyte + Hunter]
 
 #### Mage [3 - Acolyte]
 
 Skills:
 
-- Arcane Memory: You are able to completely remember up to two magic circles you've seen at least momentarily
-- Convenient Magic (A): You may cast spells with up to 5 Mana without spending any
+- **Arcane Memory**: You are able to completely remember up to two magic glyphs you've seen at least momentarily
+- **Convenient Magic**: You may cast spells with up to 5 Mana without spending any
 
 #### Nord [4 - Hunter + Fighter]
 
@@ -278,8 +306,8 @@ You hunt magical beasts
 
 Abilities:
 
-- Beast Form (M): By touching a part of a dead magical beast, you may assume its form. You gain all its abilities and its Body Stat, however when you turn back, all Scars and spent Stats are applied to you. If this would kill you, you fall unconscious instead.
-- Beast's wine: You have `resistance` against blood based poisons
+- **Beast Form**: By touching a part of a dead magical beast, you may assume its form. You gain all its abilities and its Body Stat, however when you turn back, all Scars and spent Stats are applied to you. If this would kill you, you fall unconscious instead.
+- **Beast's wine**: You have `resistance` against blood based poisons
 
 #### Warmage [4 - Mage + Squire]
 
