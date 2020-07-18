@@ -37,13 +37,24 @@ You may subtract, up to two Profession's bonuses from your roll.
 
 > Remember, since lower is better, you subtract your bonuses from your roll
 
-|DA||
+|DR||
 |:---:|---|
+|8|Easy|
 |10|Normal|
+|12||
+|15|Hard|
+
+When determining the difficulty of lingering effects (such as traps or camouflage) created by players,
+let them roll upon creation and then use that as the `DR`.
+The GM may raise of lower the `DR` of checks by around 3,
+if there are advantages or disadvantages such as tools, time or bad lighting.
 
 **non-Professional checks** - If you need to check your success in an action,
 that doesn't apply to any of your professions,
 you may roll with a bonus of your stat divided by 3 rounded down - 1.
+For the purpose of making these slightly more specific,
+each `Body` stat you have or gain,
+should be categorized under `Strength` or `Agility`.
 
 **Group checks** - If you need to use a skill against a crowd,
 roll 4 times for the crowd,
@@ -98,13 +109,8 @@ You have 3 stats in the DawnStorm game, `Body`, `Soul` and `Influence`.
 These represent everything you can do, and you should be able to categorize all actions under one of these stats.
 Occassionally called points for ease of wording.
 
-According to the strength of your character you start with a number of points
+According to the power of your character you start with a number of points
 divided between your stats, 20 is suggested.
-
-For the purpose of making these slightly more specific
-in the case of `non-Professional` dice throws,
-each `Body` stat you have or gain,
-should be categorized under `Strength` or `Agility`.
 
 |Stat|Examples|
 |:---:|---|
