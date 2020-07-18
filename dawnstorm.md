@@ -179,10 +179,6 @@ and the judgement of each individual action that comes up should be up to the Pl
 **Abilities** - Professions contain Abilities.
 You gain one of these abilities every `Rank Up` in that skill.
 When you see text in \[\] square brackets, those are prerequisites.
-If the skill has an`Advanced (A)` next to it, you may only choose it after having invested at least 3 Ranks in said Profession.
-If it has a `Master (M)`, choose it after
-at least 12 Ranks in that and all related Professions.
-Abilities with an `E - Epic` tag should mostly be used by the GM or allowed at the GMs discretion in very powerful campaigns.
 
 **Specialities** - If a `Profession` lists `Specialities`,
 you must choose one of them (or an original one if the GM allows) when `Ranking up`,
@@ -325,7 +321,7 @@ Weapons apart from stated bonuses give you a free maneuver to use while wielding
 |Short Slashing|Feint|
 |Blunt|Powerful|
 |Piercing|Powerful|
-|Short|You can instead attack twice, but not use a maneuver|
+|Short|You can instead attack twice with a `+2` penalty, but not use a maneuver|
 |Medium||
 |Long|Short arms, cannot use maneuvers against you, except for feint|
 
@@ -370,7 +366,7 @@ Optimizing them in some way (sharpening the stick), limits that to 3. In either 
 ## Spellcasting
 
 Magic works through
-magical symbols. Spell-casters can create these symbols in mid-air
+magical glyphs. Spell-casters can create these glyphs in mid-air
 instantaneously, however these persist only for a single round.
 Long-term effects need an inscription on a surface to work.
 
@@ -388,7 +384,7 @@ Not all elements are useful with all motions.
 If your character recieved damage in the last round, you get a cumulative `+2` to your roll + `1` for every `Stat` you lost, to a maximum of `+6`.
 Having restrained hands adds a `+4` to the spell `RD`.
 
-Having plenty of time to draw a magic circle Reduces the difficulty and cost of the spell, both by 1 per 10 minutes, but up to your die roll modifier for spellcasting.
+Having plenty of time to draw a magic glyph Reduces the difficulty and cost of the spell, both by 1 per 10 minutes, but up to your die roll modifier for spellcasting.
 
 #### Motions
 
@@ -555,10 +551,13 @@ The rest is up to the GM or chance.
 If one party had been ambushed, every member of the other is automatically `Stumbled`.
 If one is not attacked in a round, he rises up in the Initiative by one creature.
 
+### Zones
+
 ### Maneuvers
 
-To use a `Basic` maneuver, you spend 1 Stat.
-One `Defence/Parry` per turn is free if you have a free weapon or shield with which you didn't attack.
+To use a `Basic` maneuver, you spend 1 Stat,
+though only if an effect allowed you to use it.
+One `Defence/Parry` per turn is free if you have a weapon or shield with which you didn't attack.
 You cannot use more than 1 maneuver per turn (including free maneuvers) and a Defence/Parry or Feint, unless a separate effect states so.
 
 **A - Precise** - Roll 5D6 take lowest 3
@@ -575,7 +574,7 @@ You cannot use more than 1 maneuver per turn (including free maneuvers) and a De
 
 **Defence/Armor/Parry/Dodge** - You roll against the enemy's attack roll + your rank in this,
 if you succeed the hit is absorbed or parried and is counted as a miss,
-doesn't work against magical effects by default except Dodge
+doesn't work against magical effects by default, except Dodge
 
 > A - indicates that said maneuver is `Advanced` which may be referenced by other rules. Others are called `Basic`
 
@@ -588,7 +587,7 @@ As an action you may do one of the following:
 
 - Attack
 - Defend - Gain `Dodge 0` until the start of your next turn, but move a pace backwards or sideways when attacked
-- Activate a Magic Circle
+- Activate a Magic Glyph
 - Aid - You may roll a skill check against `RD 10`, if you succeed, an ally attempting the same check acts as if they are `Skilled`, if both of you are skilled, you may roll against `RD 12` , in which case the ally rolls as a `Master`
 - Ready - Spend the round changing held items, if they're in a bag, you should spend 2 actions taking them out. Similair to clothing, putting on chainmail would cost a turn, a full suit would cost 2 to 3.
 - Perform Action - Such as, put out fire or pull lever
@@ -683,3 +682,10 @@ For ease of play, enemies do not track most of their stats as closely as players
 They will usually just state `Body`, `Soul` and `Influence`; or a universal resource called `Fate` if the enemy is fodder enough.
 They may state several abilities with cooldowns and attacks with their own die bonuses.
 If it is stated that a weapon either carried or natural, is of a certain type, consider the enemy to be able to use the maneuvers that those weapons would grant.
+
+Legendary creatures,
+that are fought mostly 1 against the entire party,
+should use Legendary actions.
+This allows the creature to take an action after every other creature,
+as long as it has additional logical ways to do this.
+I.E.: Claws, a tail and a fiery breath
