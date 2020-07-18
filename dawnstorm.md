@@ -491,21 +491,34 @@ To determine the outcome of an attack, roll the attack as a skill check,
 afterwards, if the defending party succeeds at a skill check with a `RD` of your attack roll,
 they succesfully prevented your attack from landing.
 
-> Dodging an attack would require a `Dexterity` check, Blocking it with a shield would depend on whether you are deflecting or absorbing the force, resulting in your `Dexterity` or `Body` Bonuses to be added respectively,
-
-When you are hit you lose Stats, 1 by default.
+When you are hit you lose Stats, 1 by default,
+and an additional one for every time the degrees of success
+of the attack exceed your non-Professional dire bonus.
 If your Degree of Success is more than your enemy's skill,
 you score a critical success and the enemy loses 1 additional stat for every degree of success beyond that skill.
 
-1 Round of combat is 3 seconds.
-If an effect would end 1 or 2 seconds into the round, either it ends 2 or 4 turns into the round,
+1 Round of combat is 5 seconds.
+If an effect would end X seconds into the round, it ends X turns into the round,
 or if the encounter has less than 4 participants, it ends immediately after your turn.
 
 ### Initiative
 
 Combat is initiated by an attack, that creature is first in initiative and has used up its turn delivering this attack.
-If one party had been ambushed, every member is automatically `Stumbled`,
-otherwise the rest of the initiative cycle alternates between parties.
+
+After which, others go in the following order:
+
+|#|Action|
+|:---:|---|
+|1|Unarmed|
+|2|Short Weapons|
+|3|Medium Weapons|
+|4|Magic|
+|5|Other Actions|
+|6|Long Weapons|
+
+The rest is up to the GM or chance.
+
+If one party had been ambushed, every member of the other is automatically `Stumbled`.
 If one is not attacked in a round, he rises up in the Initiative by one creature.
 
 ### Maneuvers
