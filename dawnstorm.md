@@ -692,9 +692,9 @@ bigger sizes are double of the previous size.
 
 **Sense** - Always knows about all movement within a certain radius. It can feel generally what kind of creature it is.
 
-**Skilled** - You subtract 1 from your roll, stackable
+**Skilled** - Your allowed Base maneuvers are free
 
-**Master** - You subtract 2 from your roll
+**Master** - You may use `Advanced` maneuvers, if you are a `Master` you are also `Skilled`
 
 **Nightvision** - Does not suffer from lack of proper lighting.
 
