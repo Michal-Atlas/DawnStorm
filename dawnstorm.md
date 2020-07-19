@@ -381,8 +381,10 @@ a Motion and optionally an Element you know (collectively called words of power)
 and what the desired outcome is.
 Not all elements are useful with all motions.
 
-If your character recieved damage in the last round, you get a cumulative `+2` to your roll + `1` for every `Stat` you lost, to a maximum of `+6`.
+If your character recieved damage in the last round, you get a cumulative `1` to your roll + `1` for every `Stat` you lost, to a maximum of `+3` per attack.
 Having restrained hands adds a `+4` to the spell `RD`.
+
+> So, if your caster is damaged twice, for 4 Stat and then for 1 Stat, you will have a `+5`
 
 Having plenty of time to draw a magic glyph Reduces the difficulty and cost of the spell, both by 1 per 10 minutes, but up to your die roll modifier for spellcasting.
 
@@ -564,13 +566,13 @@ You cannot use more than 1 maneuver per turn (including free maneuvers) and a De
 
 **Accurate** - Roll 4d6 take lowest 3
 
-**A - Mighty** - Causes target to lose `1/2` more from a Stat (round down; minimum 2)
+**A - Mighty** - Causes target to lose double from a Stat (round down; minimum 2)
 
-**Powerful** - Causes target to lose `1/3` more from a Stat (round down; minimum 1)
+**Powerful** - Causes target to lose `1/2` more from a Stat (round down; minimum 1)
 
 **Weak** - Causes target to lose half as much of a Stat
 
-**Feint** - You give an ally a free Basic Maneuver against the same enemy or Kick the creature back attempting to make him stumbled or moving them
+**Feint** - You give an ally a free Basic Maneuver against the same enemy or Kick the creature back attempting to make them stumbled or moving them; Under 1 m and not stumbled if the degree of success is lower than 2
 
 **Defence/Armor/Parry/Dodge** - You roll against the enemy's attack roll + your rank in this,
 if you succeed the hit is absorbed or parried and is counted as a miss,
