@@ -598,9 +598,9 @@ If one is not attacked in a round, he rises up in the Initiative by one creature
 ### Maneuvers
 
 To use a `Basic` maneuver, you spend 1 Stat,
-though only if an effect allowed you to use it.
-One `Defence/Parry` per turn is free if you have a weapon or shield with which you didn't attack.
-You cannot use more than 1 maneuver per turn (including free maneuvers) and a Defence/Parry or Feint, unless a separate effect states so.
+though only if an effect allows you to use it.
+`Advanced` maneuvers, marked `A`, cost 2 Stats.
+One `Defence/Parry` per turn is free per weapon or shield with which you didn't attack.
 
 **A - Precise** - Roll 5D6 take lowest 3
 
