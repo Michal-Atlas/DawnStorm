@@ -481,24 +481,34 @@ These both limit and flavour the spell's effects.
 
 ### Magic Glyphs
 
-A magic glyph is created by inscribing a Motion and an Element, with a very specific intention into a solid surface and empowering them with `Mana`.
-Mechanically, this requires you to succesfully cast the spell.
-It takes `1 second` to drain `1 Mana` into a glyph.
+A magic glyph is created by inscribing a Motion and an Element, with a very specific intention into a solid surface and empowering them with a `Soul` or `Soul Fragment`.
+Mechanically, this requires you to succesfully cast the spell,
+and either lower your maximum `Mana` until it's destroyed or empty a `Soul Stone` into it.
+Your maximum `Mana` returns to you after the destruction of the item or the use of a one use item.
+If you used your own `Soul Fragment`, the item recharges when your `Mana` refreshes.
+
+It takes `1 second` per `1 Mana` to create a glyph.
+If the item is created with a soul from a `Soul Stone`,
+it is recharged by draining mana into the item at a rate of `1 Mana` per second
+(this mana is normally spent as if casting a spell).
 At Dawn and Dusk, a glyph is sealed and cannot be expanded, only recharged.
 
-Spending additional time and resources during casting, makes the casting cheaper and easier.
+Spending additional time and resources during casting (activation), makes the casting cheaper and easier.
 Reducing the cost by `1 Mana` and increasing the `DR` by 1,
-costs `10 Silver` and `10 Minutes` times 3 to the power of the amount reduced.
+costs `10 Silver` of magical materials and `10 Minutes` times 3 to the power of the amount reduced.
 
 When activated, the glyph casts the spell, draining from the enclosed mana pool.
-If the item is one use, returning that mana to the creator's pool, otherwise it .
-If the creature that activates a glyph is a magic user with a Character, the spell is cast with that character.
+If the creature that activates a glyph is a magic user with a `Character`, the spell is cast with that character.
 You may also designate a sound or simple occurence (such as someone stepping on it) that activates the glyph automatically.
 
 > Since speech doesn't take up an action, this allows you to activate glyphs outside you turn.
 
 **Soul Stone** -
-You may substitute your own mana for a Soul Stone.
+You may substitute a Fragment of your own Soul for a Soul from a Soul Stone.
+This allows you to create a glyph without lowering your own maximum `Mana`,
+but limits the `Mana` capacity to that of the Soul used.
+Soul Stones are quite rare, and have a limited capacity,
+however they are reusable.
 
 **Scrolls** -
 Scrolls produce a one-time Spell effect, they don't require a `skill check` but still cost mana.
