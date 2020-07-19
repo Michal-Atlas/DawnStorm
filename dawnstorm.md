@@ -198,6 +198,7 @@ Skills:
 
 Abilities:
 
+- **Battle Caster**: You get `-1` per attack (the limit is still `+3`) when casting after having taken damage
 - **Spellcraft**: You learn 1 Motion and 2 Elements (You may gain a Magic Character if your GM allows)
 - **Spellcraft 2** \[Spellcraft\]: You learn an additional 1 Motion/Element and 1 Element
 - **Spellcraft 3** \[Spellcraft 2\]: You learn an additional Element
@@ -216,8 +217,11 @@ Skills:
 
 Abilities:
 
+- **Barbaric Strength**:
 - **Brawler**: Your fists are short blunt weapons
-- **Hard Skin**: Your skin has `Armor 0` against blunt weapons
+- **Dungeoneering**:
+- **Hard Skin**: Your skin has `Natural Armor 1` against blunt weapons
+- **Rage**:
 - **Weapon Improvisation**: Your makeshift weapons grant you the standard weapon maneuvers
 
 #### Hunter
@@ -262,6 +266,9 @@ Skills:
 Abilities:
 
 - **Field Smith**: You have a skill in repairing damaged armour and weapons in the field
+- **Footwork**: You are `Skilled` at withstanding movement and stumbling by `Feint`
+- **Party Tactics**:
+- **Shield Bash**: You are `Skilled` at moving creatures with `Feint` using your shield
 
 #### Thief
 
@@ -278,6 +285,7 @@ Abilities:
 - **Always ready**: You have a skill to detect urban ambushes
 - **Cyphers**: Decoding and creating cyphers is now your skill; In addition, you know an underground slang
 - **Dagger Parry**: You can parry with a dagger even after using it for an attack
+- **Dual Wielding**:
 - **Underground Connection**: You know a guy
 - **Urban Tracking**: You have a skill for finding out the general location of any notable character
 
@@ -306,6 +314,11 @@ Abilities:
 - **Beast's wine**: You have `resistance` against blood based poisons
 
 #### Warmage [4 - Mage + Squire]
+
+Abilities:
+
+- **Sieger**:
+- **Incorporeal spells**:
 
 #### Witch [4 - Acolyte + Herbalist]
 
