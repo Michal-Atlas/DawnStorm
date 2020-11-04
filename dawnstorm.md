@@ -345,15 +345,15 @@ Abilities:
 
 Weapons apart from stated bonuses give you a free maneuver to use while wielding them and have an effect:
 
-|Melee||
+|Weapon Classes||
 |:---:| :---:|
 |Slashing|Accurate|
 |Short Slashing|Feint|
 |Blunt|Powerful|
 |Piercing|Powerful|
 |Short|You can instead attack twice with a `+2` penalty, but not use a maneuver|
-|Medium||
 |Long|Short arms, cannot use maneuvers against you, except for feint|
+|Shield|Grants two `Defence` maneuvers|
 
 > If nothing is stated, assume no maneuver bonus, medium weapon
 
@@ -559,9 +559,9 @@ Divine magic cannot be understood by non-divine casters at all.
 
 ### Attacks
 
-To determine the outcome of an attack, roll the attack as a skill check,
-afterwards, if the defending party succeeds at a skill check with a `RD` of your attack roll,
-they succesfully prevented your attack from landing.
+To determine the outcome of an attack, roll the attack as a skill check.
+Afterwards, the defending party has multiple ways to prevent the damage,
+most commonly by using the `Defence` maneuver.
 
 When you are hit you lose Stats, 1 by default,
 and an additional one for every time the degrees of success
@@ -572,6 +572,10 @@ you score a critical success and the enemy loses 1 additional stat for every deg
 1 Round of combat is 5 seconds.
 If an effect would end X seconds into the round, it ends X turns into the round,
 or if the encounter has less than 4 participants, it ends immediately after your turn.
+
+**Pain** -
+Recieving damage, gives you a `+3` to all offensive rolls and `+2` on others,
+until the end of your next turn or next round, whichever comes first.
 
 ### Initiative
 
@@ -588,10 +592,14 @@ After which, others go in the following order:
 |5|Other Actions|
 |6|Long Weapons|
 
-The rest is up to the GM or chance.
+The rest is up to the GM or random chance.
 
 If one party had been ambushed, every member of the other is automatically `Stumbled`.
 If one is not attacked in a round, he rises up in the Initiative by one creature.
+
+> Basically, every round, the GM goes through, asking:
+> Any Unarmed?, Any Magic?, etc.
+> This means that you may change your decisions based on what previous actions were taken
 
 ### Zones
 
@@ -600,6 +608,7 @@ If one is not attacked in a round, he rises up in the Initiative by one creature
 To use a `Basic` maneuver, you spend 1 Stat,
 though only if an effect allows you to use it.
 `Advanced` maneuvers, marked `A`, cost 2 Stats.
+
 One `Defence/Parry` per turn is free per weapon or shield with which you didn't attack.
 
 **A - Precise** - Roll 5D6 take lowest 3
@@ -615,10 +624,8 @@ One `Defence/Parry` per turn is free per weapon or shield with which you didn't 
 **Feint** - You give an ally a free Basic Maneuver against the same enemy or Kick the creature back attempting to make them stumbled or moving them; Under 1 m and not stumbled if the degree of success is lower than 2
 
 **Defence/Armor/Parry/Dodge** - You roll against the enemy's attack roll + your rank in this,
-if you succeed the hit is absorbed or parried and is counted as a miss,
+if you succeed, the hit is absorbed or parried and is counted as a miss,
 doesn't work against magical effects by default, except Dodge
-
-> A - indicates that said maneuver is `Advanced` which may be referenced by other rules. Others are called `Basic`
 
 ### Turn Actions
 
@@ -649,7 +656,7 @@ If you are attacked and have to defend in a physically demanding way (dodging co
 
 **Light** - -2 to sight based activities in dim light, -3 in near dark
 
-**Elemental Damage** - You lose 1 body per round of exposure per strength of element
+**Elemental Damage** - You lose 1 body per round of exposure per strength of element, regular fire causes 1 Body of damage every 2 rounds
 
 ## Size
 
