@@ -10,6 +10,53 @@ permalink: /bestiary/
 - TOC_TEST
 {:toc}
 
+## Recommended Playable Humanoids
+
+### Human
+
+Nothing special, the perfect blank slate.
+
+### Goblin
+
+Size: `Small`
+
+### Isk
+
+Size: `Large`
+
+The Isk descend from a large tribe of giants that once arrived from the mountains to live among a Keinfolk city.
+Over time, their stature had greatly diminished from their original, today being only about one and a half to double the size of humans and living commonly in some larger cities often as workers.
+
+### Keinfolk
+
+**Kein Roar** - Once a day, you are able to Roar so loud that any creatures within a 30 meter radius, must succeed at an `RD 9` Check, or become `Frightened` of you for 6 Seconds.
+
+Incredibly proud, stubborn and loyal creatures, described mostly as humanoid lions.
+Pride upon pride, their mane is what defines their class, long and
+wavy manes always giving an advantage when arriving in any Keinfolk society.
+
+### Talach
+
+**Talach talent** - You are a `Master` at one form of art and `Skilled` in another.
+
+Tall, with pointed ears, humble and noble, truly a beloved race by most anyone who meets them.
+Their curiosity and fantasy had made them into popular artists and poets, outside their cities often kept in castles and manors by nobility due to this affinity.
+Their intelligence hasn't been perceived to be high nor their strength, manual dexterity is the one thing they have and which no other race may rival them in.
+
+### Talkin
+
+**Talkin Ear** - Your ears are very sensitive to whispers and murmurs.
+When listening to someone in a crowded room, you hear as if the room was silent.
+
+They are very similar to the Talach, however their ears are significantly flatter, lower, sometimes almost horizontal.
+Quite sly, sneaky and adept at close range combat, they make excellent spies and thieves and are often employed as such.
+
+### Tylluan
+
+**Tylluan Sight** - You have `NightVision`
+
+The Tylluan are to owls what the keinfolk are to lions.
+
 ## Beasts
 
 ### Warthorg
@@ -70,6 +117,8 @@ Most of their bodies are covered and seem to be made of leaves, branches and vin
 Being gaya's chosen all wildlife listens and bends to the needs of the pan.
 
 #### Shadow Pan
+
+#### Hag
 
 ## Ghosts
 
