@@ -44,18 +44,6 @@ You may subtract, up to two Profession's bonuses from your roll.
 |12||
 |15|Hard|
 
-When determining the difficulty of lingering effects (such as traps or camouflage) created by players,
-let them roll upon creation and then use that as the `DR`.
-The GM may raise of lower the `DR` of checks by around 3,
-if there are advantages or disadvantages such as tools, time or bad lighting.
-
-**non-Professional checks** - If you need to check your success in an action,
-that doesn't apply to any of your professions,
-you may roll with a bonus of your stat divided by 3 rounded down - 1.
-For the purpose of making these slightly more specific,
-each `Body` stat you have or gain,
-should be categorized under `Strength` or `Agility`.
-
 **Group checks** - If you need to use a skill against a crowd,
 roll 4 times for the crowd,
 the whole crowd is divided on the subject based on the success rate of the rolls.
@@ -64,44 +52,7 @@ the whole crowd is divided on the subject based on the success rate of the rolls
 
 ### Race
 
-#### Goblin
-
-Size: `Small`
-
-#### Isk
-
-Size: `Large`
-
-The Isk descend from a large tribe of giants that once descended from the mountains to live among a Keinfolk city. Over time, their stature had greatly diminished from their original, today being only about one and a half to double the size of humans and living commonly in some larger cities often as workers.
-
-#### Keinfolk
-
-**Kein Roar** - Once a day, you are able to Roar so loud that any creatures within a 30 meter radius, must succeed at a `RD 9` Check, or become `Frightened` of you for 6 Seconds.
-
-Incredibly proud, stubborn and loyal creatures, described mostly as humanoid lions.
-Pride upon pride, their mane is what defines their class, long and wavy manes always giving an advantage when arriving in any Keinfolk society.
-
-#### Talach
-
-**Talach talent** - Choose a form of art, you are a `Master` at creating it. Choose another, you are `Skilled` with it.
-
-Tall, with pointed ears, humble and noble, truly a beloved race by most anyone who meets them.
-Their curiosity and fantasy had made them into popular artists and poets, outside their cities often kept in castles and manors by nobility due to this affinity.
-Their intelligence hasn't been perceived to be high nor their strength or speed, manual dexterity is the one thing they have and which no other race may rival them in.
-
-#### Talkin
-
-**Talkin Ear** - Your ears are very sensitive to whispers and murmurs.
-When listening to someone in a crowded room, you hear as if the room was silent.
-
-They are very similar to the Talach, however their ears are significantly flatter, lower, sometimes almost horizontal.
-Quite sly, sneaky and adept at close range combat, they make excellent spies and thieves and are often employed as such.
-
-#### Tylluan
-
-**Tylluan Sight** - You have `NightVision`
-
-The Tylluan are to owls what the keinfolk are to lions.
+The [Bestiary](/bestiary/) contains some suggestions for this.
 
 ### Stats
 
@@ -110,24 +61,29 @@ These represent everything you can do, and you should be able to categorize all 
 Occassionally called points for ease of wording.
 
 According to the power of your character you start with a number of points
-divided between your stats, 20 is suggested.
+divided between your stats,
+15 to 20 is suggested.
 
 |Stat|Examples|
 |:---:|---|
 |Body|strength, constitution|
-|Soul|resisting magic and torture, casting magic, overcoming horrors and fears|
+|Soul|overcoming horrors and fears, resisting magic and torture, casting magic|
 |Influence|persuasion, bartering with shopkeeps, underworld contacts|
 
-When you are damaged or hurt, you will "lose" or "spend" these Stats,
+When you are damaged or hurt, you will "lose" these Stats,
 but only temporarily, your maximum in the Stat always stays the same.
-Consider it similair to losing Hit Points or Mana.
+Consider it similar to losing Hit Points or Mana.
 For example: damage in combat loses `Body`, verbal put-downs cost you `Influence`
 
-**Regeneration** - Your stats regenerate after 8 hours of sleep, if you don't manage that amount, you regenerate only half of your total if you slept at least four hours, otherwise one quarter.
+**Regeneration** - You regenerate 4 stats after 8 hours of sleep, if you sleep at least 4 hours, you regain 2.
+Taking other types of long rests can gain you back 1 stat and
+wounds can be considered tended to.
 
-**Scarring** - When you are out of a given stat and some event forces you to spend it, you must `Scar` yourself, or you may `Scar` yourself voluntarily.
+    Easy Mode - Your stats regenerate after 8 hours of sleep, if you don't manage that amount, you regenerate only half of your total if you slept at least four hours, otherwise one quarter.
+
+**Scarring** - When you are out of a given stat and some event forces you to lose it, you must `Scar` yourself, in other situations you may `Scar` yourself voluntarily.
 These symbolize damage beyond something you can walk-of after a day or two.
-A scar should be accompanied with recieving an effect, or finding out about one.
+A scar should be accompanied with recieving an effect, or finding out about one (such as poison).
 A `Scar` is drawn across already spent points, and gives you `2 + 2 x Each spent point`.
 This wound always has an explanation to what it is and should affect your character even when outside combat.
 The taken up points of the Stat become unusable until you deal with the problem that is connected to the `Scar`.
@@ -149,32 +105,37 @@ If an effect would grant you additional Points in a Stat, you cannot Scar these,
 > Influence Scar's may often apply only based on location, similairly to Soul Scar's that may be temporarily triggered by something.
 
 **Death and Unconsciousness** - Many Scars in any stat is enough to make a character unplayable, not having any more Unscarred Points in a Stat is taken as the character being dead, crazy or unable to interact with normal people.
-After suffering Body Scars of a total equal to or more than a 3/4 of your Body stat, you fall unconscious.
+After suffering Body Scars of a total equal to or higher than 3/4 of your Body stat, you fall unconscious.
 
 **Expanding your skills** - Each time you spend `10XP` in professions, you can increase by one, any of your Stats.
+
+**non-Professional checks** - If you need to check your success in an action,
+that doesn't apply to any of your professions,
+you may roll with a bonus of your stat divided by 3 rounded down - 1.
+For the purpose of making these slightly more specific,
+each `Body` stat you have or gain,
+should be categorized under `Strength` or `Agility`.
 
 ### Professions
 
 Professions give you bonuses to your rolls and special abilities you can use.
 They don't necessarily mean that you are your Profession,
 having a Rank in Thief doesn't necessarily translate into your character being a Thief,
-it only shows that they have a similair set of skills,
+it only shows that they have a similar set of skills,
 that your character could've picked up and used elsewhere.
 After performing an adventureous task with a profession, you are awarded `XP` by your GM.
 The amount of `XP` you need to improve (`Rank Up`) a Profession is 4.
 
-> You may want to raise these if you are planning on a very long term campaign
-
 **Base Professions** - These professions are those that you don't need any prerequisites for.
 
-Advanced professions will list many prerequisites, however they are usually significantly more powerful.
+Advanced professions will list prerequisites, however they are usually significantly more powerful.
 These prerequisites are usually in \[\] square brackets behind the Profession name.
 A number followed by Professions, means that many `Ranks` divided among them, with at least 1 in each.
 Some classes have other steps you must take to acquire them, these are listed under `Rite` in the description of the `Profession`.
 
 **Skills** - The profession will list some things that it includes and thus gives bonuses for.
 The Skills listed are examples, each Profession includes more than is listed
-and the judgement of each individual action that comes up should be up to the Players and GM
+and the judgement of each individual action that comes up should be up to the Players and the GM
 (if a specific ability adds something as a skill, it isn't considered as a skill by default).
 If an `Ability` states that you now have a skill in something,
 act as if the profession lists it in its skills.
@@ -184,9 +145,9 @@ You gain one of these abilities every `Rank Up` in that skill.
 When you see text in \[\] square brackets, those are prerequisites.
 
 **Specialities** - If a `Profession` lists `Specialities`,
-you must choose one of them (or an original one if the GM allows) when `Ranking up`,
+you must choose one of them (or make up your own if the GM allows) when `Ranking up`,
 they perform as absolutely separate Professions.
-If a Profession is related enough, you may use half of the die bonus.
+If it is related enough, but not quite your speciality, you may use half of the die bonus.
 
 > These are most often Knowledge based, where you choose one domain to be learned in.
 
@@ -197,7 +158,7 @@ The Acolyte is the basic magic class. Identifying arcane occurences that you hav
 Skills:
 
 - Spellcasting
-- Identifying spells and magical effects
+- Identifying basic spells and magical effects
 
 Abilities:
 
@@ -234,7 +195,7 @@ Abilities:
 
 Skills:
 
-- Bows or Crossbows (Your choice)
+- Bows or Crossbows (Speciality)
 - Tracking
 - Knowledge - Animals
 
@@ -264,6 +225,18 @@ Abilities:
 - **First-Aid**: After 10 minutes of tending to wounds, give someone back 2 Stats, up to 4 per day
 
 #### Noble
+
+You know how to get your way, you know the ins and outs of your society and you are never out of place amongst the upper-class
+
+Skills:
+
+- Savoire-faire
+- High-class speech
+- High-class manners
+
+Abilities:
+
+- **Connoseur** - Choose a subject, you are able to talk hours on the matters of said subject, be it weapons, literature or wine.
 
 #### Squire
 
@@ -343,7 +316,8 @@ Abilities:
 
 ### Weapon Classes
 
-Weapons apart from stated bonuses give you a free maneuver to use while wielding them and have an effect:
+Weapons apart from stated bonuses have a type and length (i.e. long piercing).
+These give you a free maneuver to use while wielding them and have an effect:
 
 |Weapon Classes||
 |:---:| :---:|
@@ -357,13 +331,16 @@ Weapons apart from stated bonuses give you a free maneuver to use while wielding
 
 > If nothing is stated, assume no maneuver bonus, medium weapon
 
-**Load** - A character may only carry a reasonable number of minor items and up to their `Body` worth of major items.
+**Load** - A character may only comfortably carry a reasonable number of minor items and up to their `Body` worth of major items.
 Major items being, staffs, swords, rations,
-guns, tents and the like. Every item carried above this amount gives you a `-2 Body` on skill checks.
-If the item is made for a different size than you, it takes up `+2` for every size between you and the item.
+guns, tents and the like.
+Every item carried above this amount gives you a `-2 Body` on skill checks.
+If the item is made for a different size than you, it takes up 1 more or less for every size between you and the item.
 
 **Makeshift** - Weapons you grab on the spot, without changing in any way, have a limit of 2 Stats of damage.
-Optimizing them in some way (sharpening the stick), limits that to 3. In either case, you cannot use their free maneuvers. To nullify these limitations, you need to succeed at an appropriate skill check and input adequate amounts of time and effort.
+Optimizing them in some way (sharpening the stick), limits that to 3.
+In either case, you cannot use their free maneuvers.
+To nullify these limitations, you need to succeed at an appropriate skill check and input adequate amounts of time and effort. See [Creating Items](#Item-Creation).
 
 ### Money and Prices
 
@@ -393,16 +370,23 @@ Optimizing them in some way (sharpening the stick), limits that to 3. In either 
 |---|---|
 |||
 
+### Item Creation
+
+When determining the difficulty of lingering effects (such as traps or camouflage) created by players,
+let them roll upon creation and then use that as the `DR`.
+The GM may raise or lower the `DR` of checks by around 3,
+if there are advantages or disadvantages such as tools, time or bad lighting.
+
 ## Spellcasting
 
-Magic works through
-magical glyphs. Spell-casters can create these glyphs in mid-air
-instantaneously, however these persist only for a single round.
+Magic works through magical glyphs.
+Spell-casters can create these glyphs in mid-air instantaneously,
+however these persist only for a single round.
 Long-term effects need an inscription on a surface to work.
 
-**Mana** - Most effects will ask you to spend mana, you have a basic pool equal to
-your `Soul`. At any time you may spend a `Soul` stat to
-reset your mana back to that number (this does not let you spend more than your maximum mana on one spell).
+**Mana** - Most effects will ask you to spend mana, you have a basic pool equal to your `Soul`.
+At any time you may scar a `Soul` stat to reset your mana back to that number
+(this does not let you spend more than your maximum mana on one spell).
 
 ### Spells
 
@@ -411,10 +395,8 @@ a Motion and optionally an Element you know (collectively called words of power)
 and what the desired outcome is.
 Not all elements are useful with all motions.
 
-If your character recieved damage in the last round, you get a cumulative `1` to your roll + `1` for every `Stat` you lost, to a maximum of `+3` per attack.
+If your character recieved damage in the last round, you get a cumulative `+2`  to spell `RD` for every `Stat` you lost.
 Having restrained hands adds a `+4` to the spell `RD`.
-
-> So, if your caster is damaged twice, for 4 Stat and then for 1 Stat, you will have a `+5`
 
 Having plenty of time to draw a magic glyph Reduces the difficulty and cost of the spell, both by 1 per 10 minutes, but up to your die roll modifier for spellcasting.
 
@@ -429,12 +411,12 @@ Failing the spell doesn't immediately mean nothing happened, your `degree of fai
 |:---:|---|
 |1-2|Slightly altered effect if possible, otherwise Failed spell|
 |3-6|Failed Spell|
-|7+|The spell backfires, GMs decision (usually not by inverting the effect)|
+|7+|The spell backfires, GMs decision|
 
 Tier Guidelines:
 
 - **Tier I \[`RD10`, `1Mana`\]**: Achievable within the hour with sufficient skill and tools, the effect vanishes within 10 minutes
-- **Tier II \[`RD6`, `6Mana`\]**: Apparently magical effects, mostly on inanimate objects or a small group of about 3 to 5, or advanced effects such as manipulation on one person
+- **Tier II \[`RD6`, `5Mana`\]**: Apparently magical effects, mostly on inanimate objects or a small group of about 3 to 5 beings, or advanced effects such as manipulation on one person
 - **Tier III \[`RD0`, `XMana`\]**: Complex effects, extending to supernatural, manipulating reality with portals and short-range teleportation
 - **Tier IV \[`RD-2`, `XMana + Soul Scar`\]**:
 - **Tier V \[`RD-4`, `Soul Scar`\]**: Miracles
@@ -442,7 +424,10 @@ Tier Guidelines:
 Motions:
 
 - Cease
+  - **Tier I**: Stop the movement of an unattended object up to the size of a travelling cart
+  - **Tier II**: Cease the movement of an object or cease the existence of an unattended object up to the size of a travelling cart
 - Command
+  - **Tier I**: Compel a calm animal to perform some action
 - Create
   - **Tier I**: Spontaneously create an item no bigger than the width of your hand, creatable from resources that you are touching.
   - **Tier II**: The item, must not exceed your outstretched arms length in any dimension.
@@ -451,7 +436,7 @@ Motions:
   - **Tier I**: Cut with your finger an inanimate object as if it were a knife.
   - **Tier IV**: Cut Metaphysical concepts
 - Heal
-  - **Tier I**: Close an actively bleeding wound and prevents it from getting infected.
+  - **Tier I**: Close an actively bleeding wound and prevent it from getting infected.
 - Join
   - **Tier I**: Connect two items that touch in any way and make them movable only by a living creature.
 - Kill
