@@ -10,7 +10,9 @@ permalink: /modules/fantasy
 - TOC_TEST
 {:toc}
 
-## Acolyte
+## Professions
+
+### Acolyte
 
 The Acolyte is the basic magic class. Identifying arcane occurences that you have already seen or know about is the domain of the acolyte.
 
@@ -29,7 +31,7 @@ Abilities:
 - **Spellcraft 2** \[Spellcraft\]: You learn an additional 1 Motion/Element and 1 Element
 - **Spellcraft 3** \[Spellcraft 2\]: You learn an additional Element
 
-## Fighter
+### Fighter
 
 Brawls, bar fights and ambushes, you've seen it all.
 You know what to do with most common weapons
@@ -50,7 +52,7 @@ Abilities:
 - **Rage**:
 - **Weapon Improvisation**: Your makeshift weapons grant you the standard weapon maneuvers
 
-## Hunter
+### Hunter
 
 Skills:
 
@@ -69,7 +71,7 @@ Abilities:
 - **Traps**: Trap Knowledge and Trapsetting is added to the Skills; You may take 10 minutes setting up a trap
 - **Urban Tracking**: You are able to use your wilderness tracking skill to some limited extent in urban environments
 
-## Herbalist
+### Herbalist
 
 Skills:
 
@@ -83,7 +85,7 @@ Abilities:
 - **Hidden Poison**: You may attempt to hide your poison from smell and taste
 - **First-Aid**: After 10 minutes of tending to wounds, give someone back 2 Stats, up to 4 per day
 
-## Noble
+### Noble
 
 You know how to get your way, you know the ins and outs of your society and you are never out of place amongst the upper-class
 
@@ -97,7 +99,7 @@ Abilities:
 
 - **Connoseur** - Choose a subject, you are able to talk hours on the matters of said subject, be it weapons, literature or wine.
 
-## Squire
+### Squire
 
 Squires are warriors, who are trained and educated.
 
@@ -116,7 +118,7 @@ Abilities:
 - **Party Tactics**:
 - **Shield Bash**: You are `Skilled` at moving creatures with `Feint` using your shield
 
-## Thief
+### Thief
 
 Skills:
 
@@ -136,9 +138,9 @@ Abilities:
 - **Underground Connection**: You know a guy
 - **Urban Tracking**: You have a skill for finding out the general location of any notable character
 
-## Druid [4 - Acolyte + Hunter]
+### Druid [4 - Acolyte + Hunter]
 
-## Mage [3 - Acolyte]
+### Mage [3 - Acolyte]
 
 Skills:
 
@@ -146,13 +148,13 @@ Skills:
 - **Convenient Magic**: You may cast spells with up to 5 Mana without spending any
 - **Mindlink**:
 
-## Nord [4 - Hunter + Fighter]
+### Nord [4 - Hunter + Fighter]
 
 Skills:
 
 -
 
-## Vedmak [4 - Hunter + Acolyte]
+### Vedmak [4 - Hunter + Acolyte]
 
 You hunt magical beasts
 
@@ -161,7 +163,7 @@ Abilities:
 - **Beast Form**: By touching a part of a dead magical beast, you may assume its form. You gain all its abilities and its Body Stat, however when you turn back, all Scars and spent Stats are applied to you. If this would kill you, you fall unconscious instead.
 - **Beast's wine**: You have `Resistance` against blood based poisons
 
-## Warmage [4 - Mage + Squire]
+### Warmage [4 - Mage + Squire]
 
 Abilities:
 
@@ -169,4 +171,4 @@ Abilities:
 - **Incorporeal spells**:
 - **Ward**: You have a magical protective ward, which grants you a `Defence` maneuver
 
-## Witch [4 - Acolyte + Herbalist]
+### Witch [4 - Acolyte + Herbalist]
