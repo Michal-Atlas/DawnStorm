@@ -1,9 +1,9 @@
 ---
-title: DS - M:Fantasy
-permalink: /modules/fantasy
+title: M:\ Medieval
+permalink: /modules/medieval
 ---
 
-# DawnStorm - Module: Fantasy
+# Module: Medieval
 
 {::options auto_ids="true" /}
 
@@ -32,6 +32,33 @@ Abilities:
 - **Hard Skin**: Your skin has `Natural Armor 1` against blunt weapons
 - **Rage**:
 - **Weapon Improvisation**: Your makeshift weapons grant you the standard weapon maneuvers
+
+#### Nord
+
+Skills:
+
+-
+
+### Recruit
+
+#### Tier II - Squire
+
+Squires are warriors, who are trained and educated.
+
+Skills:
+
+- Shields
+- Long Weapons
+- Knowledge - Tactics, Armies, War Codes
+
+Abilities:
+
+- **Field Smith**: You have a skill in repairing damaged armour and weapons in the field
+- **Footwork**: You are `Skilled` at withstanding movement and stumbling by `Feint`
+- **Guardian**: You may use your own `Defend` maneuvers on friends standing within arms-reach
+- **Brothers in Arms**: You may pay with you resources for damaged friends standing in arms-reach, if you are able to use the `Defend` maneuver
+- **Party Tactics**:
+- **Shield Bash**: You are `Skilled` at moving creatures with `Feint` using your shield
 
 ### Hunter
 
@@ -66,6 +93,8 @@ Abilities:
 - **Hidden Poison**: You may attempt to hide your poison from smell and taste
 - **First-Aid**: After 10 minutes of tending to wounds, give someone back 2 Stats, up to 4 per day
 
+#### Tier II - Alchemist
+
 ### Noble
 
 You know how to get your way, you know the ins and outs of your society and you are never out of place amongst the upper-class
@@ -79,25 +108,6 @@ Skills:
 Abilities:
 
 - **Connoseur** - Choose a subject, you are able to talk hours on the matters of said subject, be it weapons, literature or wine.
-
-### Squire
-
-Squires are warriors, who are trained and educated.
-
-Skills:
-
-- Shields
-- Long Weapons
-- Knowledge - Tactics, Armies, War Codes
-
-Abilities:
-
-- **Field Smith**: You have a skill in repairing damaged armour and weapons in the field
-- **Footwork**: You are `Skilled` at withstanding movement and stumbling by `Feint`
-- **Guardian**: You may use your own `Defend` maneuvers on friends standing within arms-reach
-- **Brothers in Arms**: You may pay with you resources for damaged friends standing in arms-reach, if you are able to use the `Defend` maneuver
-- **Party Tactics**:
-- **Shield Bash**: You are `Skilled` at moving creatures with `Feint` using your shield
 
 ### Thief
 
@@ -119,8 +129,28 @@ Abilities:
 - **Underground Connection**: You know a guy
 - **Urban Tracking**: You have a skill for finding out the general location of any notable character
 
-### Nord [4 - Hunter + Fighter]
+## Items, Money and Prices
 
-Skills:
+|Coin|Worth|
+|---|---|
+|Copper Penny|6 in a commoner's day's work|
+|Silver Shilling|100 Copper Pennies|
+|Platinum|5000 Copper Pennies|
+|Gold|10000 Copper Pennies|
 
--
+|Food|Price|
+|---|---|
+|Day of Rations|1 Copper|
+
+|Tools|Price|
+|---|---|
+|||
+
+|Weapons|Price|
+|---|---|
+|Sword||
+|LongSword||
+
+|Estates|Price|
+|---|---|
+|||
