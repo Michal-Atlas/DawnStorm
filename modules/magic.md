@@ -197,9 +197,7 @@ Abilities:
 - **Spellcraft 2** \[Spellcraft\]: You learn an additional 1 Motion/Element and 1 Element
 - **Spellcraft 3** \[Spellcraft 2\]: You learn an additional Element
 
-### Druid [4 - Acolyte + Hunter]
-
-### Mage [3 - Acolyte]
+#### Tier II - Mage
 
 Skills:
 
@@ -207,7 +205,9 @@ Skills:
 - **Convenient Magic**: You may cast spells with up to 5 Mana without spending any
 - **Mindlink**:
 
-### Vedmak [4 - Hunter + Acolyte]
+### Druid [Acolyte + Hunter]
+
+### Vedmak [Hunter + Acolyte]
 
 You hunt magical beasts
 
