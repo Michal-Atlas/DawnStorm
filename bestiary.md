@@ -106,6 +106,14 @@ When a changeling dies, it reverts to its original form.
 
 ### Fey Queen
 
+### Krypsaker
+
+A fey being of intense resilience, it resembles a humanoid,
+but it seems as to be disfigured into a goblin-like form,
+with sharp teeth and pointed uneven ears and nails.
+At any point it can turn parts of itself into insects or birds and
+Even a single one of these may with enough nourishment create a whole Krypsaker once more.
+
 ### Pan / Pixie
 
 The most common of the Fey, often incorrectly called forest nymphs, Pans and their female counterparts called Pixies inhabit kingdoms in many forests of the world.
@@ -132,6 +140,8 @@ They have been shown to have knowledge on all matters occurring in their place o
 These plains of land where they exist may range from a single ruin to most of a forest.
 They communicate telepathically with any sentient creatures within their domain, however to do this they must concentrate and so they loose sight of their surroundings for the time being.
 A very powerful Genius Loci was once recorded to speak audibly directly through a human, both of whom shortly lost consciousness afterwards, however this is only hearsay.
+
+### Rage
 
 ### Spectra
 
