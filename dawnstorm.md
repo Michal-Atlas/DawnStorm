@@ -171,10 +171,11 @@ I.E. A chef weighing ingredients perfectly in hand, a librarian remembering a lo
 ### Weapon Classes
 
 Weapons apart from stated bonuses have a type and length (i.e. long piercing).
+When describing an animal's attacks, the same rules can be used.
 These give you a free maneuver to use while wielding them and have an effect:
 
-|Weapon Classes||
-|:---:| :---:|
+|Basic Weapon Classes||
+|:---:|:---:|
 |Slashing|Accurate|
 |Short Slashing|Feint|
 |Blunt|Powerful|
@@ -243,7 +244,6 @@ After which, others go in the following order:
 The rest is up to the GM or random chance.
 
 If one party had been ambushed, every member of the other is automatically `Stumbled`.
-If one is not attacked in a round, he rises up in the Initiative by one creature.
 
 > Basically, every round, the GM goes through, asking:
 > Any Unarmed?, Any Magic?, etc.
@@ -289,7 +289,7 @@ As an action you may do one of the following:
 - Ready - Spend the round changing held items, if they're in a bag, you should spend 2 actions taking them out. Similair to clothing, putting on chainmail would cost a turn, a full suit would cost 2 to 3.
 - Perform Action - Such as, put out fire or pull lever
 
-## Environment
+## Environmental Effects
 
 **Fall** - 1 Body per 5 m
 
@@ -365,9 +365,10 @@ bigger sizes are double of the previous size.
 
 ### Conditions
 
-**Stumbled** - creatures go at the end of initiative (in the order they were stumbled, if there is more than one) and cannot move more than 1 step, if they are already at the end 9f initiative, they move to the beginning of initiative but lose their next turn
+**Stumbled** - you go at the end of initiative (in the order they were stumbled, if there is more than one) and cannot move more than 1 step, if you are already stumbled, you lose your next turn.
+This condition ends on you turn.
 
-**Short of Breath** - While you are short of breath, you can't use any `Maneuvers` with your actions that use the `Body` skill and no *Advanced Maneuvers* with actions using the `Soul` skill. If you fail an action you become *Exhausted* for the rest of the duration + *1 Round* or just *1 Round* if the `Out of Breath`'s duration is longer than a minute or 1 minute if over 1 hour.
+**Short of Breath** - While you are short of breath, you can't use any `Maneuvers` with your actions that use the `Body` skill, no speech-based actions and no *Advanced Maneuvers* with actions using the `Soul` skill. If you fail an action you become *Exhausted* for the rest of the duration + *1 Round* or just *1 Round* if the `Out of Breath`'s duration is longer than an hour.
 
 **Exhausted** - You suffer a `-2` on all rolls per level of Exhaustion as well as all the hindrances given by `Short of Breath`.
 
