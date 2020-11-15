@@ -123,15 +123,25 @@ They don't necessarily mean that you are your Profession,
 having a Rank in Thief doesn't necessarily translate into your character being a Thief,
 it only shows that they have a similar set of skills,
 that your character could've picked up and used elsewhere.
-After performing an adventureous task with a profession, you are awarded `XP` by your GM.
+After performing an adventureous task, you are awarded `XP` by your GM.
 The amount of `XP` you need to improve (`Rank Up`) a Profession is 4.
+And every 2 `Rank Up`s grant you a `-1` Die roll bonus.
 
-**Base Professions** - These professions are those that you don't need any prerequisites for.
+Professions are divided into a couple Tiers, usually 3.
+`Tier I` is learning and becoming the professions some sort of apprentice or student,
+`Tier II` is the actual profession and
+`Tier III` is a sort of veteran status.
 
-Advanced professions will list prerequisites, however they are usually significantly more powerful.
-These prerequisites are usually in \[\] square brackets behind the Profession name.
-A number followed by Professions, means that many `Ranks` divided among them, with at least 1 in each.
-Some classes have other steps you must take to acquire them, these are listed under `Rite` in the description of the `Profession`.
+> University Student -> Engineer -> Senior Engineer
+
+After taking 4 levels in a profession you may start Ranking up its next Tier,
+alternatively 1.5x the required amount in any related Professions,
+this is always the case with professions that do not have a first Tier.
+
+> So having 4 Ranks in Magic Acolyte (Tier I) and 2 ranks in Hunter (Tier I) would allow you to take Druid (Tier II)
+
+Some professions will list prerequisites.
+These prerequisites are listed under `Rite` in the description of the `Profession`.
 
 **Skills** - The profession will list some things that it includes and thus gives bonuses for.
 The Skills listed are examples, each Profession includes more than is listed
@@ -150,6 +160,11 @@ they perform as absolutely separate Professions.
 If it is related enough, but not quite your speciality, you may use half of the die bonus.
 
 > These are most often Knowledge based, where you choose one domain to be learned in.
+
+As DawnStorm is not setting specific, I do not provide any in this document, there should be some example ones in the modules.
+Otherwise, Skills, should be self explanatory when you create your own professions.
+And abilities should be something that someone talented may pick-up after performing that Profession for about a year's time,
+I.E. A chef weighing ingredients perfectly in hand, a librarian remembering a long book index, or an archer shooting multiple arrows if they perhaps did that for fun.
 
 ## Inventory and Items
 
