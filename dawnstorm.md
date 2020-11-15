@@ -22,6 +22,8 @@ Some parts are labelled like
 > THIS
 These provide some additional suggestions, explanations or just general commentary.
 
+When dividing or multiplying, Always round **against** your favor.
+
 The last thing is that almost all of this is built as suggestions,
 I'm more than happy if the players ask politely for items not on lists,
 spell words not shown and races not recommended,
@@ -31,7 +33,8 @@ Now, let's get rolling.
 
 ## Skill Checks
 
-When you need to check if you succeeded at a particular task, you roll 3D6 and if you Rolled **lower** or equal to the `Roll Difficulty` (further called `RD`) you were successfull.
+When you need to check if you succeeded at a particular task,
+you roll 3D6 and if you Rolled **lower** or equal to the `Roll Difficulty` (further called `RD`) you were successfull.
 Many effects will subtract or add to your roll, most commonly your Professions.
 You may subtract, up to two Profession's bonuses from your roll.
 
@@ -125,7 +128,7 @@ it only shows that they have a similar set of skills,
 that your character could've picked up and used elsewhere.
 After performing an adventureous task, you are awarded `XP` by your GM.
 The amount of `XP` you need to improve (`Rank Up`) a Profession is 4.
-And every 2 `Rank Up`s grant you a `-1` Die roll bonus.
+And every `Rank Up` grants you a `-1` Die roll bonus.
 
 Professions are divided into a couple Tiers, usually 3.
 `Tier I` is learning and becoming the professions some sort of apprentice or student,
@@ -134,11 +137,11 @@ Professions are divided into a couple Tiers, usually 3.
 
 > University Student -> Engineer -> Senior Engineer
 
-After taking 4 levels in a profession you may start Ranking up its next Tier,
+After taking 3 levels in a profession you may start Ranking up its next Tier,
 alternatively 1.5x the required amount in any related Professions,
 this is always the case with professions that do not have a first Tier.
 
-> So having 4 Ranks in Magic Acolyte (Tier I) and 2 ranks in Hunter (Tier I) would allow you to take Druid (Tier II)
+> So having 3 Ranks in Magic Acolyte (Tier I) and 1 rank in Hunter (Tier I) would allow you to take Druid (Tier II)
 
 Some professions will list prerequisites.
 These prerequisites are listed under `Rite` in the description of the `Profession`.
@@ -154,7 +157,7 @@ act as if the profession lists it in its skills.
 You gain one of these abilities every `Rank Up` in that skill.
 When you see text in \[\] square brackets, those are prerequisites.
 
-**Specialities** - If a `Profession` lists `Specialities`,
+**Specialties** - If a `Profession` lists `Specialties`,
 you must choose one of them (or make up your own if the GM allows) when `Ranking up`,
 they perform as absolutely separate Professions.
 If it is related enough, but not quite your speciality, you may use half of the die bonus.
@@ -212,15 +215,9 @@ To determine the outcome of an attack, roll the attack as a skill check.
 Afterwards, the defending party has multiple ways to prevent the damage,
 most commonly by using the `Defence` maneuver.
 
-When you are hit you lose Stats, 1 by default,
-and an additional one for every time the degrees of success
-of the attack exceed your non-Professional dire bonus.
-If your Degree of Success is more than your enemy's skill,
-you score a critical success and the enemy loses 1 additional stat for every degree of success beyond that skill.
-
-1 Round of combat is 5 seconds.
-If an effect would end X seconds into the round, it ends X turns into the round,
-or if the encounter has less than 4 participants, it ends immediately after your turn.
+When an attack is made, you will lose stats,
+the amount is how many times the difference between your rolls,
+exceeds your `Die Bonus`.
 
 **Pain** -
 Recieving damage, gives you a `+3` to all offensive rolls and `+2` on others,
@@ -241,15 +238,30 @@ After which, others go in the following order:
 |5|Other Actions|
 |6|Long Weapons|
 
-The rest is up to the GM or random chance.
-
-If one party had been ambushed, every member of the other is automatically `Stumbled`.
+After these are exhausted, 1 Round had passed.
+Each of these actions take 1 second.
 
 > Basically, every round, the GM goes through, asking:
 > Any Unarmed?, Any Magic?, etc.
 > This means that you may change your decisions based on what previous actions were taken
 
+The rest is up to the GM or random chance.
+
+If one party had been ambushed, every member of the other is automatically `Stumbled`.
+If you wish to save your action for later, that is possible,
+for clarity, these should be announced anyway and go before all others, once they are used.
+Only one saved action can be held, it is lost upon your next turn.
+
 ### Zones
+
+To aid with larger battlefields and positioning, DawnStorm uses Zones.
+For Example, you may have a chapel, where the fight is divided between
+the two wings, the main hall, the altar, etc.
+Based on the number of enemies and the type of attacks there are,
+you may use as few or many as is practical.
+For flying creatures, identical zones exist above the ground ones,
+where only the flying creatures can go.
+Unless stated otherwise you may attack anyone in your zone.
 
 ### Maneuvers
 
@@ -278,12 +290,12 @@ doesn't work against magical effects by default, except Dodge
 ### Turn Actions
 
 In a turn, you have two phases, a move and a move/action phase.
-Your move allows you to move 1 + A quarter of you Speed Skill in meters.
+Your move allows you to move by 1 zone.
 
 As an action you may do one of the following:
 
 - Attack
-- Defend - Gain `Dodge 0` until the start of your next turn, but move a pace backwards or sideways when attacked
+- Defend - Gain or grant an ally in the same zone `Dodge 0` until the start of your next turn
 - Activate a Magic Glyph
 - Aid - You may roll a skill check against `RD 10`, if you succeed, an ally attempting the same check acts as if they are `Skilled`, if both of you are skilled, you may roll against `RD 12` , in which case the ally rolls as a `Master`
 - Ready - Spend the round changing held items, if they're in a bag, you should spend 2 actions taking them out. Similair to clothing, putting on chainmail would cost a turn, a full suit would cost 2 to 3.
