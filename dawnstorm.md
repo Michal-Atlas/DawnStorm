@@ -196,34 +196,6 @@ Optimizing them in some way (sharpening the stick), limits that to 3.
 In either case, you cannot use their free maneuvers.
 To nullify these limitations, you need to succeed at an appropriate skill check and input adequate amounts of time and effort. See [Creating Items](#Item-Creation).
 
-### Money and Prices
-
-#### Coins
-
-|Coin|Worth|
-|---|---|
-|Copper Penny|6 in a commoner's day's work|
-|Silver Shilling|100 Copper Pennies|
-|Platinum|5000 Copper Pennies|
-|Gold|10000 Copper Pennies|
-
-|Food|Price|
-|---|---|
-|Day of Rations|1 Copper|
-
-|Tools|Price|
-|---|---|
-|||
-
-|Weapons|Price|
-|---|---|
-|Sword||
-|LongSword||
-
-|Estates|Price|
-|---|---|
-|||
-
 ### Item Creation
 
 When determining the difficulty of lingering effects (such as traps or camouflage) created by players,
