@@ -34,17 +34,15 @@ Now, let's get rolling.
 ## Skill Checks
 
 When you need to check if you succeeded at a particular task,
-you roll 3D6 and if you Rolled **lower** or equal to the `Roll Difficulty` (further called `RD`) you were successfull.
+you roll 3D6 and if you Rolled **higher** or equal to the `Roll Difficulty` (further called `RD`) you were successfull.
 Many effects will subtract or add to your roll, most commonly your Professions.
-You may subtract, up to two Profession's bonuses from your roll.
+You may add, up to two Profession's bonuses from your roll.
 
-> Remember, since lower is better, you subtract your bonuses from your roll
-
-|DR||
+|RD||
 |:---:|---|
 |8|Easy|
-|10|Normal|
-|12||
+|11|Normal|
+|13||
 |15|Hard|
 
 **Group checks** - If you need to use a skill against a crowd,
@@ -90,7 +88,7 @@ A scar should be accompanied with recieving an effect, or finding out about one 
 A `Scar` is drawn across already spent points, and gives you `2 + 2 x Each spent point`.
 This wound always has an explanation to what it is and should affect your character even when outside combat.
 The taken up points of the Stat become unusable until you deal with the problem that is connected to the `Scar`.
-A `Scar's Rank` is equal to the number of points it takes up.
+A `Scar's Rank` is equal to the number of points it makes unusable.
 If an effect would grant you additional Points in a Stat, you cannot Scar these, you may only Scar your own Stats.
 
 |Stat + Scar Rank|Example Wound|
@@ -110,7 +108,7 @@ If an effect would grant you additional Points in a Stat, you cannot Scar these,
 **Death and Unconsciousness** - Many Scars in any stat is enough to make a character unplayable, not having any more Unscarred Points in a Stat is taken as the character being dead, crazy or unable to interact with normal people.
 After suffering Body Scars of a total equal to or higher than 3/4 of your Body stat, you fall unconscious.
 
-**Expanding your skills** - Each time you spend `10XP` in professions, you can increase by one, any of your Stats.
+**Expanding your skills** - Each time you spend `8XP` in professions, you can increase by one, any of your Stats.
 
 **non-Professional checks** - If you need to check your success in an action,
 that doesn't apply to any of your professions,
@@ -127,8 +125,8 @@ having a Rank in Thief doesn't necessarily translate into your character being a
 it only shows that they have a similar set of skills,
 that your character could've picked up and used elsewhere.
 After performing an adventureous task, you are awarded `XP` by your GM.
-The amount of `XP` you need to improve (`Rank Up`) a Profession is 4.
-And every `Rank Up` grants you a `-1` Die roll bonus.
+The amount of `XP` you need to improve (`Rank Up`) a Profession is `4XP`.
+And every `Rank Up` grants you a `+1` Die roll bonus.
 
 Professions are divided into a couple Tiers, usually 3.
 `Tier I` is learning and becoming the professions some sort of apprentice or student,
@@ -183,7 +181,7 @@ These give you a free maneuver to use while wielding them and have an effect:
 |Short Slashing|Feint|
 |Blunt|Powerful|
 |Piercing|Powerful|
-|Short|You can instead attack twice with a `+2` penalty, but not use a maneuver|
+|Short|You can instead attack twice with a `-2` penalty, but not use a maneuver|
 |Long|Short arms, cannot use maneuvers against you, except for feint|
 |Shield|Grants two `Defence` maneuvers|
 
@@ -220,7 +218,7 @@ the amount is how many times the difference between your rolls,
 exceeds your `Die Bonus`.
 
 **Pain** -
-Recieving damage, gives you a `+3` to all offensive rolls and `+2` on others,
+Recieving damage, gives you a `-3` to all offensive rolls and `-2` on others,
 until the end of your next turn or next round, whichever comes first.
 
 ### Initiative
@@ -281,7 +279,7 @@ One `Defence/Parry` per turn is free per weapon or shield with which you didn't 
 
 **Weak** - Causes target to lose half as much of a Stat
 
-**Feint** - You give an ally a free Basic Maneuver against the same enemy or Kick the creature back attempting to make them stumbled or moving them; Under 1 m and not stumbled if the degree of success is lower than 2
+**Feint** - You give an ally a free Basic Maneuver against the same enemy or Kick the creature back attempting to make them stumbled or moving them; Under 1m and not stumbled if the degree of success is lower than 2
 
 **Defence/Armor/Parry/Dodge** - You roll against the enemy's attack roll + your rank in this,
 if you succeed, the hit is absorbed or parried and is counted as a miss,
@@ -297,7 +295,7 @@ As an action you may do one of the following:
 - Attack
 - Defend - Gain or grant an ally in the same zone `Dodge 0` until the start of your next turn
 - Activate a Magic Glyph
-- Aid - You may roll a skill check against `RD 10`, if you succeed, an ally attempting the same check acts as if they are `Skilled`, if both of you are skilled, you may roll against `RD 12` , in which case the ally rolls as a `Master`
+- Aid - You may roll a skill check against `RD 10`, if you succeed, an ally attempting the same check acts as if they are `Skilled`, if both of you are skilled, you may roll against `RD 8` , in which case the ally rolls as a `Master`
 - Ready - Spend the round changing held items, if they're in a bag, you should spend 2 actions taking them out. Similair to clothing, putting on chainmail would cost a turn, a full suit would cost 2 to 3.
 - Perform Action - Such as, put out fire or pull lever
 

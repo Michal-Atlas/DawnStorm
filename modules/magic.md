@@ -17,8 +17,8 @@ a Motion and optionally an Element you know (collectively called words of power)
 and what the desired outcome is.
 Not all elements are useful with all motions.
 
-If your character recieved damage in the last round, you get a cumulative `+2`  to spell `RD` for every `Stat` you lost.
-Having restrained hands adds a `+4` to the spell `RD`.
+If your character recieved damage in the last round, you get a cumulative `-2`  to spell `RD` for every `Stat` you lost.
+Having restrained hands adds a `-4` to the spell `RD`.
 
 Having plenty of time to draw a magic glyph Reduces the difficulty and cost of the spell, both by 1 per 10 minutes, but up to your die roll modifier for spellcasting.
 
@@ -37,7 +37,7 @@ it is recharged by draining mana into the item at a rate of `1 Mana` per second
 At Dawn and Dusk, a glyph is sealed and cannot be expanded, only recharged.
 
 Spending additional time and resources during casting (activation), makes the casting cheaper and easier.
-Reducing the cost by `1 Mana` and increasing the `DR` by 1,
+Reducing the cost by `1 Mana` and decreasing the `DR` by 1,
 costs `10 Silver` of magical materials and `10 Minutes` times 3 to the power of the amount reduced.
 
 When activated, the glyph casts the spell, draining from the enclosed mana pool.
@@ -101,10 +101,10 @@ Failing the spell doesn't immediately mean nothing happened, your `degree of fai
 Tier Guidelines:
 
 - **Tier I \[`RD10`, `1Mana`\]**: Achievable within the hour with sufficient skill and tools, the effect vanishes within 10 minutes
-- **Tier II \[`RD6`, `5Mana`\]**: Apparently magical effects, mostly on inanimate objects or a small group of about 3 to 5 beings, or advanced effects such as manipulation on one person
-- **Tier III \[`RD0`, `XMana`\]**: Complex effects, extending to supernatural, manipulating reality with portals and short-range teleportation
-- **Tier IV \[`RD-2`, `XMana + Soul Scar`\]**:
-- **Tier V \[`RD-4`, `Soul Scar`\]**: Miracles
+- **Tier II \[`RD14`, `5Mana`\]**: Apparently magical effects, mostly on inanimate objects or a small group of about 3 to 5 beings, or advanced effects such as manipulation on one person
+- **Tier III \[`RD20`, `XMana`\]**: Complex effects, extending to supernatural, manipulating reality with portals and short-range teleportation
+- **Tier IV \[`RD22`, `XMana + Soul Scar`\]**:
+- **Tier V \[`RD24`, `Soul Scar`\]**: Miracles
 
 Motions:
 
@@ -190,7 +190,7 @@ Skills:
 Abilities:
 
 - **Amulet user**: You are able to extract Mana from magic glyphs, 1 Mana per Second
-- **Battle Caster**: You get `-1` per attack (the limit is still `+3`) when casting after having taken damage
+- **Battle Caster**: You get `+1` per attack (the limit is still `+3`) when casting after having taken damage
 - **Beast Knowledge**: You have a skill in identifying Magical Beasts
 - **Mana Share**: You are able to give your Mana to anyone you touch, 1 Mana per Second
 - **Spellcraft**: You learn 1 Motion and 2 Elements (You may gain a Magic Character if your GM allows)
