@@ -3,7 +3,7 @@ title: Eastern
 permalink: /modules/eastern
 ---
 
-# Module: Medieval
+# Module: Eastern
 
 {::options auto_ids="true" /}
 
