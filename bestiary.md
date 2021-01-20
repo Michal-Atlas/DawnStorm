@@ -20,13 +20,6 @@ Nothing special, the perfect blank slate.
 
 Size: `Small`
 
-### Isk
-
-Size: `Large`
-
-The Isk descend from a large tribe of giants that once arrived from the mountains to live among a Keinfolk city.
-Over time, their stature had greatly diminished from their original, today being only about one and a half to double the size of humans and living commonly in some larger cities often as workers.
-
 ### Keinfolk
 
 **Kein Roar** - Once a day, you are able to Roar so loud that any creatures within a 30 meter radius, must succeed at an `RD 9` Check, or become `Frightened` of you for 6 Seconds.
