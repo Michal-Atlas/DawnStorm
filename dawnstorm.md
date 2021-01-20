@@ -29,7 +29,9 @@ I'm more than happy if the players ask politely for items not on lists,
 spell words not shown and races not recommended,
 that is one of the points to the game.
 
-On that note, many things will be published on this 
+On that note, many things will be published on this site.
+Aside from the core rulebook,
+you should agree on which of these to use as some may be game or theme breaking.
 
 Now, let's get rolling.
 
