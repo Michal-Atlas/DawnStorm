@@ -1,6 +1,6 @@
 ---
-title: Magic
-permalink: /modules/magic
+title: Arcane Magic
+permalink: /modules/magic-arcane
 ---
 
 # Module: Magic
@@ -205,17 +205,6 @@ Skills:
 - **Convenient Magic**: You may cast spells with up to 5 Mana without spending any
 - **Mindlink**:
 
-### Druid [Acolyte + Hunter]
-
-### Vedmak [Hunter + Acolyte]
-
-You hunt magical beasts
-
-Abilities:
-
-- **Beast Form**: By touching a part of a dead magical beast, you may assume its form. You gain all its abilities and its Body Stat, however when you turn back, all Scars and spent Stats are applied to you. If this would kill you, you fall unconscious instead.
-- **Beast's wine**: You have `Resistance` against blood based poisons
-
 ### Warmage [4 - Mage + Squire]
 
 Abilities:
@@ -223,5 +212,3 @@ Abilities:
 - **Sieger**:
 - **Incorporeal spells**:
 - **Ward**: You have a magical protective ward, which grants you a `Defence` maneuver
-
-### Witch [4 - Acolyte + Herbalist]
