@@ -1,5 +1,5 @@
 ---
-title: System
+title: Core System
 permalink: /system/
 ---
 
@@ -28,6 +28,8 @@ The last thing is that almost all of this is built as suggestions,
 I'm more than happy if the players ask politely for items not on lists,
 spell words not shown and races not recommended,
 that is one of the points to the game.
+
+On that note, many things will be published on this 
 
 Now, let's get rolling.
 

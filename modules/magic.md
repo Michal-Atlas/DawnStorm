@@ -1,5 +1,5 @@
 ---
-title: DS - M:Magic
+title: Magic
 permalink: /modules/magic
 ---
 

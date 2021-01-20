@@ -1,5 +1,5 @@
 ---
-title: M:\ Medieval
+title: Medieval
 permalink: /modules/medieval
 ---
 
