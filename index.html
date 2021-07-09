@@ -1,0 +1,2738 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2021-07-09 Fri 04:32 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>DawnStorm</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Michal Atlas" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
+<!--/*--><![CDATA[/*><!--*/
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">DawnStorm</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgb4168b0">1. DawnStorm - A 3D6 Pen &amp; Paper RPG</a>
+<ul>
+<li><a href="#orgc06f507">1.1. Preword</a></li>
+<li><a href="#org93c6ba0">1.2. Skill Checks</a></li>
+<li><a href="#org5d5b8b9">1.3. Character creation</a>
+<ul>
+<li><a href="#orgc7c6d28">1.3.1. Race</a></li>
+<li><a href="#org2ab1cbc">1.3.2. Stats</a></li>
+<li><a href="#orgfeb86ea">1.3.3. Professions</a></li>
+</ul>
+</li>
+<li><a href="#orgc42280f">1.4. Inventory and Items</a>
+<ul>
+<li><a href="#org6cf5770">1.4.1. Weapon Classes</a></li>
+<li><a href="#org07e160f">1.4.2. Item Creation</a></li>
+</ul>
+</li>
+<li><a href="#orgf02264d">1.5. Combat</a>
+<ul>
+<li><a href="#orgad1c31e">1.5.1. Attacks</a></li>
+<li><a href="#org98af049">1.5.2. Initiative</a></li>
+<li><a href="#org5f75698">1.5.3. Zones</a></li>
+<li><a href="#orge832ea5">1.5.4. Maneuvers</a></li>
+<li><a href="#orgb5ec60c">1.5.5. Turn Actions</a></li>
+</ul>
+</li>
+<li><a href="#org7d5e238">1.6. Environmental Effects</a></li>
+<li><a href="#org379317b">1.7. Size</a></li>
+<li><a href="#org9868037">1.8. Keywords</a>
+<ul>
+<li><a href="#orgfb04502">1.8.1. Conditions</a></li>
+</ul>
+</li>
+<li><a href="#org55b0779">1.9. Enemies</a></li>
+</ul>
+</li>
+<li><a href="#org9dcaf82">2. The DawnStorm Bestiary</a>
+<ul>
+<li><a href="#org7c8f6de">2.1. Recommended Playable Humanoids</a>
+<ul>
+<li><a href="#orgd6cd956">2.1.1. Human</a></li>
+<li><a href="#org1f53258">2.1.2. Goblin</a></li>
+<li><a href="#org311b94b">2.1.3. Keinfolk</a></li>
+<li><a href="#orgedabb2d">2.1.4. Talach</a></li>
+<li><a href="#org15d85e6">2.1.5. Talkin</a></li>
+<li><a href="#org6c16a1d">2.1.6. Tylluan</a></li>
+</ul>
+</li>
+<li><a href="#org3b30389">2.2. Beasts</a>
+<ul>
+<li><a href="#orge871bd5">2.2.1. Warthorg</a></li>
+</ul>
+</li>
+<li><a href="#orgf66672f">2.3. Celestials</a>
+<ul>
+<li><a href="#org0fe22c3">2.3.1. Angel</a></li>
+</ul>
+</li>
+<li><a href="#org0493903">2.4. Demons</a>
+<ul>
+<li><a href="#org98c7016">2.4.1. Bone Demons</a></li>
+<li><a href="#orgf71fc68">2.4.2. Dreadlords</a></li>
+<li><a href="#org2a07bc6">2.4.3. Nightcrawler</a></li>
+<li><a href="#orge11f63e">2.4.4. Oni</a></li>
+</ul>
+</li>
+<li><a href="#orgfffea8a">2.5. Fey</a>
+<ul>
+<li><a href="#orgb93b966">2.5.1. Changelings</a></li>
+<li><a href="#orge8713e8">2.5.2. Dryad</a></li>
+<li><a href="#org9e15db2">2.5.3. Fey Lord</a></li>
+<li><a href="#org4a157e1">2.5.4. Fey Queen</a></li>
+<li><a href="#org9781dfc">2.5.5. Krypsaker</a></li>
+<li><a href="#org1ae9b74">2.5.6. Pan / Pixie</a></li>
+</ul>
+</li>
+<li><a href="#org8ee9a3a">2.6. Ghosts</a>
+<ul>
+<li><a href="#org4cd9391">2.6.1. Animated Armour</a></li>
+<li><a href="#org321fb8b">2.6.2. Genius Loci</a></li>
+<li><a href="#orgf587fd8">2.6.3. Rage</a></li>
+<li><a href="#orgb79b394">2.6.4. Spectra</a></li>
+<li><a href="#orgf9afad0">2.6.5. Wendigo</a></li>
+<li><a href="#orgd5bc495">2.6.6. Will-o'-Wisp</a></li>
+<li><a href="#orgef95fb4">2.6.7. Demi-Ghosts</a></li>
+</ul>
+</li>
+<li><a href="#orge0d4c2f">2.7. Magical Beasts</a>
+<ul>
+<li><a href="#org55b065a">2.7.1. Chimera</a></li>
+<li><a href="#org12d5b6b">2.7.2. Griffin</a></li>
+<li><a href="#orgd0ea704">2.7.3. Lycanthropes</a></li>
+<li><a href="#orge5f7092">2.7.4. Night-mare</a></li>
+<li><a href="#orgb333c94">2.7.5. Unicorn</a></li>
+</ul>
+</li>
+<li><a href="#org0a1428a">2.8. Titans</a>
+<ul>
+<li><a href="#orge88e888">2.8.1. Aegir</a></li>
+<li><a href="#org4f06eb8">2.8.2. Atlas</a></li>
+<li><a href="#orgbe4af84">2.8.3. Cronus</a></li>
+<li><a href="#org2bb8c9e">2.8.4. Gaya</a></li>
+<li><a href="#orgc701f9d">2.8.5. Prometheus</a></li>
+<li><a href="#org330ff62">2.8.6. Sekhmet</a></li>
+<li><a href="#org36f635e">2.8.7. Leviathans</a></li>
+</ul>
+</li>
+<li><a href="#orgef1a6ae">2.9. Plants</a></li>
+<li><a href="#org0e0284c">2.10. Reptiles</a>
+<ul>
+<li><a href="#org49c7b86">2.10.1. Basilisk</a></li>
+<li><a href="#orgbce6b4f">2.10.2. Dragon</a></li>
+<li><a href="#org6db9547">2.10.3. Wyvern</a></li>
+</ul>
+</li>
+<li><a href="#orgb26465f">2.11. Undead</a>
+<ul>
+<li><a href="#orga5bd654">2.11.1. Ghoul</a></li>
+<li><a href="#org37ac885">2.11.2. Mummies</a></li>
+<li><a href="#orgb8677ff">2.11.3. Vampire</a></li>
+<li><a href="#orga0ba2ef">2.11.4. Zombie</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgdba91ad">3. Module: Eastern</a>
+<ul>
+<li><a href="#orgeebe2eb">3.1. Professions</a>
+<ul>
+<li><a href="#org3fc42cc">3.1.1. Kineticist</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org2d413c8">4. Module: Magic</a>
+<ul>
+<li><a href="#orgb9941c5">4.1. Spells</a></li>
+<li><a href="#orga7289c5">4.2. Magic Glyphs</a></li>
+<li><a href="#orgc05865b">4.3. Spellcasting</a>
+<ul>
+<li><a href="#org97270a1">4.3.1. Motions</a></li>
+<li><a href="#orgcaa22a5">4.3.2. Elements</a></li>
+<li><a href="#orgeb3cb39">4.3.3. Characters</a></li>
+</ul>
+</li>
+<li><a href="#orgedc19f5">4.4. Miracles</a></li>
+<li><a href="#org96c791a">4.5. Professions</a>
+<ul>
+<li><a href="#org608bed9">4.5.1. Acolyte</a></li>
+<li><a href="#org101d2be">4.5.2. Warmage [4 - Mage + Squire]</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#orgd6701e9">5. Module: Ritual Magic</a>
+<ul>
+<li><a href="#org90d02f1">5.1. Potions</a></li>
+<li><a href="#orgdce2d8b">5.2. Professions</a>
+<ul>
+<li><a href="#org801afd1">5.2.1. Druid [Acolyte + Hunter]</a></li>
+<li><a href="#orgf9d5a3c">5.2.2. Vedmak [Hunter + Acolyte]</a></li>
+<li><a href="#org2110163">5.2.3. Witch [4 - Acolyte + Herbalist]</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org9fd1cf7">6. Module: Medieval</a>
+<ul>
+<li><a href="#org7db431a">6.1. Professions</a>
+<ul>
+<li><a href="#org7b1df63">6.1.1. Fighter</a></li>
+<li><a href="#org4b01c7f">6.1.2. Recruit</a></li>
+<li><a href="#orgabea5f8">6.1.3. Hunter</a></li>
+<li><a href="#org427da90">6.1.4. Herbalist</a></li>
+<li><a href="#org005af8a">6.1.5. Noble</a></li>
+<li><a href="#orgf77a9e4">6.1.6. Thief</a></li>
+</ul>
+</li>
+<li><a href="#orgd190ae1">6.2. Items, Money and Prices</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgb4168b0" class="outline-2">
+<h2 id="orgb4168b0"><span class="section-number-2">1</span> DawnStorm - A 3D6 Pen &amp; Paper RPG</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-orgc06f507" class="outline-3">
+<h3 id="orgc06f507"><span class="section-number-3">1.1</span> Preword</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+I started this project with the intention of ending up with a simple RPG
+system, that nonetheless felt good and was fast to play. The second goal
+was to give as much freedom as possible, while keeping it simple for
+both the players and the GM.
+</p>
+
+<p>
+When you see something colored like <code>THIS</code> it is a keyword and will be
+explained somewhere later on.
+</p>
+
+<p>
+Some parts are labeled like
+</p>
+
+<blockquote>
+<p>
+THIS
+</p>
+</blockquote>
+
+<p>
+These provide some additional
+suggestions, explanations or just general commentary.
+</p>
+
+<p>
+When dividing or multiplying, Always round <b>against</b> your favor.
+</p>
+
+<p>
+The last thing is that almost all of this is built as suggestions, I'm
+more than happy if the players ask politely for items not on lists,
+spell words not shown and races not recommended, that is one of the
+points to the game.
+</p>
+
+<p>
+On that note, many things will be published on this site. Aside from the
+core rulebook, you should agree on which of these to use as some may be
+game or theme breaking.
+</p>
+
+<p>
+Now, let's get rolling.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org93c6ba0" class="outline-3">
+<h3 id="org93c6ba0"><span class="section-number-3">1.2</span> Skill Checks</h3>
+<div class="outline-text-3" id="text-1-2">
+<p>
+When you need to check if you succeeded at a particular task, you roll
+3D6 and if you Rolled <b>higher</b> or equal to the <code>Roll Difficulty</code>
+(further called <code>RD</code>) you were successfull. Many effects will subtract
+or add to your roll, most commonly your Professions. You may add, up to
+two Profession's bonuses from your roll.
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-right" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-right">RD</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-right">8</td>
+<td class="org-left">Easy</td>
+</tr>
+
+<tr>
+<td class="org-right">11</td>
+<td class="org-left">Normal</td>
+</tr>
+
+<tr>
+<td class="org-right">13</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-right">15</td>
+<td class="org-left">Hard</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+<b>Group checks</b> - If you need to use a skill against a crowd, roll 4
+times for the crowd, the whole crowd is divided on the subject based on
+the success rate of the rolls.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org5d5b8b9" class="outline-3">
+<h3 id="org5d5b8b9"><span class="section-number-3">1.3</span> Character creation</h3>
+<div class="outline-text-3" id="text-1-3">
+</div>
+<div id="outline-container-orgc7c6d28" class="outline-4">
+<h4 id="orgc7c6d28"><span class="section-number-4">1.3.1</span> Race</h4>
+<div class="outline-text-4" id="text-1-3-1">
+<p>
+The <a href="#org9dcaf82">Bestiary</a> contains some suggestions for this.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org2ab1cbc" class="outline-4">
+<h4 id="org2ab1cbc"><span class="section-number-4">1.3.2</span> Stats</h4>
+<div class="outline-text-4" id="text-1-3-2">
+<p>
+You have 3 stats in the DawnStorm game, <code>Body</code>, <code>Soul</code> and <code>Influence</code>.
+These represent everything you can do, and you should be able to
+categorize all actions under one of these stats. Occassionally called
+points for ease of wording.
+</p>
+
+<p>
+According to the power of your character you start with a number of
+points divided between your stats, 15 to 20 is suggested.
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Stat</th>
+<th scope="col" class="org-left">Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Body</td>
+<td class="org-left">strength, constitution</td>
+</tr>
+
+<tr>
+<td class="org-left">Soul</td>
+<td class="org-left">overcoming horrors and fears, resisting magic and torture, casting magic</td>
+</tr>
+
+<tr>
+<td class="org-left">Influence</td>
+<td class="org-left">persuasion, bartering with shopkeeps, underworld contacts</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+When you are damaged or hurt, you will "lose" these Stats, but only
+temporarily, your maximum in the Stat always stays the same. Consider it
+similar to losing Hit Points or Mana. For example: damage in combat
+loses <code>Body</code>, verbal put-downs cost you <code>Influence</code>
+</p>
+
+<p>
+<b>Regeneration</b> - You regenerate 4 stats after 8 hours of sleep, if you
+sleep at least 4 hours, you regain 2. Taking other types of long rests
+can gain you back 1 stat and wounds can be considered tended to.
+</p>
+
+<blockquote>
+<p>
+Easy Mode - Your stats regenerate after 8 hours of sleep, if you don't manage that amount, you regenerate only half of your total if you slept at least four hours, otherwise one quarter.
+</p>
+</blockquote>
+
+<p>
+<b>Scarring</b> - When you are out of a given stat and some event forces you
+to lose it, you must <code>Scar</code> yourself, in other situations you may <code>Scar</code>
+yourself voluntarily. These symbolize damage beyond something you can
+walk-of after a day or two. A scar should be accompanied with recieving
+an effect, or finding out about one (such as poison). A <code>Scar</code> is drawn
+across already spent points, and gives you <code>2 + 2 x Each spent point</code>.
+This wound always has an explanation to what it is and should affect
+your character even when outside combat. The taken up points of the Stat
+become unusable until you deal with the problem that is connected to the
+<code>Scar</code>. A <code>Scar's Rank</code> is equal to the number of points it makes
+unusable. If an effect would grant you additional Points in a Stat, you
+cannot Scar these, you may only Scar your own Stats.
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Stat + Scar Rank</th>
+<th scope="col" class="org-left">Example Wound</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Body Rank 1</td>
+<td class="org-left">Deeper cut</td>
+</tr>
+
+<tr>
+<td class="org-left">Body Rank 2</td>
+<td class="org-left">Major Food Poisoning</td>
+</tr>
+
+<tr>
+<td class="org-left">Body Rank 3</td>
+<td class="org-left">Stopped a sword with your Forearm</td>
+</tr>
+
+<tr>
+<td class="org-left">Body Rank 5</td>
+<td class="org-left">Missing Limb</td>
+</tr>
+
+<tr>
+<td class="org-left">Soul Rank 1</td>
+<td class="org-left">Small mental quirk</td>
+</tr>
+
+<tr>
+<td class="org-left">Soul Rank 5</td>
+<td class="org-left">Borderline madness</td>
+</tr>
+
+<tr>
+<td class="org-left">Influence Rank 1</td>
+<td class="org-left">Small public humiliation</td>
+</tr>
+
+<tr>
+<td class="org-left">Influence Rank 2</td>
+<td class="org-left">Nasty local rumours</td>
+</tr>
+
+<tr>
+<td class="org-left">Influence Rank 5</td>
+<td class="org-left">Denounced by ruler</td>
+</tr>
+</tbody>
+</table>
+
+<blockquote>
+<p>
+Influence Scars may often apply only based on location, similairly to
+Soul Scar's that may be temporarily triggered by something.
+</p>
+</blockquote>
+
+<p>
+<b>Death and Unconsciousness</b> - Many Scars in any stat is enough to make a
+character unplayable, not having any more Unscarred Points in a Stat is
+taken as the character being dead, crazy or unable to interact with
+normal people. After suffering Body Scars of a total equal to or higher
+than 3/4 of your Body stat, you fall unconscious.
+</p>
+
+<p>
+<b>Expanding your skills</b> - Each time you spend <code>8XP</code> in professions, you
+can increase by one, any of your Stats.
+</p>
+
+<p>
+<b>non-Professional checks</b> - If you need to check your success in an
+action, that doesn't apply to any of your professions, you may roll with
+a bonus of your stat divided by 3 rounded down - 1. For the purpose of
+making these slightly more specific, each <code>Body</code> stat you have or gain,
+should be categorized under <code>Strength</code> or <code>Agility</code>.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgfeb86ea" class="outline-4">
+<h4 id="orgfeb86ea"><span class="section-number-4">1.3.3</span> Professions</h4>
+<div class="outline-text-4" id="text-1-3-3">
+<p>
+Professions give you bonuses to your rolls and special abilities you can
+use. They don't necessarily mean that you are your Profession, having a
+Rank in Thief doesn't necessarily translate into your character being a
+Thief, it only shows that they have a similar set of skills, that your
+character could've picked up and used elsewhere. After performing an
+adventureous task, you are awarded <code>XP</code> by your GM. The amount of <code>XP</code>
+you need to improve (<code>Rank Up</code>) a Profession is <code>4XP</code>. And every
+<code>Rank Up</code> grants you a <code>+1</code> Die roll bonus.
+</p>
+
+<p>
+Professions are divided into a couple Tiers, usually 3. <code>Tier I</code> is
+learning and becoming the professions some sort of apprentice or
+student, <code>Tier II</code> is the actual profession and <code>Tier III</code> is a sort of
+veteran status.
+</p>
+
+<blockquote>
+<p>
+University Student &rarr; Engineer &rarr; Senior Engineer
+</p>
+</blockquote>
+
+<p>
+After taking 3 levels in a profession you may start Ranking up its next
+Tier, alternatively 1.5x the required amount in any related Professions,
+this is always the case with professions that do not have a first Tier.
+</p>
+
+<blockquote>
+<p>
+So having 3 Ranks in Magic Acolyte (Tier I) and 1 rank in Hunter (Tier I) would allow you to take Druid (Tier II)
+</p>
+</blockquote>
+
+<p>
+Some professions will list prerequisites. These prerequisites are listed
+under <code>Rite</code> in the description of the <code>Profession</code>.
+</p>
+
+<p>
+<b>Skills</b> - The profession will list some things that it includes and
+thus gives bonuses for. The Skills listed are examples, each Profession
+includes more than is listed and the judgement of each individual action
+that comes up should be up to the Players and the GM (if a specific
+ability adds something as a skill, it isn't considered as a skill by
+default). If an <code>Ability</code> states that you now have a skill in something,
+act as if the profession lists it in its skills.
+</p>
+
+<p>
+<b>Abilities</b> - Professions contain Abilities. You gain one of these
+abilities every <code>Rank Up</code> in that skill. When you see text in [] square
+brackets, those are prerequisites.
+</p>
+
+<p>
+<b>Specialties</b> - If a <code>Profession</code> lists <code>Specialties</code>, you must choose
+one of them (or make up your own if the GM allows) when <code>Ranking up</code>,
+they perform as absolutely separate Professions. If it is related
+enough, but not quite your speciality, you may use half of the die
+bonus.
+</p>
+
+<blockquote>
+<p>
+These are most often Knowledge based, where you choose one domain to
+be learned in.
+</p>
+</blockquote>
+
+<p>
+As DawnStorm is not setting specific, I do not provide any in this
+document, there should be some example ones in the modules. Otherwise,
+Skills, should be self explanatory when you create your own professions.
+And abilities should be something that someone talented may pick-up
+after performing that Profession for about a year's time, I.E. A chef
+weighing ingredients perfectly in hand, a librarian remembering a long
+book index, or an archer shooting multiple arrows if they perhaps did
+that for fun.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgc42280f" class="outline-3">
+<h3 id="orgc42280f"><span class="section-number-3">1.4</span> Inventory and Items</h3>
+<div class="outline-text-3" id="text-1-4">
+</div>
+<div id="outline-container-org6cf5770" class="outline-4">
+<h4 id="org6cf5770"><span class="section-number-4">1.4.1</span> Weapon Classes</h4>
+<div class="outline-text-4" id="text-1-4-1">
+<p>
+Weapons apart from stated bonuses have a type and length (i.e. long
+piercing). When describing an animal's attacks, the same rules can be
+used. These give you a free maneuver to use while wielding them and have
+an effect:
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Basic Weapon Classes</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Slashing</td>
+<td class="org-left">Accurate</td>
+</tr>
+
+<tr>
+<td class="org-left">Short Slashing</td>
+<td class="org-left">Feint</td>
+</tr>
+
+<tr>
+<td class="org-left">Blunt</td>
+<td class="org-left">Powerful</td>
+</tr>
+
+<tr>
+<td class="org-left">Piercing</td>
+<td class="org-left">Powerful</td>
+</tr>
+
+<tr>
+<td class="org-left">Short</td>
+<td class="org-left">You can instead attack twice with a <code>-2</code> penalty, but not use a maneuver</td>
+</tr>
+
+<tr>
+<td class="org-left">Long</td>
+<td class="org-left">Short arms, cannot use maneuvers against you, except for feint</td>
+</tr>
+
+<tr>
+<td class="org-left">Shield</td>
+<td class="org-left">Grants two <code>Defence</code> maneuvers</td>
+</tr>
+</tbody>
+</table>
+
+<blockquote>
+<p>
+If nothing is stated, assume no maneuver bonus, medium weapon
+</p>
+</blockquote>
+
+<p>
+<b>Load</b> - A character may only comfortably carry a reasonable number of
+minor items and up to their <code>Body</code> worth of major items. Major items
+being, staffs, swords, rations, guns, tents and the like. Every item
+carried above this amount gives you a <code>-2 Body</code> on skill checks. If the
+item is made for a different size than you, it takes up 1 more or less
+for every size between you and the item.
+</p>
+
+<p>
+<b>Makeshift</b> - Weapons you grab on the spot, without changing in any way,
+have a limit of 2 Stats of damage. Optimizing them in some way
+(sharpening the stick), limits that to 3. In either case, you cannot use
+their free maneuvers. To nullify these limitations, you need to succeed
+at an appropriate skill check and input adequate amounts of time and
+effort. See <a href="#org07e160f">Item Creation</a>.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org07e160f" class="outline-4">
+<h4 id="org07e160f"><span class="section-number-4">1.4.2</span> Item Creation</h4>
+<div class="outline-text-4" id="text-1-4-2">
+<p>
+When determining the difficulty of lingering effects (such as traps or
+camouflage) created by players, let them roll upon creation and then use
+that as the <code>DR</code>. The GM may raise or lower the <code>DR</code> of checks by around
+3, if there are advantages or disadvantages such as tools, time or bad
+lighting.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgf02264d" class="outline-3">
+<h3 id="orgf02264d"><span class="section-number-3">1.5</span> Combat</h3>
+<div class="outline-text-3" id="text-1-5">
+</div>
+<div id="outline-container-orgad1c31e" class="outline-4">
+<h4 id="orgad1c31e"><span class="section-number-4">1.5.1</span> Attacks</h4>
+<div class="outline-text-4" id="text-1-5-1">
+<p>
+To determine the outcome of an attack, roll the attack as a skill check.
+Afterwards, the defending party has multiple ways to prevent the damage,
+most commonly by using the <code>Defence</code> maneuver.
+</p>
+
+<p>
+When an attack is made, you will lose stats, the amount is how many
+times the difference between your rolls, exceeds your <code>Die Bonus</code>.
+</p>
+
+<p>
+<b>Pain</b> - Recieving damage, gives you a <code>-3</code> to all offensive rolls and
+<code>-2</code> on others, until the end of your next turn or next round, whichever
+comes first.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org98af049" class="outline-4">
+<h4 id="org98af049"><span class="section-number-4">1.5.2</span> Initiative</h4>
+<div class="outline-text-4" id="text-1-5-2">
+<p>
+Combat is initiated by an attack, that creature is first in initiative
+and has used up its turn delivering this attack.
+</p>
+
+<p>
+After which, others go in the following order:
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-right" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-right">#</th>
+<th scope="col" class="org-left">Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-right">1</td>
+<td class="org-left">Unarmed</td>
+</tr>
+
+<tr>
+<td class="org-right">2</td>
+<td class="org-left">Short Weapons</td>
+</tr>
+
+<tr>
+<td class="org-right">3</td>
+<td class="org-left">Medium Weapons</td>
+</tr>
+
+<tr>
+<td class="org-right">4</td>
+<td class="org-left">Magic</td>
+</tr>
+
+<tr>
+<td class="org-right">5</td>
+<td class="org-left">Other Actions</td>
+</tr>
+
+<tr>
+<td class="org-right">6</td>
+<td class="org-left">Long Weapons</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+After these are exhausted, 1 Round had passed. Each of these actions
+take 1 second.
+</p>
+
+<blockquote>
+<p>
+Basically, every round, the GM goes through, asking: Any Unarmed?, Any
+Magic?, etc. This means that you may change your decisions based on
+what previous actions were taken
+</p>
+</blockquote>
+
+<p>
+The rest is up to the GM or random chance.
+</p>
+
+<p>
+If one party had been ambushed, every member of the other is
+automatically <code>Stumbled</code>. If you wish to save your action for later,
+that is possible, for clarity, these should be announced anyway and go
+before all others, once they are used. Only one saved action can be
+held, it is lost upon your next turn.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org5f75698" class="outline-4">
+<h4 id="org5f75698"><span class="section-number-4">1.5.3</span> Zones</h4>
+<div class="outline-text-4" id="text-1-5-3">
+<p>
+To aid with larger battlefields and positioning, DawnStorm uses Zones.
+For Example, you may have a chapel, where the fight is divided between
+the two wings, the main hall, the altar, etc. Based on the number of
+enemies and the type of attacks there are, you may use as few or many as
+is practical. For flying creatures, identical zones exist above the
+ground ones, where only the flying creatures can go. Unless stated
+otherwise you may attack anyone in your zone.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orge832ea5" class="outline-4">
+<h4 id="orge832ea5"><span class="section-number-4">1.5.4</span> Maneuvers</h4>
+<div class="outline-text-4" id="text-1-5-4">
+<p>
+To use a <code>Basic</code> maneuver, you spend 1 Stat, though only if an effect
+allows you to use it. <code>Advanced</code> maneuvers, marked <code>A</code>, cost 2 Stats.
+</p>
+
+<p>
+One <code>Defence/Parry</code> per turn is free per weapon or shield with which you
+didn't attack.
+</p>
+
+<p>
+<b>A - Precise</b> - Roll 5D6 take lowest 3
+</p>
+
+<p>
+<b>Accurate</b> - Roll 4d6 take lowest 3
+</p>
+
+<p>
+<b>A - Mighty</b> - Causes target to lose double from a Stat (round down;
+minimum 2)
+</p>
+
+<p>
+<b>Powerful</b> - Causes target to lose <code>1/2</code> more from a Stat (round down;
+minimum 1)
+</p>
+
+<p>
+<b>Weak</b> - Causes target to lose half as much of a Stat
+</p>
+
+<p>
+<b>Feint</b> - You give an ally a free Basic Maneuver against the same enemy
+or Kick the creature back attempting to make them stumbled or moving
+them; Under 1m and not stumbled if the degree of success is lower than 2
+</p>
+
+<p>
+<b>Defence/Armor/Parry/Dodge</b> - You roll against the enemy's attack roll +
+your rank in this, if you succeed, the hit is absorbed or parried and is
+counted as a miss, doesn't work against magical effects by default,
+except Dodge
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgb5ec60c" class="outline-4">
+<h4 id="orgb5ec60c"><span class="section-number-4">1.5.5</span> Turn Actions</h4>
+<div class="outline-text-4" id="text-1-5-5">
+<p>
+In a turn, you have two phases, a move and a move/action phase. Your
+move allows you to move by 1 zone.
+</p>
+
+<p>
+As an action you may do one of the following:
+</p>
+
+<ul class="org-ul">
+<li>Attack</li>
+<li>Defend - Gain or grant an ally in the same zone <code>Dodge 0</code> until the
+start of your next turn</li>
+<li>Activate a Magic Glyph</li>
+<li>Aid - You may roll a skill check against <code>RD 10</code>, if you succeed, an
+ally attempting the same check acts as if they are <code>Skilled</code>, if both
+of you are skilled, you may roll against <code>RD 8</code> , in which case the
+ally rolls as a <code>Master</code></li>
+<li>Ready - Spend the round changing held items, if they're in a bag, you
+should spend 2 actions taking them out. Similair to clothing, putting
+on chainmail would cost a turn, a full suit would cost 2 to 3.</li>
+<li>Perform Action - Such as, put out fire or pull lever</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org7d5e238" class="outline-3">
+<h3 id="org7d5e238"><span class="section-number-3">1.6</span> Environmental Effects</h3>
+<div class="outline-text-3" id="text-1-6">
+<p>
+<b>Fall</b> - 1 Body per 5 m
+</p>
+
+<p>
+<b>Suffocation</b> - 1 + your Constitution <code>Die Bonus</code> in minutes, then
+<code>Out of Breath</code> for half a minute, then you are <code>Exhausted</code> for 18
+seconds, after which you start recieving a growing scar which grows by
+one for every 3 seconds. If you are attacked and have to defend in a
+physically demanding way (dodging counts, armor does not), you lose 9
+seconds of air.
+</p>
+
+<p>
+<b>Food and Water</b> - not eating or drinking a day gives you -1 to body
+based rolls, not recieving sustenance for 3 days, gives you
+<code>Exhaustion</code>, which increases by 1 level for every day after that.
+</p>
+
+<p>
+<b>Sleep</b> - not sleeping works the same as food and water, but starts
+giving you debuffs after 2 days of no sleep
+</p>
+
+<p>
+<b>Light</b> - -2 to sight based activities in dim light, -3 in near dark
+</p>
+
+<p>
+<b>Elemental Damage</b> - You lose 1 body per round of exposure per strength
+of element, regular fire causes 1 Body of damage every 2 rounds
+</p>
+</div>
+</div>
+
+<div id="outline-container-org379317b" class="outline-3">
+<h3 id="org379317b"><span class="section-number-3">1.7</span> Size</h3>
+<div class="outline-text-3" id="text-1-7">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Size</th>
+<th scope="col" class="org-left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Scrawny</td>
+<td class="org-left">Think flies or insects</td>
+</tr>
+
+<tr>
+<td class="org-left">Tiny</td>
+<td class="org-left">Smaller than 0.3m in all dimensions</td>
+</tr>
+
+<tr>
+<td class="org-left">Small</td>
+<td class="org-left">Smaller than 1m in all dimensions</td>
+</tr>
+
+<tr>
+<td class="org-left">Normal</td>
+<td class="org-left">Humans</td>
+</tr>
+
+<tr>
+<td class="org-left">Large</td>
+<td class="org-left">From 2m</td>
+</tr>
+
+<tr>
+<td class="org-left">Huge</td>
+<td class="org-left">Bigger than about 5m</td>
+</tr>
+
+<tr>
+<td class="org-left">Giant</td>
+<td class="org-left">Dragons</td>
+</tr>
+
+<tr>
+<td class="org-left">Colossal</td>
+<td class="org-left">Leviathans, Ancient Dragons</td>
+</tr>
+
+<tr>
+<td class="org-left">Immense</td>
+<td class="org-left">Towering over land itself</td>
+</tr>
+
+<tr>
+<td class="org-left">Primal</td>
+<td class="org-left">Deities &amp; Titans</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+If a creature exceeds another's size, it can freely use the <code>Powerful</code>
+maneuver with Body based encounters against that creature, however the
+target acts as if it was <code>Skilled</code> at <code>Dodging</code> them. Normal has an
+average of <code>5 Body</code>, going lower subtracts 1, bigger sizes are double of
+the previous size.
+</p>
+
+<blockquote>
+<p>
+<b>Weight</b> - If for any reason you need an estimate of weight for your
+humanoid players. Use [Weight = 20x(Height<sup>2</sup>)] with kg and m.
+Adjusting the 20 about 3 up (more weight) or down (underweight).
+</p>
+</blockquote>
+</div>
+</div>
+
+<div id="outline-container-org9868037" class="outline-3">
+<h3 id="org9868037"><span class="section-number-3">1.8</span> Keywords</h3>
+<div class="outline-text-3" id="text-1-8">
+<p>
+<b>Area</b> - This shows that an action performed affects a certain area such
+as an explosion or cannonball. Normally this is specified as a simple
+length that specifies the diameter of a sphere or length of a line based
+on context. By default a sphere centered on you.
+</p>
+
+<p>
+<b>RD</b> - The difficulty of a roll
+</p>
+
+<p>
+<b>Degrees of success</b> - The number by which you exceed the required <code>RD</code>
+</p>
+
+<p>
+<b>Range</b> - Range may specify an I before the distance to indicate an
+incorporeal effect that passes unhindered through solid objects.
+</p>
+
+<p>
+<b>Regeneration</b> - The creature regains X Body at the start of its turn.
+</p>
+
+<p>
+<b>Natural Armor/Mindlock/Beloved</b> - Expending the <code>Body/Soul/Influence</code>
+resource is always reduced by said amount. May specify a source in
+parentheses that nullifies this protection.
+</p>
+
+<p>
+<b>Fly</b> - Describes Fly Speed
+</p>
+
+<p>
+<b>Sense</b> - Always knows about all movement within a certain radius. It
+can feel generally what kind of creature it is.
+</p>
+
+<p>
+<b>Skilled</b> - Your allowed Base maneuvers are free
+</p>
+
+<p>
+<b>Master</b> - You may use <code>Advanced</code> maneuvers, if you are a <code>Master</code> you
+are also <code>Skilled</code>
+</p>
+
+<p>
+<b>Nightvision</b> - Does not suffer from lack of proper lighting.
+</p>
+
+<p>
+<b>Recharge</b> - You roll a D6 and if it's less than X the ability is ready
+to use again.
+</p>
+
+<p>
+<b>Immunity</b> - The stated source cannot cause the creature to expend
+Stats.
+</p>
+
+<p>
+<b>Resistance</b> - Halve the number of Stats lost due to an effect caused by
+this source.
+</p>
+
+<p>
+<b>Vulnerability</b> - Double the number of Stats lost due to an effect
+caused by this source.
+</p>
+
+<p>
+<b>Stumped/Distracted</b> - You can't use any maneuvers, that you choose to
+use (that means maneuvers that you spend Stats for or effects that state
+you <i>may</i> use them)
+</p>
+</div>
+
+<div id="outline-container-orgfb04502" class="outline-4">
+<h4 id="orgfb04502"><span class="section-number-4">1.8.1</span> Conditions</h4>
+<div class="outline-text-4" id="text-1-8-1">
+<p>
+<b>Stumbled</b> - you go at the end of initiative (in the order they were
+stumbled, if there is more than one) and cannot move more than 1 step,
+if you are already stumbled, you lose your next turn. This condition
+ends on you turn.
+</p>
+
+<p>
+<b>Short of Breath</b> - While you are short of breath, you can't use any
+<code>Maneuvers</code> with your actions that use the <code>Body</code> skill, no speech-based
+actions and no <i>Advanced Maneuvers</i> with actions using the <code>Soul</code> skill.
+If you fail an action you become <i>Exhausted</i> for the rest of the
+duration + <i>1 Round</i> or just <i>1 Round</i> if the <code>Out of Breath</code>'s duration
+is longer than an hour.
+</p>
+
+<p>
+<b>Exhausted</b> - You suffer a <code>-2</code> on all rolls per level of Exhaustion as
+well as all the hindrances given by <code>Short of Breath</code>.
+</p>
+
+<p>
+<b>Restrained</b> -
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org55b0779" class="outline-3">
+<h3 id="org55b0779"><span class="section-number-3">1.9</span> Enemies</h3>
+<div class="outline-text-3" id="text-1-9">
+<p>
+For ease of play, enemies do not track most of their stats as closely as
+players do. They will usually just state <code>Body</code>, <code>Soul</code> and <code>Influence</code>;
+or a universal resource called <code>Fate</code> if the enemy is fodder enough.
+They may state several abilities with cooldowns and attacks with their
+own die bonuses. If it is stated that a weapon either carried or
+natural, is of a certain type, consider the enemy to be able to use the
+maneuvers that those weapons would grant.
+</p>
+
+<p>
+Legendary creatures, that are fought mostly 1 against the entire party,
+should use Legendary actions. This allows the creature to take an action
+after every other creature, as long as it has additional logical ways to
+do this. I.E.: Claws, a tail and a fiery breath
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org9dcaf82" class="outline-2">
+<h2 id="org9dcaf82"><span class="section-number-2">2</span> The DawnStorm Bestiary</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-org7c8f6de" class="outline-3">
+<h3 id="org7c8f6de"><span class="section-number-3">2.1</span> Recommended Playable Humanoids</h3>
+<div class="outline-text-3" id="text-2-1">
+</div>
+<div id="outline-container-orgd6cd956" class="outline-4">
+<h4 id="orgd6cd956"><span class="section-number-4">2.1.1</span> Human</h4>
+<div class="outline-text-4" id="text-2-1-1">
+<p>
+Nothing special, the perfect blank slate.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org1f53258" class="outline-4">
+<h4 id="org1f53258"><span class="section-number-4">2.1.2</span> Goblin</h4>
+<div class="outline-text-4" id="text-2-1-2">
+<p>
+Size: <code>Small</code>
+</p>
+</div>
+</div>
+
+<div id="outline-container-org311b94b" class="outline-4">
+<h4 id="org311b94b"><span class="section-number-4">2.1.3</span> Keinfolk</h4>
+<div class="outline-text-4" id="text-2-1-3">
+<p>
+<b>Kein Roar</b> - Once a day, you are able to Roar so loud that any
+creatures within a 30 meter radius, must succeed at an <code>RD 9</code> Check, or
+become <code>Frightened</code> of you for 6 Seconds.
+</p>
+
+<p>
+Incredibly proud, stubborn and loyal creatures, described mostly as
+humanoid lions. Pride upon pride, their mane is what defines their
+class, long and wavy manes always giving an advantage when arriving in
+any Keinfolk society.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgedabb2d" class="outline-4">
+<h4 id="orgedabb2d"><span class="section-number-4">2.1.4</span> Talach</h4>
+<div class="outline-text-4" id="text-2-1-4">
+<p>
+<b>Talach talent</b> - You are a <code>Master</code> at one form of art and <code>Skilled</code> in
+another.
+</p>
+
+<p>
+Tall, with pointed ears, humble and noble, truly a beloved race by most
+anyone who meets them. Their curiosity and fantasy had made them into
+popular artists and poets, outside their cities often kept in castles
+and manors by nobility due to this affinity. Their intelligence hasn't
+been perceived to be high nor their strength, manual dexterity is the
+one thing they have and which no other race may rival them in.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org15d85e6" class="outline-4">
+<h4 id="org15d85e6"><span class="section-number-4">2.1.5</span> Talkin</h4>
+<div class="outline-text-4" id="text-2-1-5">
+<p>
+<b>Talkin Ear</b> - Your ears are very sensitive to whispers and murmurs.
+When listening to someone in a crowded room, you hear as if the room was
+silent.
+</p>
+
+<p>
+They are very similar to the Talach, however their ears are
+significantly flatter, lower, sometimes almost horizontal. Quite sly,
+sneaky and adept at close range combat, they make excellent spies and
+thieves and are often employed as such.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org6c16a1d" class="outline-4">
+<h4 id="org6c16a1d"><span class="section-number-4">2.1.6</span> Tylluan</h4>
+<div class="outline-text-4" id="text-2-1-6">
+<p>
+<b>Tylluan Sight</b> - You have <code>NightVision</code>
+</p>
+
+<p>
+The Tylluan are to owls what the keinfolk are to lions.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org3b30389" class="outline-3">
+<h3 id="org3b30389"><span class="section-number-3">2.2</span> Beasts</h3>
+<div class="outline-text-3" id="text-2-2">
+</div>
+<div id="outline-container-orge871bd5" class="outline-4">
+<h4 id="orge871bd5"><span class="section-number-4">2.2.1</span> Warthorg</h4>
+</div>
+</div>
+<div id="outline-container-orgf66672f" class="outline-3">
+<h3 id="orgf66672f"><span class="section-number-3">2.3</span> Celestials</h3>
+<div class="outline-text-3" id="text-2-3">
+</div>
+<div id="outline-container-org0fe22c3" class="outline-4">
+<h4 id="org0fe22c3"><span class="section-number-4">2.3.1</span> Angel</h4>
+</div>
+</div>
+<div id="outline-container-org0493903" class="outline-3">
+<h3 id="org0493903"><span class="section-number-3">2.4</span> Demons</h3>
+<div class="outline-text-3" id="text-2-4">
+</div>
+<div id="outline-container-org98c7016" class="outline-4">
+<h4 id="org98c7016"><span class="section-number-4">2.4.1</span> Bone Demons</h4>
+<div class="outline-text-4" id="text-2-4-1">
+<p>
+The bone demons are the knights of the nine hells, they are sent to
+retrieve souls that are expected to pose ressistance. They stand about 2
+metres tall, carry a great-shield and a slightly curved broadsword or
+lance, as well as two daggers lodged into a cavity in their hips. Their
+outer appearance is that of a knight, whose plate armour has a surface
+similair to a bones. It's head has a fleshy mouth, and then a split into
+two flat protrusions to each side. If the bone demon's plates should
+come apart you may see that the inside is actually mostly empty, and
+held together by occassional oozing strands, the only physical part
+being the mouth.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgf71fc68" class="outline-4">
+<h4 id="orgf71fc68"><span class="section-number-4">2.4.2</span> Dreadlords</h4>
+</div>
+<div id="outline-container-org2a07bc6" class="outline-4">
+<h4 id="org2a07bc6"><span class="section-number-4">2.4.3</span> Nightcrawler</h4>
+<div class="outline-text-4" id="text-2-4-3">
+<p>
+These dog-like creatures are mostly used by other demons for spying,
+hunting and disposing of targets. Their visage is quite simple, the
+front half is that of a wolf up until their back legs and hips, which
+are just black smoke and non-visible. Their eyes reflect light in
+anything but the darkest of places, the light changes color based on the
+demon it is currently serving. If a mortal ever manages to calm and tame
+a nightcrawler, the smoke coming from its back changes to bright blue
+and it becomes apparent that their non-feral nature is quite playful.
+</p>
+
+<p>
+<b>Blinking</b> They can teleport between two points connected by near pitch
+darkness while neither is being observed.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orge11f63e" class="outline-4">
+<h4 id="orge11f63e"><span class="section-number-4">2.4.4</span> Oni</h4>
+</div>
+</div>
+<div id="outline-container-orgfffea8a" class="outline-3">
+<h3 id="orgfffea8a"><span class="section-number-3">2.5</span> Fey</h3>
+<div class="outline-text-3" id="text-2-5">
+</div>
+<div id="outline-container-orgb93b966" class="outline-4">
+<h4 id="orgb93b966"><span class="section-number-4">2.5.1</span> Changelings</h4>
+<div class="outline-text-4" id="text-2-5-1">
+<p>
+Changelings are the infiltrators of the Fey, they can change their body
+to the visage of any humanoid they see at least indirectly. They are
+born by imbuing an unborn child with Fey magic. The family usually
+doesn't know about this, until the Fey visit the child at 18 years old,
+informing it of its destiny. This arduous process is mostly so that the
+Changeling blends in as well as possible with other creatures. When a
+changeling dies, it reverts to its original form.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orge8713e8" class="outline-4">
+<h4 id="orge8713e8"><span class="section-number-4">2.5.2</span> Dryad</h4>
+</div>
+
+<div id="outline-container-org9e15db2" class="outline-4">
+<h4 id="org9e15db2"><span class="section-number-4">2.5.3</span> Fey Lord</h4>
+</div>
+
+<div id="outline-container-org4a157e1" class="outline-4">
+<h4 id="org4a157e1"><span class="section-number-4">2.5.4</span> Fey Queen</h4>
+</div>
+
+<div id="outline-container-org9781dfc" class="outline-4">
+<h4 id="org9781dfc"><span class="section-number-4">2.5.5</span> Krypsaker</h4>
+<div class="outline-text-4" id="text-2-5-5">
+<p>
+A fey being of intense resilience, it resembles a humanoid, but it seems
+as to be disfigured into a goblin-like form, with sharp teeth and
+pointed uneven ears and nails. At any point it can turn parts of itself
+into insects or birds and Even a single one of these may with enough
+nourishment create a whole Krypsaker once more.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org1ae9b74" class="outline-4">
+<h4 id="org1ae9b74"><span class="section-number-4">2.5.6</span> Pan / Pixie</h4>
+<div class="outline-text-4" id="text-2-5-6">
+<p>
+The most common of the Fey, often incorrectly called forest nymphs, Pans
+and their female counterparts called Pixies inhabit kingdoms in many
+forests of the world. Their philosophy of life is inherently pacifistic,
+created by the titan gaya to protect the forests, the damage of which is
+the only way to aggravate them.
+</p>
+
+<p>
+They carry human chests and heads, usually with antlers and animal eyes
+and ears. Their legs bend backwards above the knee bending backwards
+before heading to the ground once more and ending in hooves. Most of
+their bodies are covered and seem to be made of leaves, branches and
+vines, same as their tools and homes. Being gaya's chosen all wildlife
+listens and bends to the needs of the pan.
+</p>
+</div>
+
+<ol class="org-ol">
+<li><a id="orgd5ceab5"></a>Shadow Pan<br /></li>
+
+<li><a id="org465af9b"></a>Hag<br /></li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-org8ee9a3a" class="outline-3">
+<h3 id="org8ee9a3a"><span class="section-number-3">2.6</span> Ghosts</h3>
+<div class="outline-text-3" id="text-2-6">
+</div>
+<div id="outline-container-org4cd9391" class="outline-4">
+<h4 id="org4cd9391"><span class="section-number-4">2.6.1</span> Animated Armour</h4>
+</div>
+
+<div id="outline-container-org321fb8b" class="outline-4">
+<h4 id="org321fb8b"><span class="section-number-4">2.6.2</span> Genius Loci</h4>
+<div class="outline-text-4" id="text-2-6-2">
+<p>
+These peculiar demi-ghosts usually manifest in places of great
+historical or natural significance that have nonetheless been left to
+their own devices. These creatures are usually very shy and rarely ever
+speak unless somehow directly invoked. They have been shown to have
+knowledge on all matters occurring in their place of existence. These
+plains of land where they exist may range from a single ruin to most of
+a forest. They communicate telepathically with any sentient creatures
+within their domain, however to do this they must concentrate and so
+they loose sight of their surroundings for the time being. A very
+powerful Genius Loci was once recorded to speak audibly directly through
+a human, both of whom shortly lost consciousness afterwards, however
+this is only hearsay.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgf587fd8" class="outline-4">
+<h4 id="orgf587fd8"><span class="section-number-4">2.6.3</span> Rage</h4>
+</div>
+
+<div id="outline-container-orgb79b394" class="outline-4">
+<h4 id="orgb79b394"><span class="section-number-4">2.6.4</span> Spectra</h4>
+</div>
+
+<div id="outline-container-orgf9afad0" class="outline-4">
+<h4 id="orgf9afad0"><span class="section-number-4">2.6.5</span> Wendigo</h4>
+</div>
+
+<div id="outline-container-orgd5bc495" class="outline-4">
+<h4 id="orgd5bc495"><span class="section-number-4">2.6.6</span> Will-o'-Wisp</h4>
+</div>
+
+<div id="outline-container-orgef95fb4" class="outline-4">
+<h4 id="orgef95fb4"><span class="section-number-4">2.6.7</span> Demi-Ghosts</h4>
+<div class="outline-text-4" id="text-2-6-7">
+</div>
+<ol class="org-ol">
+<li><a id="org0976cbc"></a>Lost Soul<br />
+<div class="outline-text-5" id="text-2-6-7-1">
+<p>
+Lost Souls is a general term for souls that have been prevented from
+leaving the world, usually through trapping them inside a container,
+very commonly glass spheres or stones. When touching the container one
+may telepathically communicate with the soul trapped within. It is said
+that the feeling of being a lost soul is like being restrained and
+gagged, however you see everything that goes on around you. If left
+alone for long enough the soul usually goes crazy within a few weeks,
+thus they always wish to be released and will trade next to any help
+they can provide for you letting them go. Cracking or opening a
+container of the soul, releases it.
+</p>
+
+<p>
+<b>Magic</b> Lost souls are often used by spellcasters, because the mana of
+the original creature still resides within their soul. The soul however,
+cannot regenerate mana without the body and so is one use only. <i>Note</i>
+Please break your soul stones after use.
+</p>
+</div>
+</li>
+
+<li><a id="org277538b"></a>Mirra<br />
+<div class="outline-text-5" id="text-2-6-7-2">
+<p>
+Mirras are perfect copies of a creature's conciousness from a certain
+point. They are created via a spell etched into the wooden part of a
+mirror, binding a present creature to the object, which then shows in
+its reflection the bound creature's reflection. The reflection moves
+around the room and can talk and recall all the memories of the original
+creature, its maneurism and personality are also the same. The Mirra
+cannot create new memories or create new impressions on people, it is
+always just a perfect copy, however it may utilize very short term
+memory or connect concepts to changes in the room which it may ask you
+to make. The Mirra recalls existing memories perfectly and
+instantaneously.
+</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-orge0d4c2f" class="outline-3">
+<h3 id="orge0d4c2f"><span class="section-number-3">2.7</span> Magical Beasts</h3>
+<div class="outline-text-3" id="text-2-7">
+</div>
+<div id="outline-container-org55b065a" class="outline-4">
+<h4 id="org55b065a"><span class="section-number-4">2.7.1</span> Chimera</h4>
+</div>
+<div id="outline-container-org12d5b6b" class="outline-4">
+<h4 id="org12d5b6b"><span class="section-number-4">2.7.2</span> Griffin</h4>
+</div>
+<div id="outline-container-orgd0ea704" class="outline-4">
+<h4 id="orgd0ea704"><span class="section-number-4">2.7.3</span> Lycanthropes</h4>
+</div>
+<div id="outline-container-orge5f7092" class="outline-4">
+<h4 id="orge5f7092"><span class="section-number-4">2.7.4</span> Night-mare</h4>
+</div>
+<div id="outline-container-orgb333c94" class="outline-4">
+<h4 id="orgb333c94"><span class="section-number-4">2.7.5</span> Unicorn</h4>
+</div>
+</div>
+<div id="outline-container-org0a1428a" class="outline-3">
+<h3 id="org0a1428a"><span class="section-number-3">2.8</span> Titans</h3>
+<div class="outline-text-3" id="text-2-8">
+</div>
+<div id="outline-container-orge88e888" class="outline-4">
+<h4 id="orge88e888"><span class="section-number-4">2.8.1</span> Aegir</h4>
+</div>
+<div id="outline-container-org4f06eb8" class="outline-4">
+<h4 id="org4f06eb8"><span class="section-number-4">2.8.2</span> Atlas</h4>
+</div>
+<div id="outline-container-orgbe4af84" class="outline-4">
+<h4 id="orgbe4af84"><span class="section-number-4">2.8.3</span> Cronus</h4>
+</div>
+<div id="outline-container-org2bb8c9e" class="outline-4">
+<h4 id="org2bb8c9e"><span class="section-number-4">2.8.4</span> Gaya</h4>
+</div>
+<div id="outline-container-orgc701f9d" class="outline-4">
+<h4 id="orgc701f9d"><span class="section-number-4">2.8.5</span> Prometheus</h4>
+</div>
+<div id="outline-container-org330ff62" class="outline-4">
+<h4 id="org330ff62"><span class="section-number-4">2.8.6</span> Sekhmet</h4>
+</div>
+<div id="outline-container-org36f635e" class="outline-4">
+<h4 id="org36f635e"><span class="section-number-4">2.8.7</span> Leviathans</h4>
+</div>
+</div>
+<div id="outline-container-orgef1a6ae" class="outline-3">
+<h3 id="orgef1a6ae"><span class="section-number-3">2.9</span> Plants</h3>
+</div>
+<div id="outline-container-org0e0284c" class="outline-3">
+<h3 id="org0e0284c"><span class="section-number-3">2.10</span> Reptiles</h3>
+<div class="outline-text-3" id="text-2-10">
+</div>
+<div id="outline-container-org49c7b86" class="outline-4">
+<h4 id="org49c7b86"><span class="section-number-4">2.10.1</span> Basilisk</h4>
+<div class="outline-text-4" id="text-2-10-1">
+<p>
+A Basilisk is a solitary eight legged reptile-like creature. At first it
+walks on all eight, later in life however, when its body is strong
+enough to support this development, it's head and front limbs move
+upwards and elongate, eventually creating an upright upper body.
+</p>
+
+<p>
+<b>Growth Cycle</b> The most magnificent property of the Basilisk is its
+growth cycle. A Basilisk gives birth to a live baby no larger than a few
+inches. The Basilisk then grows inexplicably rapidly as the Basilisk
+consumes massive amount of sustenance. At the size of about triple that
+of a human the Basilisk develops an upright upper body and loses much of
+the potency of its breath. When it reaches such a size that its legs are
+struggling to support the body, it migrates to a large body of water.
+Even if it hunts enough food, which is rarely the case, its size forces
+it to continuously move to ever deeper water, eventually crushing it.
+</p>
+
+<p>
+<b>Breath</b> The legends often speak of the Basilisk's noxious breath. It
+has been observed to have the ability to wither small plants and to
+accelerate corrosion of metal. Any effects beyond this are empty claims.
+</p>
+
+<p>
+<b>Gaze</b> &#x2026;
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgbce6b4f" class="outline-4">
+<h4 id="orgbce6b4f"><span class="section-number-4">2.10.2</span> Dragon</h4>
+<div class="outline-text-4" id="text-2-10-2">
+<p>
+Every dragons has the ability to transform into a humanoid.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org6db9547" class="outline-4">
+<h4 id="org6db9547"><span class="section-number-4">2.10.3</span> Wyvern</h4>
+<div class="outline-text-4" id="text-2-10-3">
+<p>
+Wyverns are very feral animals, true beasts fully devoted to that state
+of behaviour. None have ever been recorded to reason or speak unlike
+dragons, this is very important to know for any adventurer that may by
+any chance encounter this menace. The distinguishing feature is that it
+has only four limbs, two legs and two wings, and is inherently
+non-magical. At the end of each wing it has claws that it may use to
+clamber up surfaces. They come in many forms and colors, though most
+often seen in the black form, which is also the most adept at climbing.
+Unlike dragons, most Wyverns do not possess a fiery breath, only the red
+kind is famously capable of this feat.
+</p>
+
+<p>
+<b>Eggs</b> Their eggs grow in size as the Wyvern inside matures, being laid
+at about half their final size. For this reason the surface is much
+softer than one would at first assume, and if even the softness of the
+shell is not enough the egg may crack at regular intervals exposing the
+inner membrane.
+</p>
+
+<p>
+<b>Weaknesses</b> You may be tempted to slash the underside of the head,
+however unlike dragons, Wyverns have solid armour covering the entire
+head. The two weakest points are their thigh joints and the point where
+their patagia connect to the body as it has been discovered to easily
+tear in the first section. When the wings are folded however the patagia
+is relaxed, elastic and quite difficult to pierce without an
+exceptionally sharp weapon.
+</p>
+</div>
+
+<ol class="org-ol">
+<li><a id="org89b4325"></a>Sgrechian<br />
+<div class="outline-text-5" id="text-2-10-3-1">
+<p>
+This breed of Wyverns is extremely rare. Usually artificially enchanted
+for combat purposes. They naturally have two main characteristics, their
+speed, and their scream. Though lacking a beath, they are able to
+surpass the sound barrier, by a tiny amount. Their head is often
+enchanted with a spell that protects them from impact, it activates with
+their scream. Their scream can be heard miles around and has deafened
+many who were too close, it is described as being extremely
+high-pitched, yet still powerful enough to be felt deep in the guts.
+</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-orgb26465f" class="outline-3">
+<h3 id="orgb26465f"><span class="section-number-3">2.11</span> Undead</h3>
+<div class="outline-text-3" id="text-2-11">
+</div>
+<div id="outline-container-orga5bd654" class="outline-4">
+<h4 id="orga5bd654"><span class="section-number-4">2.11.1</span> Ghoul</h4>
+</div>
+
+<div id="outline-container-org37ac885" class="outline-4">
+<h4 id="org37ac885"><span class="section-number-4">2.11.2</span> Mummies</h4>
+<div class="outline-text-4" id="text-2-11-2">
+</div>
+<ol class="org-ol">
+<li><a id="orgac2fac8"></a>Haugbui<br /></li>
+</ol>
+</div>
+
+<div id="outline-container-orgb8677ff" class="outline-4">
+<h4 id="orgb8677ff"><span class="section-number-4">2.11.3</span> Vampire</h4>
+</div>
+
+<div id="outline-container-orga0ba2ef" class="outline-4">
+<h4 id="orga0ba2ef"><span class="section-number-4">2.11.4</span> Zombie</h4>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgdba91ad" class="outline-2">
+<h2 id="orgdba91ad"><span class="section-number-2">3</span> Module: Eastern</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+<div id="outline-container-orgeebe2eb" class="outline-3">
+<h3 id="orgeebe2eb"><span class="section-number-3">3.1</span> Professions</h3>
+<div class="outline-text-3" id="text-3-1">
+</div>
+<div id="outline-container-org3fc42cc" class="outline-4">
+<h4 id="org3fc42cc"><span class="section-number-4">3.1.1</span> Kineticist</h4>
+<div class="outline-text-4" id="text-3-1-1">
+<p>
+For every Tier in this class, you add 2 hands to your arsenal. These
+hands are ethereal and while not in use, the hands cannot be seen
+without magical means. Each hand can carry up to 8 times 2 to the power
+of your Tier kilograms. It cannot be separated more than 1 meter from
+you and may become incorporeal at will. You may not be able to
+concentrate on full control of this form, for every Soul Stat you can
+control one hand, or your own two hands in your turn.
+</p>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org2d413c8" class="outline-2">
+<h2 id="org2d413c8"><span class="section-number-2">4</span> Module: Magic</h2>
+<div class="outline-text-2" id="text-4">
+</div>
+<div id="outline-container-orgb9941c5" class="outline-3">
+<h3 id="orgb9941c5"><span class="section-number-3">4.1</span> Spells</h3>
+<div class="outline-text-3" id="text-4-1">
+<p>
+When casting a spell you declare, a Motion and optionally an Element you
+know (collectively called words of power), and what the desired outcome
+is. Not all elements are useful with all motions.
+</p>
+
+<p>
+If your character recieved damage in the last round, you get a
+cumulative <code>-2</code> to spell <code>RD</code> for every <code>Stat</code> you lost. Having
+restrained hands adds a <code>-4</code> to the spell <code>RD</code>.
+</p>
+
+<p>
+Having plenty of time to draw a magic glyph Reduces the difficulty and
+cost of the spell, both by 1 per 10 minutes, but up to your die roll
+modifier for spellcasting.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orga7289c5" class="outline-3">
+<h3 id="orga7289c5"><span class="section-number-3">4.2</span> Magic Glyphs</h3>
+<div class="outline-text-3" id="text-4-2">
+<p>
+A magic glyph is created by inscribing a Motion and an Element, with a
+very specific intention into a solid surface and empowering them with a
+<code>Soul</code> or <code>Soul Fragment</code>. Mechanically, this requires you to
+succesfully cast the spell, and either lower your maximum <code>Mana</code> until
+it's destroyed or empty a <code>Soul Stone</code> into it. Your maximum <code>Mana</code>
+returns to you after the destruction of the item or the use of a one use
+item. If you used your own <code>Soul Fragment</code>, the item recharges when your
+<code>Mana</code> refreshes.
+</p>
+
+<p>
+It takes <code>1 second</code> per <code>1 Mana</code> to create a glyph. If the item is
+created with a soul from a <code>Soul Stone</code>, it is recharged by draining
+mana into the item at a rate of <code>1 Mana</code> per second (this mana is
+normally spent as if casting a spell). At Dawn and Dusk, a glyph is
+sealed and cannot be expanded, only recharged.
+</p>
+
+<p>
+Spending additional time and resources during casting (activation),
+makes the casting cheaper and easier. Reducing the cost by <code>1 Mana</code> and
+decreasing the <code>DR</code> by 1, costs <code>10 Silver</code> of magical materials and
+<code>10 Minutes</code> times 3 to the power of the amount reduced.
+</p>
+
+<p>
+When activated, the glyph casts the spell, draining from the enclosed
+mana pool. If the creature that activates a glyph is a magic user with a
+<code>Character</code>, the spell is cast with that character. You may also
+designate a sound or simple occurence (such as someone stepping on it)
+that activates the glyph automatically.
+</p>
+
+<blockquote>
+<p>
+Since speech doesn't take up an action, this allows you to activate
+glyphs outside you turn.
+</p>
+</blockquote>
+
+<p>
+<b>Soul Stone</b> - You may substitute a Fragment of your own Soul for a Soul
+from a Soul Stone. This allows you to create a glyph without lowering
+your own maximum <code>Mana</code>, but limits the <code>Mana</code> capacity to that of the
+Soul used. Soul Stones are quite rare, and have a limited capacity,
+however they are reusable.
+</p>
+
+<p>
+<b>Scrolls</b> - Scrolls produce a one-time Spell effect, they don't require
+a <code>skill check</code> but still cost mana. Afterwards, the papyrus
+disintegrates. Creating one takes 10 minutes per Tier and requires you
+to succesfully cast the spell per the Magic Glyph rules.
+</p>
+
+<p>
+<b>Analyzing Magic</b> - Perceiving a magic glyph, even an instantaneous one
+let's you identify any word of power that you know. Identifying those
+you don't know, requires a knowledge (arcane) check and some time and
+concentration with the glyph or a page of notes you made about it.
+Learning a word of power requires several days, of study and
+experimentation with notes from several glyphs, with a <code>RD</code> of the
+number of different notes you're analyzing that have a word in them that
+you know.
+</p>
+
+<p>
+<b>Enchanting Items</b> - Items are Enchanted with tiny magic-glyphs that
+require about double time and complete concentration. When a magic-glyph
+is on an item that can be entirely lifted by you single-handedly, it can
+be activated while touching any point of the item.
+</p>
+
+<p>
+<b>Countering Spells</b> - You may <code>Dispel</code> a non-magic-glyph spell as a
+<code>Defence</code> maneuver or an <code>Action</code>. Dispelling takes half the <code>Mana</code> of
+the spell and a roll of <code>RD</code> of the spell <code>+3</code> or <code>+1</code> if you know the
+motion.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgc05865b" class="outline-3">
+<h3 id="orgc05865b"><span class="section-number-3">4.3</span> Spellcasting</h3>
+<div class="outline-text-3" id="text-4-3">
+<p>
+Spell-casters can create these glyphs in mid-air instantaneously,
+however these persist only for a single round. Long-term effects need an
+inscription on a surface to work.
+</p>
+
+<p>
+<b>Mana</b> - Most effects will ask you to spend mana, you have a basic pool
+equal to your <code>Soul</code>. At any time you may scar a <code>Soul</code> stat to reset
+your mana back to that number (this does not let you spend more than
+your maximum mana on one spell).
+</p>
+</div>
+
+<div id="outline-container-org97270a1" class="outline-4">
+<h4 id="org97270a1"><span class="section-number-4">4.3.1</span> Motions</h4>
+<div class="outline-text-4" id="text-4-3-1">
+<p>
+Motions all have multiple Tiers with an <code>RD</code> and a <code>Mana</code> cost. When
+casting a spell with the given motion's tier, you first deduct that much
+<code>Mana</code> from your pool, then roll against that <code>RD</code> to determine if the
+spell was successful.
+</p>
+
+<p>
+Failing the spell doesn't immediately mean nothing happened, your
+<code>degree of failure</code> determine that:
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-right" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-right">Degree of failure</th>
+<th scope="col" class="org-left">Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-right">1-2</td>
+<td class="org-left">Slightly altered effect if possible, otherwise Failed spell</td>
+</tr>
+
+<tr>
+<td class="org-right">3-6</td>
+<td class="org-left">Failed Spell</td>
+</tr>
+
+<tr>
+<td class="org-right">7+</td>
+<td class="org-left">The spell backfires, GMs decision</td>
+</tr>
+</tbody>
+</table>
+
+<p>
+Tier Guidelines:
+</p>
+
+<ul class="org-ul">
+<li><b>Tier I [=RD10=, =1Mana=]</b>: Achievable within the hour with sufficient
+skill and tools, the effect vanishes within 10 minutes</li>
+<li><b>Tier II [=RD14=, =5Mana=]</b>: Apparently magical effects, mostly on
+inanimate objects or a small group of about 3 to 5 beings, or advanced
+effects such as manipulation on one person</li>
+<li><b>Tier III [=RD20=, =XMana=]</b>: Complex effects, extending to
+supernatural, manipulating reality with portals and short-range
+teleportation</li>
+<li><b>Tier IV [=RD22=, =XMana + Soul Scar=]</b>:</li>
+<li><b>Tier V [=RD24=, =Soul Scar=]</b>: Miracles</li>
+</ul>
+
+<p>
+Motions:
+</p>
+
+<ul class="org-ul">
+<li>Cease
+
+<ul class="org-ul">
+<li><b>Tier I</b>: Stop the movement of an unattended object up to the size
+of a travelling cart</li>
+<li><b>Tier II</b>: Cease the movement of an object or cease the existence of
+an unattended object up to the size of a travelling cart</li>
+</ul></li>
+
+<li>Command
+
+<ul class="org-ul">
+<li><b>Tier I</b>: Compel a calm animal to perform some action</li>
+</ul></li>
+
+<li>Create
+
+<ul class="org-ul">
+<li><b>Tier I</b>: Spontaneously create an item no bigger than the width of
+your hand, creatable from resources that you are touching.</li>
+<li><b>Tier II</b>: The item, must not exceed your outstretched arms length
+in any dimension.</li>
+</ul></li>
+
+<li>Destroy</li>
+<li>Divide/Dislocate
+
+<ul class="org-ul">
+<li><b>Tier I</b>: Cut with your finger an inanimate object as if it were a
+knife.</li>
+<li><b>Tier IV</b>: Cut Metaphysical concepts</li>
+</ul></li>
+
+<li>Heal
+
+<ul class="org-ul">
+<li><b>Tier I</b>: Close an actively bleeding wound and prevent it from
+getting infected.</li>
+</ul></li>
+
+<li>Join
+
+<ul class="org-ul">
+<li><b>Tier I</b>: Connect two items that touch in any way and make them
+movable only by a living creature.</li>
+</ul></li>
+
+<li>Kill
+
+<ul class="org-ul">
+<li><b>Tier I</b>: Cause Rot and Decay in a deceased animal or plant, making
+its body turn to dust within an hour.</li>
+</ul></li>
+
+<li>Scry</li>
+<li>Show</li>
+<li>Stride</li>
+<li>Summon</li>
+<li>Transmute</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgcaa22a5" class="outline-4">
+<h4 id="orgcaa22a5"><span class="section-number-4">4.3.2</span> Elements</h4>
+<div class="outline-text-4" id="text-4-3-2">
+<p>
+If the spell doesn't contain a corresponding Element for the effect, you
+are limited to <code>Tier I</code> and <code>II</code> spells. Some Elements will contain an
+<code>RD</code> modifier.
+</p>
+
+<p>
+Elements:
+</p>
+
+<ul class="org-ul">
+<li>Body</li>
+<li>Cold / Ice</li>
+<li>Earth</li>
+<li>Fire / Heat</li>
+<li>Metal</li>
+<li>Mind</li>
+<li>Nature</li>
+<li>Necros (Necromantic)</li>
+<li>Spectra (Supernatural)</li>
+<li>Time</li>
+<li>Water</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgeb3cb39" class="outline-4">
+<h4 id="orgeb3cb39"><span class="section-number-4">4.3.3</span> Characters</h4>
+<div class="outline-text-4" id="text-4-3-3">
+<p>
+These both limit and flavour the spell's effects.
+</p>
+
+<p>
+<b>Draconic</b> - The spell's effect is exhaled as a cone-shaped breath from
+the mouth
+</p>
+
+<p>
+<b>Fey</b> - All effects are performed by nearby plants
+</p>
+
+<p>
+<b>HexBlade</b> - The magic is limited only to the wearer himself and mainly
+his weapon and armour
+</p>
+
+<p>
+<b>Artistic</b> - The effects must all be based on art, animate and move
+small objects, or create illusions
+</p>
+
+<p>
+<b>Shadow</b> -
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgedc19f5" class="outline-3">
+<h3 id="orgedc19f5"><span class="section-number-3">4.4</span> Miracles</h3>
+<div class="outline-text-3" id="text-4-4">
+<p>
+Outside these boundaries lies Divine magic. Monks and priests, worship
+and directly invoke a magical being. Others must use complex rituals to
+win their interest. Divine magic cannot be understood by non-divine
+casters at all. In gameplay the divine spellcaster asks for help from
+his deity, in this case the GM is the one who plays the role of god, and
+they may do whatever they deem fit in reaction to the character's plea.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org96c791a" class="outline-3">
+<h3 id="org96c791a"><span class="section-number-3">4.5</span> Professions</h3>
+<div class="outline-text-3" id="text-4-5">
+</div>
+<div id="outline-container-org608bed9" class="outline-4">
+<h4 id="org608bed9"><span class="section-number-4">4.5.1</span> Acolyte</h4>
+<div class="outline-text-4" id="text-4-5-1">
+<p>
+The Acolyte is the basic magic class. Identifying arcane occurences that
+you have already seen or know about is the domain of the acolyte.
+</p>
+
+<p>
+Skills:
+</p>
+
+<ul class="org-ul">
+<li>Spellcasting</li>
+<li>Identifying basic spells and magical effects</li>
+</ul>
+
+<p>
+Abilities:
+</p>
+
+<ul class="org-ul">
+<li><b>Amulet user</b>: You are able to extract Mana from magic glyphs, 1 Mana
+per Second</li>
+<li><b>Battle Caster</b>: You get <code>+1</code> per attack (the limit is still <code>+3</code>)
+when casting after having taken damage</li>
+<li><b>Beast Knowledge</b>: You have a skill in identifying Magical Beasts</li>
+<li><b>Mana Share</b>: You are able to give your Mana to anyone you touch, 1
+Mana per Second</li>
+<li><b>Spellcraft</b>: You learn 1 Motion and 2 Elements (You may gain a Magic
+Character if your GM allows)</li>
+<li><b>Spellcraft 2</b> [Spellcraft]: You learn an additional 1 Motion/Element
+and 1 Element</li>
+<li><b>Spellcraft 3</b> [Spellcraft 2]: You learn an additional Element</li>
+</ul>
+</div>
+
+<ol class="org-ol">
+<li><a id="org16647f3"></a>Tier II - Mage<br />
+<div class="outline-text-5" id="text-4-5-1-1">
+<p>
+Skills:
+</p>
+
+<ul class="org-ul">
+<li><b>Arcane Memory</b>: You are able to completely remember up to two magic
+glyphs you've seen at least momentarily</li>
+<li><b>Convenient Magic</b>: You may cast spells with up to 5 Mana without
+spending any</li>
+<li><b>Mindlink</b>:</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+
+<div id="outline-container-org101d2be" class="outline-4">
+<h4 id="org101d2be"><span class="section-number-4">4.5.2</span> Warmage [4 - Mage + Squire]</h4>
+<div class="outline-text-4" id="text-4-5-2">
+<p>
+Abilities:
+</p>
+
+<ul class="org-ul">
+<li><b>Sieger</b>:</li>
+<li><b>Incorporeal spells</b>:</li>
+<li><b>Ward</b>: You have a magical protective ward, which grants you a
+<code>Defence</code> maneuver</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgd6701e9" class="outline-2">
+<h2 id="orgd6701e9"><span class="section-number-2">5</span> Module: Ritual Magic</h2>
+<div class="outline-text-2" id="text-5">
+</div>
+<div id="outline-container-org90d02f1" class="outline-3">
+<h3 id="org90d02f1"><span class="section-number-3">5.1</span> Potions</h3>
+</div>
+<div id="outline-container-orgdce2d8b" class="outline-3">
+<h3 id="orgdce2d8b"><span class="section-number-3">5.2</span> Professions</h3>
+<div class="outline-text-3" id="text-5-2">
+</div>
+<div id="outline-container-org801afd1" class="outline-4">
+<h4 id="org801afd1"><span class="section-number-4">5.2.1</span> Druid [Acolyte + Hunter]</h4>
+</div>
+<div id="outline-container-orgf9d5a3c" class="outline-4">
+<h4 id="orgf9d5a3c"><span class="section-number-4">5.2.2</span> Vedmak [Hunter + Acolyte]</h4>
+<div class="outline-text-4" id="text-5-2-2">
+<p>
+You hunt magical beasts
+</p>
+
+<p>
+Abilities:
+</p>
+
+<ul class="org-ul">
+<li><b>Beast Form</b>: By touching a part of a dead magical beast, you may
+assume its form. You gain all its abilities and its Body Stat, however
+when you turn back, all Scars and spent Stats are applied to you. If
+this would kill you, you fall unconscious instead.</li>
+<li><b>Beast's wine</b>: You have <code>Resistance</code> against blood based poisons</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org2110163" class="outline-4">
+<h4 id="org2110163"><span class="section-number-4">5.2.3</span> Witch [4 - Acolyte + Herbalist]</h4>
+</div>
+</div>
+</div>
+<div id="outline-container-org9fd1cf7" class="outline-2">
+<h2 id="org9fd1cf7"><span class="section-number-2">6</span> Module: Medieval</h2>
+<div class="outline-text-2" id="text-6">
+</div>
+<div id="outline-container-org7db431a" class="outline-3">
+<h3 id="org7db431a"><span class="section-number-3">6.1</span> Professions</h3>
+<div class="outline-text-3" id="text-6-1">
+</div>
+<div id="outline-container-org7b1df63" class="outline-4">
+<h4 id="org7b1df63"><span class="section-number-4">6.1.1</span> Fighter</h4>
+<div class="outline-text-4" id="text-6-1-1">
+<p>
+Brawls, bar fights and ambushes, you've seen it all. You know what to do
+with most common weapons and even better with hands and chairs.
+</p>
+
+<p>
+Skills:
+</p>
+
+<ul class="org-ul">
+<li>Unarmed Combat</li>
+<li>Combat with short and medium weapons</li>
+<li>Battling with improvised weapons</li>
+</ul>
+
+<p>
+Abilities:
+</p>
+
+<ul class="org-ul">
+<li><b>Barbaric Strength</b>:</li>
+<li><b>Brawler</b>: Your fists are short blunt weapons</li>
+<li><b>Dungeoneering</b>:</li>
+<li><b>Hard Skin</b>: Your skin has <code>Natural Armor 1</code> against blunt weapons</li>
+<li><b>Rage</b>:</li>
+<li><b>Weapon Improvisation</b>: Your makeshift weapons grant you the standard
+weapon maneuvers</li>
+</ul>
+</div>
+
+<ol class="org-ol">
+<li><a id="orgf77cf74"></a>Nord<br />
+<div class="outline-text-5" id="text-6-1-1-1">
+<p>
+Skills:
+</p>
+
+<ul class="org-ul">
+<li></li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+
+<div id="outline-container-org4b01c7f" class="outline-4">
+<h4 id="org4b01c7f"><span class="section-number-4">6.1.2</span> Recruit</h4>
+<div class="outline-text-4" id="text-6-1-2">
+</div>
+<ol class="org-ol">
+<li><a id="org9d8735e"></a>Tier II - Squire<br />
+<div class="outline-text-5" id="text-6-1-2-1">
+<p>
+Squires are warriors, who are trained and educated.
+</p>
+
+<p>
+Skills:
+</p>
+
+<ul class="org-ul">
+<li>Shields</li>
+<li>Long Weapons</li>
+<li>Knowledge - Tactics, Armies, War Codes</li>
+</ul>
+
+<p>
+Abilities:
+</p>
+
+<ul class="org-ul">
+<li><b>Field Smith</b>: You have a skill in repairing damaged armour and
+weapons in the field</li>
+<li><b>Footwork</b>: You are <code>Skilled</code> at withstanding movement and stumbling
+by <code>Feint</code></li>
+<li><b>Guardian</b>: You may use your own <code>Defend</code> maneuvers on friends
+standing within arms-reach</li>
+<li><b>Brothers in Arms</b>: You may pay with you resources for damaged friends
+standing in arms-reach, if you are able to use the <code>Defend</code> maneuver</li>
+<li><b>Party Tactics</b>:</li>
+<li><b>Shield Bash</b>: You are <code>Skilled</code> at moving creatures with <code>Feint</code>
+using your shield</li>
+</ul>
+</div>
+</li>
+</ol>
+</div>
+
+<div id="outline-container-orgabea5f8" class="outline-4">
+<h4 id="orgabea5f8"><span class="section-number-4">6.1.3</span> Hunter</h4>
+<div class="outline-text-4" id="text-6-1-3">
+<p>
+Skills:
+</p>
+
+<ul class="org-ul">
+<li>Bows or Crossbows (Speciality)</li>
+<li>Tracking</li>
+<li>Knowledge - Animals</li>
+</ul>
+
+<p>
+Abilities:
+</p>
+
+<ul class="org-ul">
+<li><b>Always ready</b>: You have a skill to detect forest ambushes, which you
+may roll even if you are sleeping at <code>+2</code></li>
+<li><b>Animal Handling</b>: Animals are instinctively calmed by your approach,
+unless actively hunting, preparing to fight or fighting</li>
+<li><b>Birdsense</b>: If something frightens away birds that you can hear or
+see, you know it's position and size</li>
+<li><b>Bow Slash</b>: You may modify your bow to have a <code>+2</code> on ranged attack
+rolls, however it acts as a <code>Medium Slashing</code> weapon</li>
+<li><b>Camouflage</b>: 2 minutes of scavenging in a forest creates camouflage
+for 2 cubic metres</li>
+<li><b>Double-shot</b>: Your skill allows you to load multiple arrows into your
+ranged weapon; You may now use <code>Powerful</code> when shooting your weapon of
+choice</li>
+<li><b>Traps</b>: Trap Knowledge and Trapsetting is added to the Skills; You
+may take 10 minutes setting up a trap</li>
+<li><b>Urban Tracking</b>: You are able to use your wilderness tracking skill
+to some limited extent in urban environments</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org427da90" class="outline-4">
+<h4 id="org427da90"><span class="section-number-4">6.1.4</span> Herbalist</h4>
+<div class="outline-text-4" id="text-6-1-4">
+<p>
+Skills:
+</p>
+
+<ul class="org-ul">
+<li>Identifying plants and potions</li>
+<li>First-aid and medicine</li>
+</ul>
+
+<p>
+Abilities:
+</p>
+
+<ul class="org-ul">
+<li><b>Antidote</b>: You are able to take up <code>10 Silver</code> worth of resources
+after a day of study, to create an antidote to any non-magical disease</li>
+<li><b>Artery Strike</b>: You may forfeit all maneuvers in an attack, after
+which a succesful hit will cause a bleeding wound, costing the carrier
+<code>1 Body</code> each round</li>
+<li><b>Hidden Poison</b>: You may attempt to hide your poison from smell and
+taste</li>
+<li><b>First-Aid</b>: After 10 minutes of tending to wounds, give someone back
+2 Stats, up to 4 per day</li>
+</ul>
+</div>
+
+<ol class="org-ol">
+<li><a id="orgf17ac52"></a>Tier II - Alchemist<br /></li>
+</ol>
+</div>
+<div id="outline-container-org005af8a" class="outline-4">
+<h4 id="org005af8a"><span class="section-number-4">6.1.5</span> Noble</h4>
+<div class="outline-text-4" id="text-6-1-5">
+<p>
+You know how to get your way, you know the ins and outs of your society
+and you are never out of place amongst the upper-class
+</p>
+
+<p>
+Skills:
+</p>
+
+<ul class="org-ul">
+<li>Savoire-faire</li>
+<li>High-class speech</li>
+<li>High-class manners</li>
+</ul>
+
+<p>
+Abilities:
+</p>
+
+<ul class="org-ul">
+<li><b>Connoseur</b> - Choose a subject, you are able to talk hours on the
+matters of said subject, be it weapons, literature or wine.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgf77a9e4" class="outline-4">
+<h4 id="orgf77a9e4"><span class="section-number-4">6.1.6</span> Thief</h4>
+<div class="outline-text-4" id="text-6-1-6">
+<p>
+Skills:
+</p>
+
+<ul class="org-ul">
+<li>Acrobacy</li>
+<li>Sleight of Hand</li>
+<li>Stealth</li>
+<li>Knowledge - Underground</li>
+</ul>
+
+<p>
+Abilities:
+</p>
+
+<ul class="org-ul">
+<li><b>Acrobat</b>: You are <code>Skilled</code> at acrobacy and may use <code>Precise</code></li>
+<li><b>Always ready</b>: You have a skill to detect urban ambushes</li>
+<li><b>Cyphers</b>: Decoding and creating cyphers is now your skill; In
+addition, you know an underground slang</li>
+<li><b>Dagger Parry</b>: You can parry with a dagger even after using it for an
+attack</li>
+<li><b>Dual Wielding</b>:</li>
+<li><b>Impersonator</b>: You have a skill for impersonating other people, a day
+of mentoring allows another person to use your roll</li>
+<li><b>Underground Connection</b>: You know a guy</li>
+<li><b>Urban Tracking</b>: You have a skill for finding out the general
+location of any notable character</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgd190ae1" class="outline-3">
+<h3 id="orgd190ae1"><span class="section-number-3">6.2</span> Items, Money and Prices</h3>
+<div class="outline-text-3" id="text-6-2">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Coin</th>
+<th scope="col" class="org-left">Worth</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Copper Penny</td>
+<td class="org-left">6 in a commoner's day's work</td>
+</tr>
+
+<tr>
+<td class="org-left">Silver Shilling</td>
+<td class="org-left">100 Copper Pennies</td>
+</tr>
+
+<tr>
+<td class="org-left">Platinum</td>
+<td class="org-left">5000 Copper Pennies</td>
+</tr>
+
+<tr>
+<td class="org-left">Gold</td>
+<td class="org-left">10000 Copper Pennies</td>
+</tr>
+</tbody>
+</table>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Food</th>
+<th scope="col" class="org-left">Price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Day of Rations</td>
+<td class="org-left">1 Copper</td>
+</tr>
+</tbody>
+</table>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Tools</th>
+<th scope="col" class="org-left">Price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Weapons</th>
+<th scope="col" class="org-left">Price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Sword</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+
+<tr>
+<td class="org-left">LongSword</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Estates</th>
+<th scope="col" class="org-left">Price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">&#xa0;</td>
+<td class="org-left">&#xa0;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Michal Atlas</p>
+<p class="date">Created: 2021-07-09 Fri 04:32</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
