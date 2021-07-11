@@ -44,6 +44,8 @@ game or theme breaking.
 This webpage is generated from an org-mode file along with the help of
 a theme taken from [[https://github.com/paulzql/org-html-themes][this Repo]], thank you to everyone who creates and shares great things.
 
+I don't think this system infringes any copyright, however I play DrD2, GURPS, DnD 5e and have been reading many others, such as Ars Magica, so some mechanics might end up being very similar or same as some of these, even though I try to stop myself form doing so whenever I notice it.
+
 Now, let's get rolling.
 
 ** Skill Checks
@@ -397,30 +399,25 @@ of element, regular fire causes 1 Body of damage every 2 rounds
 If a creature exceeds another's size, it can freely use the =Powerful=
 maneuver with Body based encounters against that creature, however the
 target acts as if it was =Skilled= at =Dodging= them. Normal has an
-average of =5 Body=, going lower subtracts 1, bigger sizes are double of
+average of =5 Body=, going lower subtracts 1, bigger sizes are about 150% of
 the previous size.
-
-#+BEGIN_QUOTE
-  *Weight* - If for any reason you need an estimate of weight for your
-  humanoid players. Use [Weight = 20x(Height^2)] with kg and m.
-  Adjusting the 20 about 3 up (more weight) or down (underweight).
-#+END_QUOTE
 
 ** Keywords
 
 *Area* - This shows that an action performed affects a certain area such
 as an explosion or cannonball. Normally this is specified as a simple
 length that specifies the diameter of a sphere or length of a line based
-on context. By default a sphere centered on you.
+on context.
 
 *RD* - The difficulty of a roll
 
 *Degrees of success* - The number by which you exceed the required =RD=
 
-*Range* - Range may specify an I before the distance to indicate an
+*Range* - Range is self-explanatory, however it may specify an =I= before the distance to indicate an
 incorporeal effect that passes unhindered through solid objects.
 
 *Regeneration* - The creature regains X Body at the start of its turn.
+Or every X turns if the value is a fraction (I.E. if x is 1/6 then every 6th turn).
 
 *Natural Armor/Mindlock/Beloved* - Expending the =Body/Soul/Influence=
 resource is always reduced by said amount. May specify a source in
@@ -533,12 +530,6 @@ They are very similar to the Talach, however their ears are
 significantly flatter, lower, sometimes almost horizontal. Quite sly,
 sneaky and adept at close range combat, they make excellent spies and
 thieves and are often employed as such.
-
-*** Tylluan
-
-*Tylluan Sight* - You have =NightVision=
-
-The Tylluan are to owls what the keinfolk are to lions.
 
 ** Beasts
 *** Warthorg
